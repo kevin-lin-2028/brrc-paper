@@ -1,0 +1,30 @@
+include README.md
+include LICENSE
+include CITATION.cff
+include requirements.txt
+include environment.yml
+include pyproject.toml
+
+recursive-include oblin *.py
+
+# Manuscript sources (text + bib only; PDFs and DOCX are large outputs)
+include manuscript/manuscript.tex
+include manuscript/supplement.tex
+include manuscript/references.bib
+
+# Tests for sdist-only verification
+recursive-include tests *.py
+
+# Exclude large/derived artifacts from sdist; they live in results/data/figures
+# directories tracked by git but not in the wheel/sdist payload.
+exclude .gitignore
+prune .github
+prune .git
+prune __pycache__
+prune **/__pycache__
+prune manuscript/tools
+prune results/boltz_oblin_rna/cache
+prune tmp_*
+global-exclude *.pyc
+global-exclude .DS_Store
+global-exclude Thumbs.db

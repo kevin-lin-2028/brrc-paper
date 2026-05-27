@@ -1,0 +1,8 @@
+{
+  "tool": "probknot",
+  "n_attempted": 5169,
+  "n_completed": 5066,
+  "probknot_pk_pct": 59.38,
+  "vrna_mfe_pct_ref": 87.7,
+  "wall_min": 487.7
+}

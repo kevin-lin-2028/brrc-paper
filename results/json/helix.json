@@ -1,0 +1,43 @@
+{
+  "tool": "helix",
+  "obelisks": {
+    "n": 5169,
+    "longest_helix_mean": 11.05,
+    "longest_helix_median": 11,
+    "n_helices_mean": 88.8,
+    "n_helices_median": 87,
+    "stem_coverage_mean": 0.547,
+    "n_multiloop_junctions_mean": 1.64,
+    "n_multiloop_junctions_median": 1,
+    "frac_zero_junctions": 0.309
+  },
+  "shuffles": {
+    "n": 5169,
+    "longest_helix_mean": 10.91,
+    "longest_helix_median": 11,
+    "n_helices_mean": 69.3,
+    "n_helices_median": 68,
+    "stem_coverage_mean": 0.605,
+    "n_multiloop_junctions_mean": 8.07,
+    "n_multiloop_junctions_median": 8,
+    "frac_zero_junctions": 0.0
+  },
+  "cliffs_delta": {
+    "longest_helix": {
+      "delta": 0.043,
+      "p": 0.00011428127687954334
+    },
+    "n_helices": {
+      "delta": 0.62,
+      "p": 0.0
+    },
+    "stem_coverage_frac": {
+      "delta": -0.436,
+      "p": 0.0
+    },
+    "n_multiloop_junctions": {
+      "delta": -0.976,
+      "p": 0.0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "tool": "per_criterion_pk_deltas",
+  "n": 30,
+  "delta_fp": {
+    "mean": -0.0062,
+    "median": 0.0045,
+    "p5": -0.0756,
+    "p95": 0.0226
+  },
+  "delta_sld": {
+    "mean": -0.074,
+    "median": 0.465,
+    "p5": -2.192,
+    "p95": 1.541
+  },
+  "delta_max_loop": {
+    "mean": 9.83,
+    "median": 0.0,
+    "p5": -4.65,
+    "p95": 70.8
+  },
+  "interpretation": "Per-criterion mean/median deltas from ViennaRNA MFE to LinearPartition ThreshKnot identify which BRRC component is most sensitive to pseudoknot re-assignment."
+}

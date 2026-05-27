@@ -1,0 +1,27 @@
+{
+  "tool": "motif_scan",
+  "n_obelisks": 5169,
+  "n_shuffles": 5169,
+  "by_motif": {
+    "gnra": {
+      "ob_frac_motif": 0.2662,
+      "shuf_frac_motif": 0.2641,
+      "enrichment": 1.008
+    },
+    "central_bubble": {
+      "ob_frac_motif": 0.0132,
+      "shuf_frac_motif": 0.2546,
+      "enrichment": 0.052
+    },
+    "kissing_hairpin": {
+      "ob_frac_motif": 0.1364,
+      "shuf_frac_motif": 0.4192,
+      "enrichment": 0.325
+    },
+    "kink_turn": {
+      "ob_frac_motif": 0.7825,
+      "shuf_frac_motif": 0.8955,
+      "enrichment": 0.874
+    }
+  }
+}

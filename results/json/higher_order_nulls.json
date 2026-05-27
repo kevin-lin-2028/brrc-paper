@@ -1,0 +1,27 @@
+{
+  "tool": "higher_order_nulls",
+  "n_obelisks": 5169,
+  "n_reps": 3,
+  "by_null": {
+    "trinuc": {
+      "n_total_shuffles": 15507,
+      "n_pass": 208,
+      "pass_pct": 1.341,
+      "wilson_95ci_pct": [
+        1.172,
+        1.535
+      ],
+      "source": "trinuc_eulerian_hierholzer_full.json"
+    },
+    "markov3": {
+      "n_total_shuffles": 15507,
+      "n_pass": 327,
+      "pass_pct": 2.109
+    },
+    "synonymous_codon": {
+      "n_total_shuffles": 15507,
+      "n_pass": 2581,
+      "pass_pct": 16.644
+    }
+  }
+}

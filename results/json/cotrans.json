@@ -1,0 +1,10 @@
+{
+  "tool": "cotrans",
+  "n_obelisks": 5169,
+  "equilibrium_pass_pct": 89.65,
+  "linear_final_pass_pct": 74.44,
+  "concordance_pct": 82.47,
+  "n_linear_only_pass": 60,
+  "n_eq_only_pass": 846,
+  "med_first_pass_nt": 450
+}

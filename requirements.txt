@@ -1,0 +1,13 @@
+biopython>=1.85
+matplotlib>=3.10
+numpy>=2.0
+openpyxl>=3.1
+requests>=2.31
+scipy>=1.15
+seaborn>=0.13
+
+# Optional analysis engines (install via: pip install -e ".[analysis]")
+pyhmmer>=0.10; sys_platform != "win32"
+seqfold>=0.7
+tmtools>=0.0.3
+viennarna>=2.7

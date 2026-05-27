@@ -1,0 +1,39 @@
+{
+  "tool": "bacterial_controls",
+  "n_attempted": 296,
+  "n_valid_folds": 296,
+  "n_passing_brrc": 191,
+  "pass_pct": 64.53,
+  "length_window_nt": [
+    700,
+    1700
+  ],
+  "families_used": [
+    "RF00010.fa",
+    "RF00028.fa",
+    "RF00177.fa"
+  ],
+  "per_family": {
+    "RF00010": {
+      "n": 2,
+      "n_pass": 0,
+      "pass_pct": 0.0
+    },
+    "RF00028": {
+      "n": 28,
+      "n_pass": 1,
+      "pass_pct": 3.57
+    },
+    "RF00177": {
+      "n": 266,
+      "n_pass": 190,
+      "pass_pct": 71.43
+    }
+  },
+  "comparator_summary": {
+    "ob_circ_pass_pct": 88.95,
+    "HDV_delta_class_pass_pct": 100.0,
+    "real_bacterial_RNAs_in_window_pass_pct": 64.53,
+    "dinuc_shuf_pct": 0.3
+  }
+}

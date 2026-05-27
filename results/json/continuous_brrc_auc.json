@@ -1,0 +1,17 @@
+{
+  "tool": "continuous_brrc_auc",
+  "n_obelisk": 5169,
+  "n_shuffle": 5169,
+  "continuous_brrc_score_definition": "score = fp + 0.02*sld - 0.02*max_loop",
+  "continuous_brrc": {
+    "obelisk_mean": 0.784,
+    "shuffle_mean": 0.364,
+    "auc_vs_dinucleotide": 0.9831
+  },
+  "per_criterion_auc": {
+    "fraction_paired": 0.9957,
+    "small_loop_density": 0.9964,
+    "neg_max_loop": 0.9341
+  },
+  "interpretation": "Continuous BRRC score AUC against the dinucleotide-shuffled baseline complements the binary cutoff: an AUC near 1.0 indicates near-perfect separation in the continuous-score regime, not just at the chosen operating point."
+}

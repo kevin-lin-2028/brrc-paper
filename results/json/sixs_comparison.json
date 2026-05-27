@@ -1,0 +1,20 @@
+{
+  "tool": "sixs_comparison",
+  "sequence_id": "E.coli K-12 ssrS (6S RNA, 184 nt)",
+  "length_nt": 197,
+  "MFE_kcal_per_mol": -36.439998626708984,
+  "frac_paired": 0.5076142131979695,
+  "sld_per100nt": 9.644670050761421,
+  "max_loop_nt": 32,
+  "BRRC_pass_per_criterion": {
+    "frac_paired_>0.65": false,
+    "small_loop_density_>10": false,
+    "max_loop_<=15": false,
+    "all_three": false
+  },
+  "ob_catalog_q": {
+    "obelisk_pct_with_frac_paired_<=_6S": 0.0,
+    "obelisk_pct_with_sld_<=_6S": 0.8318823757012962,
+    "obelisk_pct_with_max_loop_>=_6S": 0.0967305088024763
+  }
+}

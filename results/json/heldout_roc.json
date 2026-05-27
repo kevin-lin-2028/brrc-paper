@@ -1,0 +1,28 @@
+{
+  "tool": "heldout_roc",
+  "n_dev": 5169,
+  "n_val": 6846,
+  "dev_optimal_thresholds": {
+    "j": 0.935,
+    "fp": 0.65,
+    "sld": 10,
+    "ml": 22,
+    "obe_pct": 94.56,
+    "sh_pct": 1.1
+  },
+  "dev_at_headline": {
+    "obe_pct": 89.65,
+    "sh_pct": 0.83,
+    "j": 0.888
+  },
+  "val_at_headline": {
+    "obe_pct": 91.12,
+    "sh_pct": 2.03,
+    "j": 0.891
+  },
+  "val_at_dev_optimal": {
+    "obe_pct": 95.31,
+    "sh_pct": 2.79,
+    "j": 0.925
+  }
+}

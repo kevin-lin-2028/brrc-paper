@@ -1,0 +1,26 @@
+{
+  "tool": "orf_utr",
+  "n_obelisks": 4938,
+  "pass_rates": {
+    "unshuffled": {
+      "n_pass": 4449,
+      "pass_pct": 90.1
+    },
+    "full_dinuc": {
+      "n_pass": 51,
+      "pass_pct": 1.03
+    },
+    "orf_codon_only": {
+      "n_pass": 741,
+      "pass_pct": 15.01
+    },
+    "utr_dinuc_only": {
+      "n_pass": 1966,
+      "pass_pct": 39.81
+    },
+    "both": {
+      "n_pass": 48,
+      "pass_pct": 0.97
+    }
+  }
+}

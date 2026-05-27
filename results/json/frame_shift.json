@@ -1,0 +1,22 @@
+{
+  "tool": "frame_shift",
+  "n_obelisks": 4938,
+  "pass_rates": {
+    "unshuffled": {
+      "n_pass": 4449,
+      "pass_pct": 90.1
+    },
+    "true_frame": {
+      "n_pass": 751,
+      "pass_pct": 15.21
+    },
+    "plus1_frame": {
+      "n_pass": 839,
+      "pass_pct": 16.99
+    },
+    "plus2_frame": {
+      "n_pass": 915,
+      "pass_pct": 18.53
+    }
+  }
+}

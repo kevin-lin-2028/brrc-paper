@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: "Discovery of a Conserved Bulged-Rod RNA Envelope in Obelisks Supporting a Testable Host-Polymerase Recruitment Hypothesis"
+message: "If you use this code or data, please cite as below."
+type: software
+authors:
+  - family-names: "Lin"
+    given-names: "Kevin Christopher"
+    affiliation: "Great Neck South High School, Great Neck, NY, USA"
+    email: "kevin.lin.2028@gmail.com"
+license: MIT
+date-released: "2026-05-17"
+version: "1.0.0"
+url: "https://github.com/kevin-lin-2028/brrc-paper"
+repository-code: "https://github.com/kevin-lin-2028/brrc-paper"
+abstract: "Quantitative computational analysis of a conserved bulged-rod RNA topology envelope across the Zheludev 2024 obelisk catalog and the HsOb 2026 hot-spring catalog, with null-model, folding-engine, R-scape, homology-search, and Oblin-1 structure checks. The work motivates a falsifiable host-polymerase recruitment model for obelisk replication."
+keywords:
+  - obelisk
+  - viroid-like RNA
+  - host RNA polymerase
+  - 6S RNA
+  - bulged rod
+  - Oblin-1
+  - structural bioinformatics
+  - covariation analysis
+preferred-citation:
+  type: article
+  title: "Discovery of a Conserved Bulged-Rod RNA Envelope in Obelisks Supporting a Testable Host-Polymerase Recruitment Hypothesis"
+  authors:
+    - family-names: "Lin"
+      given-names: "Kevin Christopher"
+  year: 2026
+  notes: "SSRN submission package prepared from this repository."

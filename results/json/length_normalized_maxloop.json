@@ -1,0 +1,26 @@
+{
+  "tool": "length_normalized_maxloop",
+  "variants": {
+    "headline (max_loop <= 15)": {
+      "obelisk_pass_count": 4533,
+      "obelisk_pass_pct": 87.7,
+      "shuffle_pass_count": 18,
+      "shuffle_pass_pct": 0.348,
+      "enrichment": 251.8
+    },
+    "max_loop / L <= 0.015": {
+      "obelisk_pass_count": 4448,
+      "obelisk_pass_pct": 86.05,
+      "shuffle_pass_count": 14,
+      "shuffle_pass_pct": 0.271,
+      "enrichment": 317.7
+    },
+    "max_loop / sqrt(L) <= 0.5": {
+      "obelisk_pass_count": 4564,
+      "obelisk_pass_pct": 88.3,
+      "shuffle_pass_count": 17,
+      "shuffle_pass_pct": 0.329,
+      "enrichment": 268.5
+    }
+  }
+}

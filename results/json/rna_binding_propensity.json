@@ -1,0 +1,1709 @@
+{
+  "tool": "rna_binding_propensity",
+  "protein": "obelisk-S.s Oblin-1",
+  "length": 202,
+  "window_size": 15,
+  "method": "Sequence-based proxy: per-position composite of basic-residue fraction, aromatic-residue fraction, and Uversky disorder score in a 15-aa sliding window. Not a substitute for catRAPID/DRNA but tracks the basic-rich and partially-disordered profile of architectural nucleic-acid binders.",
+  "mean_basic_frac": 0.168,
+  "mean_rb_propensity": 0.247,
+  "top_10_rb_positions": [
+    {
+      "position": 159,
+      "residue": "H",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.68
+    },
+    {
+      "position": 155,
+      "residue": "G",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.633
+    },
+    {
+      "position": 156,
+      "residue": "Y",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.633
+    },
+    {
+      "position": 160,
+      "residue": "G",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.613
+    },
+    {
+      "position": 158,
+      "residue": "D",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.6
+    },
+    {
+      "position": 157,
+      "residue": "K",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.573
+    },
+    {
+      "position": 154,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.567
+    },
+    {
+      "position": 152,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.553
+    },
+    {
+      "position": 153,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.54
+    },
+    {
+      "position": 161,
+      "residue": "S",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.52
+    }
+  ],
+  "per_position": [
+    {
+      "position": 1,
+      "residue": "M",
+      "basic_frac_w15": 0.125,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.125,
+      "rb_propensity": 0.15
+    },
+    {
+      "position": 2,
+      "residue": "R",
+      "basic_frac_w15": 0.111,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.222,
+      "rb_propensity": 0.156
+    },
+    {
+      "position": 3,
+      "residue": "D",
+      "basic_frac_w15": 0.1,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.3,
+      "rb_propensity": 0.16
+    },
+    {
+      "position": 4,
+      "residue": "I",
+      "basic_frac_w15": 0.091,
+      "aromatic_frac_w15": 0.091,
+      "disorder_score_w15": 0.182,
+      "rb_propensity": 0.173
+    },
+    {
+      "position": 5,
+      "residue": "E",
+      "basic_frac_w15": 0.167,
+      "aromatic_frac_w15": 0.083,
+      "disorder_score_w15": 0.25,
+      "rb_propensity": 0.258
+    },
+    {
+      "position": 6,
+      "residue": "L",
+      "basic_frac_w15": 0.154,
+      "aromatic_frac_w15": 0.077,
+      "disorder_score_w15": 0.308,
+      "rb_propensity": 0.254
+    },
+    {
+      "position": 7,
+      "residue": "D",
+      "basic_frac_w15": 0.143,
+      "aromatic_frac_w15": 0.071,
+      "disorder_score_w15": 0.357,
+      "rb_propensity": 0.25
+    },
+    {
+      "position": 8,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.22
+    },
+    {
+      "position": 9,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 10,
+      "residue": "A",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.14
+    },
+    {
+      "position": 11,
+      "residue": "F",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.127
+    },
+    {
+      "position": 12,
+      "residue": "R",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 13,
+      "residue": "S",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 14,
+      "residue": "Q",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 15,
+      "residue": "V",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 16,
+      "residue": "S",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 17,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 18,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 19,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 20,
+      "residue": "Q",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 21,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.14
+    },
+    {
+      "position": 22,
+      "residue": "T",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.127
+    },
+    {
+      "position": 23,
+      "residue": "S",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 24,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 25,
+      "residue": "K",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 26,
+      "residue": "F",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 27,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 28,
+      "residue": "T",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.153
+    },
+    {
+      "position": 29,
+      "residue": "G",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.22
+    },
+    {
+      "position": 30,
+      "residue": "A",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.3
+    },
+    {
+      "position": 31,
+      "residue": "A",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.3
+    },
+    {
+      "position": 32,
+      "residue": "L",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.367
+    },
+    {
+      "position": 33,
+      "residue": "V",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 34,
+      "residue": "S",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 35,
+      "residue": "P",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 36,
+      "residue": "K",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.32
+    },
+    {
+      "position": 37,
+      "residue": "R",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.333
+    },
+    {
+      "position": 38,
+      "residue": "S",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 39,
+      "residue": "K",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 40,
+      "residue": "Y",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.32
+    },
+    {
+      "position": 41,
+      "residue": "Y",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.32
+    },
+    {
+      "position": 42,
+      "residue": "I",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.387
+    },
+    {
+      "position": 43,
+      "residue": "S",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.36
+    },
+    {
+      "position": 44,
+      "residue": "E",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.347
+    },
+    {
+      "position": 45,
+      "residue": "V",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.28
+    },
+    {
+      "position": 46,
+      "residue": "E",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.347
+    },
+    {
+      "position": 47,
+      "residue": "G",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.28
+    },
+    {
+      "position": 48,
+      "residue": "L",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.34
+    },
+    {
+      "position": 49,
+      "residue": "K",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.4
+    },
+    {
+      "position": 50,
+      "residue": "V",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.413
+    },
+    {
+      "position": 51,
+      "residue": "H",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.387
+    },
+    {
+      "position": 52,
+      "residue": "S",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.36
+    },
+    {
+      "position": 53,
+      "residue": "R",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.387
+    },
+    {
+      "position": 54,
+      "residue": "S",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.36
+    },
+    {
+      "position": 55,
+      "residue": "K",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.373
+    },
+    {
+      "position": 56,
+      "residue": "K",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.373
+    },
+    {
+      "position": 57,
+      "residue": "D",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.28
+    },
+    {
+      "position": 58,
+      "residue": "L",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 59,
+      "residue": "L",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.26
+    },
+    {
+      "position": 60,
+      "residue": "A",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.267
+    },
+    {
+      "position": 61,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 62,
+      "residue": "A",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 63,
+      "residue": "I",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 64,
+      "residue": "I",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 65,
+      "residue": "S",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 66,
+      "residue": "W",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 67,
+      "residue": "W",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 68,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 69,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 70,
+      "residue": "D",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 71,
+      "residue": "S",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 72,
+      "residue": "I",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 73,
+      "residue": "R",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 74,
+      "residue": "F",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 75,
+      "residue": "Y",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 76,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 77,
+      "residue": "Q",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 78,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 79,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 80,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 81,
+      "residue": "Y",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 82,
+      "residue": "F",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 83,
+      "residue": "L",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 84,
+      "residue": "S",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 85,
+      "residue": "I",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 86,
+      "residue": "N",
+      "basic_frac_w15": 0.0,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.4,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 87,
+      "residue": "N",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.4,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 88,
+      "residue": "S",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.4,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 89,
+      "residue": "D",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.4,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 90,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.4,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 91,
+      "residue": "I",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 92,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.067
+    },
+    {
+      "position": 93,
+      "residue": "I",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 94,
+      "residue": "R",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 95,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 96,
+      "residue": "C",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 97,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 98,
+      "residue": "T",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 99,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 100,
+      "residue": "K",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 101,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 102,
+      "residue": "G",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 103,
+      "residue": "M",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 104,
+      "residue": "L",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 105,
+      "residue": "N",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 106,
+      "residue": "F",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 107,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 108,
+      "residue": "E",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.133
+    },
+    {
+      "position": 109,
+      "residue": "D",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 110,
+      "residue": "T",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 111,
+      "residue": "T",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 112,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 113,
+      "residue": "Y",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 114,
+      "residue": "H",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 115,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 116,
+      "residue": "R",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 117,
+      "residue": "D",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 118,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 119,
+      "residue": "F",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 120,
+      "residue": "G",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 121,
+      "residue": "N",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 122,
+      "residue": "I",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.193
+    },
+    {
+      "position": 123,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.193
+    },
+    {
+      "position": 124,
+      "residue": "P",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 125,
+      "residue": "T",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 126,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 127,
+      "residue": "P",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.173
+    },
+    {
+      "position": 128,
+      "residue": "E",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.16
+    },
+    {
+      "position": 129,
+      "residue": "K",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.16
+    },
+    {
+      "position": 130,
+      "residue": "Q",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.16
+    },
+    {
+      "position": 131,
+      "residue": "V",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.187
+    },
+    {
+      "position": 132,
+      "residue": "R",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.16
+    },
+    {
+      "position": 133,
+      "residue": "L",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.24
+    },
+    {
+      "position": 134,
+      "residue": "A",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 135,
+      "residue": "N",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 136,
+      "residue": "L",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 137,
+      "residue": "V",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 138,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 139,
+      "residue": "V",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 140,
+      "residue": "R",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.1
+    },
+    {
+      "position": 141,
+      "residue": "Y",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.18
+    },
+    {
+      "position": 142,
+      "residue": "G",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 143,
+      "residue": "P",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 144,
+      "residue": "T",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.067,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 145,
+      "residue": "S",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.34
+    },
+    {
+      "position": 146,
+      "residue": "L",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.407
+    },
+    {
+      "position": 147,
+      "residue": "P",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.5
+    },
+    {
+      "position": 148,
+      "residue": "K",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.42
+    },
+    {
+      "position": 149,
+      "residue": "R",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.42
+    },
+    {
+      "position": 150,
+      "residue": "V",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.5
+    },
+    {
+      "position": 151,
+      "residue": "I",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.487
+    },
+    {
+      "position": 152,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.553
+    },
+    {
+      "position": 153,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.54
+    },
+    {
+      "position": 154,
+      "residue": "R",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.567
+    },
+    {
+      "position": 155,
+      "residue": "G",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.633
+    },
+    {
+      "position": 156,
+      "residue": "Y",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.633
+    },
+    {
+      "position": 157,
+      "residue": "K",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.573
+    },
+    {
+      "position": 158,
+      "residue": "D",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.6
+    },
+    {
+      "position": 159,
+      "residue": "H",
+      "basic_frac_w15": 0.533,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.68
+    },
+    {
+      "position": 160,
+      "residue": "G",
+      "basic_frac_w15": 0.467,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.613
+    },
+    {
+      "position": 161,
+      "residue": "S",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.52
+    },
+    {
+      "position": 162,
+      "residue": "R",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.507
+    },
+    {
+      "position": 163,
+      "residue": "R",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.507
+    },
+    {
+      "position": 164,
+      "residue": "F",
+      "basic_frac_w15": 0.4,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.473
+    },
+    {
+      "position": 165,
+      "residue": "P",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.407
+    },
+    {
+      "position": 166,
+      "residue": "H",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.42
+    },
+    {
+      "position": 167,
+      "residue": "E",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.353
+    },
+    {
+      "position": 168,
+      "residue": "V",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.433
+    },
+    {
+      "position": 169,
+      "residue": "H",
+      "basic_frac_w15": 0.333,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.407
+    },
+    {
+      "position": 170,
+      "residue": "D",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.34
+    },
+    {
+      "position": 171,
+      "residue": "L",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.273
+    },
+    {
+      "position": 172,
+      "residue": "S",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.24
+    },
+    {
+      "position": 173,
+      "residue": "S",
+      "basic_frac_w15": 0.267,
+      "aromatic_frac_w15": 0.0,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.307
+    },
+    {
+      "position": 174,
+      "residue": "G",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.26
+    },
+    {
+      "position": 175,
+      "residue": "K",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.26
+    },
+    {
+      "position": 176,
+      "residue": "L",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.287
+    },
+    {
+      "position": 177,
+      "residue": "A",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.333,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 178,
+      "residue": "Q",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.22
+    },
+    {
+      "position": 179,
+      "residue": "I",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 180,
+      "residue": "K",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.067,
+      "disorder_score_w15": 0.4,
+      "rb_propensity": 0.247
+    },
+    {
+      "position": 181,
+      "residue": "Y",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.253
+    },
+    {
+      "position": 182,
+      "residue": "E",
+      "basic_frac_w15": 0.2,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.32
+    },
+    {
+      "position": 183,
+      "residue": "E",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.2,
+      "rb_propensity": 0.24
+    },
+    {
+      "position": 184,
+      "residue": "E",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.267,
+      "rb_propensity": 0.253
+    },
+    {
+      "position": 185,
+      "residue": "I",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.133,
+      "rb_propensity": 0.227
+    },
+    {
+      "position": 186,
+      "residue": "Q",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 187,
+      "residue": "S",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 188,
+      "residue": "Y",
+      "basic_frac_w15": 0.067,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.133,
+      "rb_propensity": 0.167
+    },
+    {
+      "position": 189,
+      "residue": "H",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": 0.0,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 190,
+      "residue": "D",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.133,
+      "disorder_score_w15": -0.067,
+      "rb_propensity": 0.2
+    },
+    {
+      "position": 191,
+      "residue": "T",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.2,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 192,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 193,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.267,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 194,
+      "residue": "F",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.2,
+      "disorder_score_w15": -0.333,
+      "rb_propensity": 0.233
+    },
+    {
+      "position": 195,
+      "residue": "L",
+      "basic_frac_w15": 0.133,
+      "aromatic_frac_w15": 0.267,
+      "disorder_score_w15": -0.467,
+      "rb_propensity": 0.267
+    },
+    {
+      "position": 196,
+      "residue": "R",
+      "basic_frac_w15": 0.143,
+      "aromatic_frac_w15": 0.214,
+      "disorder_score_w15": -0.429,
+      "rb_propensity": 0.25
+    },
+    {
+      "position": 197,
+      "residue": "G",
+      "basic_frac_w15": 0.077,
+      "aromatic_frac_w15": 0.231,
+      "disorder_score_w15": -0.462,
+      "rb_propensity": 0.192
+    },
+    {
+      "position": 198,
+      "residue": "W",
+      "basic_frac_w15": 0.083,
+      "aromatic_frac_w15": 0.25,
+      "disorder_score_w15": -0.5,
+      "rb_propensity": 0.208
+    },
+    {
+      "position": 199,
+      "residue": "L",
+      "basic_frac_w15": 0.091,
+      "aromatic_frac_w15": 0.273,
+      "disorder_score_w15": -0.545,
+      "rb_propensity": 0.227
+    },
+    {
+      "position": 200,
+      "residue": "D",
+      "basic_frac_w15": 0.1,
+      "aromatic_frac_w15": 0.3,
+      "disorder_score_w15": -0.5,
+      "rb_propensity": 0.25
+    },
+    {
+      "position": 201,
+      "residue": "G",
+      "basic_frac_w15": 0.111,
+      "aromatic_frac_w15": 0.333,
+      "disorder_score_w15": -0.444,
+      "rb_propensity": 0.278
+    },
+    {
+      "position": 202,
+      "residue": "F",
+      "basic_frac_w15": 0.125,
+      "aromatic_frac_w15": 0.25,
+      "disorder_score_w15": -0.375,
+      "rb_propensity": 0.25
+    }
+  ]
+}

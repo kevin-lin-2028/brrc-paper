@@ -1,0 +1,8 @@
+{
+  "tool": "lp_threshknot",
+  "n_attempted": 5169,
+  "n_completed": 5169,
+  "threshknot_pk_pct": 80.05,
+  "vrna_mfe_pct_ref": 87.7,
+  "wall_time_min": 8.3
+}

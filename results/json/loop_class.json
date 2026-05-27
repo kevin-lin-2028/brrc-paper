@@ -1,0 +1,27 @@
+{
+  "tool": "loop_class",
+  "n_obelisks": 5169,
+  "n_shuffles": 5169,
+  "by_class": {
+    "hairpin": {
+      "obelisk_mean_density": 0.417,
+      "shuffle_mean_density": 0.956,
+      "cliffs_delta": -0.817
+    },
+    "internal_bulge": {
+      "obelisk_mean_density": 13.097,
+      "shuffle_mean_density": 6.302,
+      "cliffs_delta": 0.994
+    },
+    "multiloop": {
+      "obelisk_mean_density": 0.395,
+      "shuffle_mean_density": 1.674,
+      "cliffs_delta": -0.946
+    },
+    "external": {
+      "obelisk_mean_density": 0.072,
+      "shuffle_mean_density": 0.105,
+      "cliffs_delta": -0.134
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+ "omicron": {
+  "n_seqs_used": 117,
+  "common_length": 845,
+  "summary": {
+   "n_pairs": 294,
+   "n_canonical_preserved_>=95%": 285,
+   "pct_canon_preserved": 96.93877551020408,
+   "n_variable_pairs": 43,
+   "pct_variable": 14.625850340136054,
+   "n_compensatory_evidence": 34,
+   "pct_compensatory_evidence": 11.564625850340136,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "pi": {
+  "n_seqs_used": 80,
+  "common_length": 1177,
+  "summary": {
+   "n_pairs": 401,
+   "n_canonical_preserved_>=95%": 396,
+   "pct_canon_preserved": 98.75311720698254,
+   "n_variable_pairs": 35,
+   "pct_variable": 8.728179551122194,
+   "n_compensatory_evidence": 30,
+   "pct_compensatory_evidence": 7.4812967581047385,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "rho": {
+  "n_seqs_used": 81,
+  "common_length": 811,
+  "summary": {
+   "n_pairs": 278,
+   "n_canonical_preserved_>=95%": 277,
+   "pct_canon_preserved": 99.64028776978417,
+   "n_variable_pairs": 13,
+   "pct_variable": 4.676258992805756,
+   "n_compensatory_evidence": 12,
+   "pct_compensatory_evidence": 4.316546762589928,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "alpha": {
+  "n_seqs_used": 57,
+  "common_length": 1164,
+  "summary": {
+   "n_pairs": 424,
+   "n_canonical_preserved_>=95%": 164,
+   "pct_canon_preserved": 38.679245283018865,
+   "n_variable_pairs": 387,
+   "pct_variable": 91.27358490566037,
+   "n_compensatory_evidence": 127,
+   "pct_compensatory_evidence": 29.952830188679247,
+   "n_high_mi_>=0.5": 180,
+   "pct_high_mi": 42.45283018867924
+  }
+ },
+ "sigma": {
+  "n_seqs_used": 57,
+  "common_length": 989,
+  "summary": {
+   "n_pairs": 375,
+   "n_canonical_preserved_>=95%": 372,
+   "pct_canon_preserved": 99.2,
+   "n_variable_pairs": 9,
+   "pct_variable": 2.4,
+   "n_compensatory_evidence": 6,
+   "pct_compensatory_evidence": 1.6,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "tau": {
+  "n_seqs_used": 59,
+  "common_length": 798,
+  "summary": {
+   "n_pairs": 290,
+   "n_canonical_preserved_>=95%": 266,
+   "pct_canon_preserved": 91.72413793103448,
+   "n_variable_pairs": 95,
+   "pct_variable": 32.758620689655174,
+   "n_compensatory_evidence": 71,
+   "pct_compensatory_evidence": 24.482758620689655,
+   "n_high_mi_>=0.5": 8,
+   "pct_high_mi": 2.7586206896551726
+  }
+ },
+ "upsilon": {
+  "n_seqs_used": 47,
+  "common_length": 939,
+  "summary": {
+   "n_pairs": 359,
+   "n_canonical_preserved_>=95%": 290,
+   "pct_canon_preserved": 80.77994428969359,
+   "n_variable_pairs": 117,
+   "pct_variable": 32.590529247910865,
+   "n_compensatory_evidence": 48,
+   "pct_compensatory_evidence": 13.370473537604457,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "phi": {
+  "n_seqs_used": 55,
+  "common_length": 823,
+  "summary": {
+   "n_pairs": 302,
+   "n_canonical_preserved_>=95%": 292,
+   "pct_canon_preserved": 96.6887417218543,
+   "n_variable_pairs": 22,
+   "pct_variable": 7.28476821192053,
+   "n_compensatory_evidence": 12,
+   "pct_compensatory_evidence": 3.9735099337748343,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "chi": {
+  "n_seqs_used": 54,
+  "common_length": 1228,
+  "summary": {
+   "n_pairs": 386,
+   "n_canonical_preserved_>=95%": 380,
+   "pct_canon_preserved": 98.44559585492227,
+   "n_variable_pairs": 15,
+   "pct_variable": 3.8860103626943006,
+   "n_compensatory_evidence": 9,
+   "pct_compensatory_evidence": 2.33160621761658,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "psi": {
+  "n_seqs_used": 35,
+  "common_length": 1135,
+  "summary": {
+   "n_pairs": 400,
+   "n_canonical_preserved_>=95%": 396,
+   "pct_canon_preserved": 99.0,
+   "n_variable_pairs": 13,
+   "pct_variable": 3.25,
+   "n_compensatory_evidence": 9,
+   "pct_compensatory_evidence": 2.25,
+   "n_high_mi_>=0.5": 0,
+   "pct_high_mi": 0.0
+  }
+ },
+ "omega": {
+  "n_seqs_used": 36,
+  "common_length": 1432,
+  "summary": {
+   "n_pairs": 527,
+   "n_canonical_preserved_>=95%": 210,
+   "pct_canon_preserved": 39.84819734345351,
+   "n_variable_pairs": 491,
+   "pct_variable": 93.16888045540797,
+   "n_compensatory_evidence": 174,
+   "pct_compensatory_evidence": 33.01707779886148,
+   "n_high_mi_>=0.5": 281,
+   "pct_high_mi": 53.32068311195446
+  }
+ }
+}

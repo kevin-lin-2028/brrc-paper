@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oblin"
+version = "1.0.0"
+description = "Analysis code for the BRRC obelisk paper"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+  {name = "Kevin Christopher Lin", email = "kevin.lin.2028@gmail.com"}
+]
+dependencies = [
+  "biopython",
+  "matplotlib",
+  "numpy",
+  "openpyxl",
+  "requests",
+  "scipy",
+  "seaborn",
+]
+
+[project.optional-dependencies]
+analysis = [
+  "pyhmmer",
+  "seqfold",
+  "tmtools",
+  "ViennaRNA",
+]
+
+[project.scripts]
+oblin = "oblin.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["oblin*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = [
+  "E501",
+  "E701",
+  "E702",
+  "E731",
+  "E741",
+  "B007",
+  "B008",
+  "B023",
+  "B904",
+  "B905",
+  "F541",
+  "UP015", "UP031", "UP032",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"oblin/checks.py" = ["F401", "F403", "F405", "F811", "F841", "E401", "E402", "I001"]
+"oblin/analyses.py" = ["F401", "F403", "F405", "F811", "F841", "E401", "E402", "I001"]
+"oblin/figures.py" = ["F401", "F403", "F405", "F811", "F841", "E401", "E402", "I001"]
+"oblin/core.py" = ["E402", "I001"]

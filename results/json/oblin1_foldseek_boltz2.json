@@ -1,0 +1,93 @@
+{
+  "tool": "foldseek_3diaa_on_boltz2",
+  "ticket": "fgiYk0ahO8tDIEAYZ6TvNNqL1Vuh7HPWZJ_TKg",
+  "databases": [
+    "afdb50",
+    "cath50",
+    "gmgcl_id",
+    "mgnify_esm30",
+    "pdb100"
+  ],
+  "per_db": {
+    "afdb50": {
+      "n_hits_total": 0,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": null
+    },
+    "cath50": {
+      "n_hits_total": 3,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "af_Q54BH3_689_837_1.25.10.10",
+        "seqId": 11,
+        "alnLength": 136,
+        "missmatches": 82,
+        "gapsopened": 9,
+        "qStartPos": 12,
+        "qEndPos": 136,
+        "dbStartPos": 23,
+        "dbEndPos": 130,
+        "prob": 0.057,
+        "eval": 5.967,
+        "score": 25,
+        "qLen": 202,
+        "dbLen": 149,
+        "tSeq": "NTNITAFKTIKLHGGSLNVDLKDYYVRVYSLLTDMVLPKEHGVIVTALDALQLMLGDKKQTAVERVASFIKRLSTIALFLPPHASLALVSFIKQLFITYPQTQRLLETDSTFSGGDYVPEAQDPDHCNPFASTLWELSLLTNHWHPKFE",
+        "taxId": 44689,
+        "taxName": "Dictyostelium discoideum"
+      }
+    },
+    "gmgcl_id": {
+      "n_hits_total": 0,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": null
+    },
+    "mgnify_esm30": {
+      "n_hits_total": 1,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "MGYP001544166997.pdb.gz",
+        "seqId": 21.6,
+        "alnLength": 83,
+        "missmatches": 63,
+        "gapsopened": 2,
+        "qStartPos": 53,
+        "qEndPos": 134,
+        "dbStartPos": 52,
+        "dbEndPos": 133,
+        "prob": 0.106,
+        "eval": 7.022,
+        "score": 32,
+        "qLen": 202,
+        "dbLen": 139,
+        "tSeq": "PTCAYSDVYGKFTLPQLPPDTYNVTVGAHEHAVQTFSCSFLNSTQVLYIPLLSWRDLLSLSLIEIEANRIEQALAYIEEAESISPNKTMIDYFKAAVDFKKGQFDFAQDRLQRTRNQFSADMIMYVDRLCELCIQAVQQ"
+      }
+    },
+    "pdb100": {
+      "n_hits_total": 3,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "2cwq-assembly1.cif.gz_C-2 Crystal structure of conserved protein TTHA0727 from Thermus thermophilus HB8",
+        "seqId": 14.8,
+        "alnLength": 108,
+        "missmatches": 69,
+        "gapsopened": 5,
+        "qStartPos": 17,
+        "qEndPos": 108,
+        "dbStartPos": 2,
+        "dbEndPos": 102,
+        "prob": 0.045,
+        "eval": 4.613,
+        "score": 23,
+        "qLen": 202,
+        "dbLen": 112,
+        "tSeq": "ERVLQAMAENLGEGLPRAIPLLAEKAPGLLLEHGRSWTYAMPEKGALDEKTRTLILLGIALATGSEACVKAMAHRAKRLGLSKEALLETLKIARQAQANAVLGHAAPLLEVL",
+        "taxId": 300852,
+        "taxName": "Thermus thermophilus HB8"
+      }
+    }
+  }
+}

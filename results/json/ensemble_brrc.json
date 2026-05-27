@@ -1,0 +1,19 @@
+{
+  "tool": "ensemble_brrc",
+  "n_obelisks": 200,
+  "n_samples_per_obelisk": 30,
+  "seed": 42,
+  "wall_time_s": 80.5,
+  "mean_ens_pp": 0.859,
+  "med_ens_pp": 0.9667,
+  "n_ob_all_pass": 55,
+  "n_ob_any_pass": 195,
+  "n_ob_none_pass": 5,
+  "pass_prob_distribution": {
+    "min": 0.0,
+    "p25": 0.8333,
+    "p50": 0.9667,
+    "p75": 1.0,
+    "max": 1.0
+  }
+}

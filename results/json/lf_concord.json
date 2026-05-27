@@ -1,0 +1,11 @@
+{
+  "tool": "linearfold_compare",
+  "n_obelisks": 100,
+  "seed": 42,
+  "wall_time_s": 116.3,
+  "vrna_pass_pct": 88.0,
+  "lf_vienna_pct": 87.0,
+  "lf_contrafold_pct": 39.0,
+  "vrna_vs_lfv_pct": 97.0,
+  "vrna_vs_lfc_pct": 49.0
+}

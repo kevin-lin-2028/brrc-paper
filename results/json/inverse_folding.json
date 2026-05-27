@@ -1,0 +1,9 @@
+{
+  "tool": "inverse_folding",
+  "n_attempted": 100,
+  "n_complete_retry": 100,
+  "n_unrecov_segfaults": 0,
+  "brrc_pass_pct": 0.0,
+  "ob_ref_pct": 87.7,
+  "wall_min": 1.3
+}

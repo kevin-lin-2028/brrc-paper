@@ -1,0 +1,27 @@
+{
+  "tool": "permutation_null",
+  "n_obelisks": 5169,
+  "n_subfamilies_n_ge_10": 12,
+  "obs_subfam_pass": {
+    "chi": 0.0,
+    "sigma": 1.0,
+    "upsilon": 0.9667,
+    "omega": 1.0,
+    "alpha": 1.0,
+    "rho": 1.0,
+    "pi": 0.8784,
+    "psi": 1.0,
+    "tau": 1.0,
+    "omicron": 0.9922,
+    ".": 0.886,
+    "phi": 1.0
+  },
+  "observed_range": 1.0,
+  "n_permutations": 10000,
+  "null_mean_range": 0.1723,
+  "null_max_range": 0.4,
+  "null_p95_range": 0.2545,
+  "n_extreme": 0,
+  "permutation_p": 0.0001,
+  "resolution_floor_p": 0.0001
+}

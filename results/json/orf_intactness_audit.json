@@ -1,0 +1,9 @@
+{
+  "tool": "orf_intactness_audit",
+  "n_obelisks": 500,
+  "n_aa_translation_preserved": 500,
+  "n_aa_length_preserved": 500,
+  "n_frame_position_preserved": 500,
+  "aa_preservation_pct": 100.0,
+  "interpretation": "The synonymous-codon shuffler preserves ORF placement around the circular genome by construction (codons are permuted only within the original ORF window at the same nucleotide coordinates), and preserves the amino-acid translation of the ORF exactly because codons are swapped only among synonyms within the same amino-acid class. The audit confirms both properties on the n=500 obelisk subsample with confidently mapped Oblin-1 ORFs."
+}

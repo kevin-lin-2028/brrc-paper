@@ -1,0 +1,48 @@
+{
+  "tool": "classifier_nested_cv",
+  "n_pos_obelisk": 500,
+  "n_neg_total": 61,
+  "lambda_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "full_9feat": {
+    "outer_aucs": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "outer_mean": 1.0,
+    "outer_sd": 0.0,
+    "chosen_lambdas": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ]
+  },
+  "topology_only_8feat": {
+    "outer_aucs": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "outer_mean": 1.0,
+    "outer_sd": 0.0,
+    "chosen_lambdas": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ]
+  }
+}

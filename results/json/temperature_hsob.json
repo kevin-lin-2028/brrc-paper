@@ -1,0 +1,54 @@
+{
+  "tool": "temperature_hsob",
+  "n_sample": 6846,
+  "by_temperature": {
+    "T25C": {
+      "headline_obelisk_pass_pct": 95.63,
+      "headline_shuffle_pass_pct": 8.97,
+      "roc_optimal": {
+        "j": 0.901,
+        "fp": 0.63,
+        "sld": 12,
+        "ml": 22,
+        "obe_pass_pct": 92.64,
+        "sh_pass_pct": 2.56
+      }
+    },
+    "T37C": {
+      "headline_obelisk_pass_pct": 91.12,
+      "headline_shuffle_pass_pct": 2.51,
+      "roc_optimal": {
+        "j": 0.922,
+        "fp": 0.65,
+        "sld": 10,
+        "ml": 28,
+        "obe_pass_pct": 95.65,
+        "sh_pass_pct": 3.49
+      }
+    },
+    "T65C": {
+      "headline_obelisk_pass_pct": 27.96,
+      "headline_shuffle_pass_pct": 0.0,
+      "roc_optimal": {
+        "j": 0.667,
+        "fp": 0.55,
+        "sld": 8,
+        "ml": 28,
+        "obe_pass_pct": 69.47,
+        "sh_pass_pct": 2.73
+      }
+    },
+    "T80C": {
+      "headline_obelisk_pass_pct": 1.01,
+      "headline_shuffle_pass_pct": 0.0,
+      "roc_optimal": {
+        "j": 0.085,
+        "fp": 0.49,
+        "sld": 6,
+        "ml": 28,
+        "obe_pass_pct": 8.62,
+        "sh_pass_pct": 0.09
+      }
+    }
+  }
+}

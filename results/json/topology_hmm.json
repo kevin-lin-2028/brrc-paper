@@ -1,0 +1,9 @@
+{
+  "tool": "topology_hmm",
+  "n_synthetic": 10000,
+  "n_paired_runs_fit": 763649,
+  "n_unpaired_runs_fit": 760662,
+  "mean_paired_run_length": 4.9,
+  "mean_unpaired_run": 2.0,
+  "synth_brrc_pass_pct": 91.92
+}

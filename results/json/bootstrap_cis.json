@@ -1,0 +1,21 @@
+{
+  "tool": "bootstrap_cis",
+  "headline_enrichment": {
+    "point_estimate_rr": 269.3,
+    "bootstrap_95_ci": [
+      173.2,
+      448.4
+    ],
+    "katz_95_ci_for_reference": [
+      159.0,
+      399.0
+    ],
+    "n_bootstrap": 1000
+  },
+  "classifier_auc": {
+    "observed_cv5_auc": 1.0,
+    "permutation_null_max": 0.6971,
+    "permutation_null_mean": 0.5729,
+    "note": "Observed AUC = 1.0 is at the upper limit of the AUC scale; the permutation null max (0.697) and mean (0.573) establish that the observed AUC is unreachable under random labels."
+  }
+}

@@ -1,0 +1,134 @@
+{
+ "OBELISK": {
+  "n": 5169,
+  "per_criterion_pass": {
+   "frac_paired > 0.65": 4952,
+   "small_loop_density > 10": 5089,
+   "max_loop <= 15": 4692
+  },
+  "per_criterion_pass_pct": {
+   "frac_paired > 0.65": 95.80189591797253,
+   "small_loop_density > 10": 98.45231185916037,
+   "max_loop <= 15": 90.77190946024376
+  },
+  "all_three_pass": 4533,
+  "all_three_pass_pct": 87.69587928032502
+ },
+ "SHUFFLED": {
+  "n": 5169,
+  "per_criterion_pass": {
+   "frac_paired > 0.65": 88,
+   "small_loop_density > 10": 266,
+   "max_loop <= 15": 1180
+  },
+  "per_criterion_pass_pct": {
+   "frac_paired > 0.65": 1.7024569549235828,
+   "small_loop_density > 10": 5.146063068291739,
+   "max_loop <= 15": 22.82840007738441
+  },
+  "all_three_pass": 18,
+  "all_three_pass_pct": 0.3482298316889147
+ },
+ "per_cluster": {
+  "alpha": {
+   "n": 26,
+   "all_three_pass": 26
+  },
+  "beta": {
+   "n": 2,
+   "all_three_pass": 2
+  },
+  "Ssanguinis": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "gamma": {
+   "n": 1,
+   "all_three_pass": 0
+  },
+  "delta": {
+   "n": 5,
+   "all_three_pass": 5
+  },
+  "epsilon": {
+   "n": 6,
+   "all_three_pass": 6
+  },
+  "zeta": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "eta": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "theta": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "iota": {
+   "n": 4,
+   "all_three_pass": 4
+  },
+  "kappa": {
+   "n": 2,
+   "all_three_pass": 2
+  },
+  "lambda": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "mu": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "nu": {
+   "n": 2,
+   "all_three_pass": 2
+  },
+  "xi": {
+   "n": 1,
+   "all_three_pass": 1
+  },
+  "omicron": {
+   "n": 128,
+   "all_three_pass": 126
+  },
+  "pi": {
+   "n": 74,
+   "all_three_pass": 65
+  },
+  "rho": {
+   "n": 47,
+   "all_three_pass": 47
+  },
+  "sigma": {
+   "n": 20,
+   "all_three_pass": 20
+  },
+  "tau": {
+   "n": 49,
+   "all_three_pass": 48
+  },
+  "upsilon": {
+   "n": 30,
+   "all_three_pass": 29
+  },
+  "phi": {
+   "n": 33,
+   "all_three_pass": 33
+  },
+  "chi": {
+   "n": 30,
+   "all_three_pass": 0
+  },
+  "psi": {
+   "n": 22,
+   "all_three_pass": 22
+  },
+  "omega": {
+   "n": 31,
+   "all_three_pass": 31
+  }
+ }
+}

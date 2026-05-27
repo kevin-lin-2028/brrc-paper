@@ -1,0 +1,64 @@
+{
+  "tool": "stratified_pk_breakdown",
+  "n_total_rows": 30,
+  "by_seed_decile_in_subsample": {
+    "decile_0": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 66.7
+    },
+    "decile_1": {
+      "n": 3,
+      "mfe_pass_pct": 66.7,
+      "pk_pass_pct": 100.0
+    },
+    "decile_2": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 66.7
+    },
+    "decile_3": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 100.0
+    },
+    "decile_4": {
+      "n": 3,
+      "mfe_pass_pct": 66.7,
+      "pk_pass_pct": 100.0
+    },
+    "decile_5": {
+      "n": 3,
+      "mfe_pass_pct": 66.7,
+      "pk_pass_pct": 66.7
+    },
+    "decile_6": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 100.0
+    },
+    "decile_7": {
+      "n": 3,
+      "mfe_pass_pct": 66.7,
+      "pk_pass_pct": 0.0
+    },
+    "decile_8": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 100.0
+    },
+    "decile_9": {
+      "n": 3,
+      "mfe_pass_pct": 100.0,
+      "pk_pass_pct": 100.0
+    }
+  },
+  "by_named_subfamily": {
+    ".": {
+      "n": 27,
+      "mfe_pass_pct": 85.2,
+      "pk_pass_pct": 77.8
+    }
+  },
+  "interpretation": "Decile and subfamily breakdown of the n=300 LinearPartition ThreshKnot pseudoknot-aware re-fold. If the PK pass rate is uniform across deciles and subfamilies, the PK effect is structural-class-wide rather than concentrated in a particular stratum."
+}

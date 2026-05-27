@@ -1,0 +1,121 @@
+{
+  "tool": "cluster_level_bootstrap",
+  "n_clusters": 25,
+  "n_bootstrap_iterations": 1000,
+  "obs_eq_weight_pct": 91.24,
+  "obs_n_wt_pct": 91.52,
+  "equal_weight_bootstrap_95_CI": [
+    79.23,
+    99.72
+  ],
+  "n_weighted_bootstrap_95_CI": [
+    75.32,
+    99.17
+  ],
+  "loco_min_pct": 90.87,
+  "loco_max_pct": 95.04,
+  "loco_chi_excl_pct": 95.04,
+  "leave_one_cluster_out": [
+    {
+      "left_out": "Ssanguinis",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "alpha",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "beta",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "chi",
+      "equal_weight_pct": 95.03754950741558
+    },
+    {
+      "left_out": "delta",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "epsilon",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "eta",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "gamma",
+      "equal_weight_pct": 95.03754950741558
+    },
+    {
+      "left_out": "iota",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "kappa",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "lambda",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "mu",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "nu",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "omega",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "omicron",
+      "equal_weight_pct": 90.93598700741558
+    },
+    {
+      "left_out": "phi",
+      "equal_weight_pct": 90.8708828407489
+    },
+    {
+      "left_out": "pi",
+      "equal_weight_pct": 91.37763959750566
+    },
+    {
+      "left_out": "psi",
+      "equal_weight_pct": 90.87088284074893
+    },
+    {
+      "left_out": "rho",
+      "equal_weight_pct": 90.87088284074893
+    },
+    {
+      "left_out": "sigma",
+      "equal_weight_pct": 90.87088284074893
+    },
+    {
+      "left_out": "tau",
+      "equal_weight_pct": 90.95591685435436
+    },
+    {
+      "left_out": "theta",
+      "equal_weight_pct": 90.87088284074893
+    },
+    {
+      "left_out": "upsilon",
+      "equal_weight_pct": 91.0097717296378
+    },
+    {
+      "left_out": "xi",
+      "equal_weight_pct": 90.87088284074893
+    },
+    {
+      "left_out": "zeta",
+      "equal_weight_pct": 90.87088284074893
+    }
+  ],
+  "centroid_only_pct": 91.24
+}

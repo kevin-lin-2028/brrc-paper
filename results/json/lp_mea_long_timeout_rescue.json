@@ -1,0 +1,10 @@
+{
+  "tool": "lp_mea_long_timeout_rescue",
+  "n_attempted_long": 47,
+  "n_completed_long": 34,
+  "n_pass_long": 15,
+  "pass_pct_long": 44.12,
+  "headline_initial_n_completed": 4640,
+  "headline_initial_pass_pct": 91.59,
+  "wall_min": 0.2
+}

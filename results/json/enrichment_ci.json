@@ -1,0 +1,32 @@
+{
+  "tool": "enrichment_ci",
+  "obelisk": {
+    "k": 4533,
+    "n": 5169,
+    "pct": 87.7,
+    "wilson_95_CI_pct": [
+      86.77,
+      88.56
+    ]
+  },
+  "shuffle": {
+    "k": 18,
+    "n": 5169,
+    "pct": 0.3482,
+    "wilson_95_CI_pct": [
+      0.2204,
+      0.5498
+    ]
+  },
+  "fold_enrichment_point": 251.8,
+  "fold_enrichment_Katz_logRR_95_CI": [
+    159.0,
+    399.0
+  ],
+  "fold_enrich_cons": [
+    158.0,
+    402.0
+  ],
+  "rule_of_three_pct": 0.058,
+  "method": "Wilson score CI on each proportion. Inferential CI on the ratio uses Katz log-RR (log(RR) +/- 1.96*SE, SE=sqrt((1-p1)/k1 + (1-p2)/k2), exponentiated). The conservative bound pairs Wilson lower/upper on numerator/denominator (strictly wider than Katz; reported for transparency, not as an inferential CI)."
+}

@@ -1,0 +1,57 @@
+{
+  "tool": "rfam_motif_library",
+  "n_obelisks": 5169,
+  "n_shuffles": 5169,
+  "by_motif": {
+    "g_quadruplex": {
+      "ob_frac_motif": 0.508,
+      "shuf_frac_motif": 0.3817,
+      "obelisk_mean_count": 0.706,
+      "shuffle_mean_count": 0.516,
+      "enrichment": 1.331
+    },
+    "sm_site": {
+      "ob_frac_motif": 0.6481,
+      "shuf_frac_motif": 0.6839,
+      "obelisk_mean_count": 1.13,
+      "shuffle_mean_count": 1.222,
+      "enrichment": 0.948
+    },
+    "uucg_tetraloop": {
+      "ob_frac_motif": 0.0168,
+      "shuf_frac_motif": 0.0099,
+      "obelisk_mean_count": 0.018,
+      "shuffle_mean_count": 0.01,
+      "enrichment": 1.706
+    },
+    "sarcin_ricin_like": {
+      "ob_frac_motif": 0.2627,
+      "shuf_frac_motif": 0.516,
+      "obelisk_mean_count": 0.319,
+      "shuffle_mean_count": 0.742,
+      "enrichment": 0.509
+    },
+    "c_loop": {
+      "ob_frac_motif": 0.6175,
+      "shuf_frac_motif": 0.6905,
+      "obelisk_mean_count": 1.153,
+      "shuffle_mean_count": 1.182,
+      "enrichment": 0.894
+    },
+    "tar_like": {
+      "ob_frac_motif": 0.4544,
+      "shuf_frac_motif": 0.6313,
+      "obelisk_mean_count": 0.6,
+      "shuffle_mean_count": 0.975,
+      "enrichment": 0.72
+    },
+    "trna_cloverleaf": {
+      "ob_frac_motif": 0.0,
+      "shuf_frac_motif": 0.0,
+      "obelisk_mean_count": 0.0,
+      "shuffle_mean_count": 0.0,
+      "enrichment": "infinite"
+    }
+  },
+  "wall_min": 12.1
+}

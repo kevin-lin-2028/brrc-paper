@@ -1,0 +1,16 @@
+{
+  "tool": "linearfold_vienna_vs_contrafold_per_sequence",
+  "n_pairs_in_both": 200,
+  "spearman_fp": 0.7948,
+  "spearman_sld": 0.5346,
+  "spearman_max_loop": 0.4474,
+  "vienna_brrc_pass_pct": 89.0,
+  "contrafold_brrc_pass_pct": 41.5,
+  "per_sequence_concordance_pct": 51.5,
+  "vienna_fp_mean": 0.7068,
+  "contrafold_fp_mean": 0.649,
+  "vienna_sld_mean": 13.75,
+  "contrafold_sld_mean": 12.07,
+  "vienna_ml_mean": 9.7,
+  "contrafold_ml_mean": 33.1
+}

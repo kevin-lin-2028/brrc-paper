@@ -1,0 +1,5324 @@
+%!PS-Adobe-2.0
+%%Title: omega_out/obelisk_omega.dplot.ps
+%%Creator: gnuplot 6.0 patchlevel 0
+%%CreationDate: Wed May 13 23:01:30 2026
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.2 (Dec 2017)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto closepath gsave fill grestore stroke} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+/Metrics {ExtendTextBox Gswidth} def
+/Lwidth {currentpoint stroke M 0 vshift R Metrics} def
+/Rwidth {currentpoint stroke M dup stringwidth pop neg vshift R Metrics} def
+/Cwidth {currentpoint stroke M dup stringwidth pop -2 div vshift R Metrics} def
+/GLwidth {currentpoint stroke M 0 vshift R {ExtendTextBox} forall} def
+/GRwidth {currentpoint stroke M dup Gwidth vshift R {ExtendTextBox} forall} def
+/GCwidth {currentpoint stroke M dup Gwidth 2 div vshift R {ExtendTextBox} forall} def
+/GLwidth2 {0 Gwidth AddGlyphWidth} def
+/GRwidth2 {Gwidth -1 mul 0 AddGlyphWidth} def
+/GCwidth2 {Gwidth 2 div dup -1 mul AddGlyphWidth} def
+/AddGlyphWidth { dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+                 dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse } def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {Metrics pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get Gswidth pop -2 div
+     dup 0 R} {dup 6 get Gswidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (omega_out/obelisk_omega.dplot.ps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 6.0 patchlevel 0)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Wed May 13 23:01:30 2026)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt Sep 2016
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { dup type /stringtype eq
+    { Boxing { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if }
+    {} ifelse} def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PL PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 140 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {gsave BackgroundColor C clippath fill grestore} if
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 445 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 445 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+/vshift -46 def
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 1029 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 1029 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 1613 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 1613 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 400)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 2196 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 2196 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 600)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 2780 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 2780 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 800)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 3364 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 3364 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1000)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 3948 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 3948 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1200)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 4531 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 4531 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1400)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2354 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+2354 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2938 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+2938 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 400)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3521 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+3521 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 600)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4105 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+4105 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 800)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4689 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+4689 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1000)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5273 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+5273 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1200)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5856 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+5856 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1400)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1773 4619 N
+0 -4171 V
+4171 0 V
+0 4171 V
+-4171 0 V
+Z stroke
+0.055 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+2.000 UL
+LTb
+0.00 0.00 0.00 C
+1773 448 M
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+42 42 V
+43 43 V
+42 42 V
+42 42 V
+42 42 V
+% End plot #1
+stroke
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1773 4619 N
+0 -4171 V
+4171 0 V
+0 4171 V
+-4171 0 V
+Z stroke
+LCb setrgbcolor
+1136 2533 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 140.0 0.0 true true 0 (alignment position)]
+] -46.7 MCshow
+grestore
+/Helvetica findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3858 98 M
+[ [(Helvetica) 140.0 0.0 true true 0 (alignment position)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+LTb
+0.055 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+3858 4829 M
+(obelisk_omega.dplot) Cshow
+LTb
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 445 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 445 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 1029 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 1029 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 1613 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 1613 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 400)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 2196 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 2196 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 600)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 2780 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 2780 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 800)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 3364 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 3364 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1000)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 3948 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 3948 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1200)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1773 4531 M
+63 0 V
+4108 0 R
+-63 0 V
+stroke
+1689 4531 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1400)]
+] -46.7 MRshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2354 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+2354 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 200)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+2938 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+2938 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 400)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+3521 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+3521 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 600)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4105 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+4105 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 800)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+4689 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+4689 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1000)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5273 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+5273 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1200)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+5856 448 M
+0 63 V
+0 4108 R
+0 -63 V
+stroke
+5856 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 1400)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1773 4619 N
+0 -4171 V
+4171 0 V
+0 4171 V
+-4171 0 V
+Z stroke
+0.055 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+0.055 UP
+2.000 UL
+LTb
+0.00 0.00 1.00 C
+0.300 UP
+1773 2725 CircleF
+0.300 UP
+4050 448 CircleF
+0.300 UP
+1776 2722 CircleF
+0.300 UP
+4047 451 CircleF
+0.300 UP
+1779 2719 CircleF
+0.300 UP
+4044 454 CircleF
+0.300 UP
+1788 2716 CircleF
+0.300 UP
+4041 463 CircleF
+0.300 UP
+1791 2713 CircleF
+0.300 UP
+4038 466 CircleF
+0.300 UP
+1793 2710 CircleF
+0.300 UP
+4035 468 CircleF
+0.300 UP
+1799 2704 CircleF
+0.300 UP
+4029 474 CircleF
+0.300 UP
+1802 2701 CircleF
+0.300 UP
+4026 477 CircleF
+0.300 UP
+1805 2698 CircleF
+0.300 UP
+4023 480 CircleF
+0.300 UP
+1814 2695 CircleF
+0.300 UP
+4020 489 CircleF
+0.300 UP
+1817 2693 CircleF
+0.300 UP
+4018 492 CircleF
+0.300 UP
+1820 2690 CircleF
+0.300 UP
+4015 495 CircleF
+0.300 UP
+1823 2687 CircleF
+0.300 UP
+4012 498 CircleF
+0.300 UP
+1826 2684 CircleF
+0.300 UP
+4009 501 CircleF
+0.300 UP
+1831 2678 CircleF
+0.300 UP
+4003 506 CircleF
+0.300 UP
+1834 2675 CircleF
+0.300 UP
+4000 509 CircleF
+0.300 UP
+1837 2672 CircleF
+0.300 UP
+3997 512 CircleF
+0.300 UP
+1840 2666 CircleF
+0.300 UP
+3991 515 CircleF
+0.300 UP
+1843 2663 CircleF
+0.300 UP
+3988 518 CircleF
+0.300 UP
+1846 2660 CircleF
+0.300 UP
+3985 521 CircleF
+0.300 UP
+1849 2658 CircleF
+0.300 UP
+3983 524 CircleF
+0.300 UP
+1852 2655 CircleF
+0.300 UP
+3980 527 CircleF
+0.300 UP
+1855 2652 CircleF
+0.300 UP
+3977 530 CircleF
+0.300 UP
+1858 2649 CircleF
+0.300 UP
+3974 533 CircleF
+0.300 UP
+1869 2640 CircleF
+0.300 UP
+3965 544 CircleF
+0.300 UP
+1872 2637 CircleF
+0.300 UP
+3962 547 CircleF
+0.300 UP
+1875 2634 CircleF
+0.300 UP
+3959 550 CircleF
+0.300 UP
+1878 2631 CircleF
+0.300 UP
+3956 553 CircleF
+0.300 UP
+1881 2628 CircleF
+0.300 UP
+3953 556 CircleF
+0.300 UP
+1884 2625 CircleF
+0.300 UP
+3950 559 CircleF
+0.300 UP
+1887 2620 CircleF
+0.300 UP
+3945 562 CircleF
+0.300 UP
+1890 2617 CircleF
+0.300 UP
+3942 565 CircleF
+0.300 UP
+1899 2608 CircleF
+0.300 UP
+3933 574 CircleF
+0.300 UP
+1901 2605 CircleF
+0.300 UP
+3930 576 CircleF
+0.300 UP
+1904 2602 CircleF
+0.300 UP
+3927 579 CircleF
+0.300 UP
+1907 2599 CircleF
+0.300 UP
+3924 582 CircleF
+0.300 UP
+1910 2596 CircleF
+0.300 UP
+3921 585 CircleF
+0.300 UP
+1919 2593 CircleF
+0.300 UP
+3918 594 CircleF
+0.300 UP
+1922 2590 CircleF
+0.300 UP
+3915 597 CircleF
+0.300 UP
+1925 2587 CircleF
+0.300 UP
+3912 600 CircleF
+0.300 UP
+1931 2582 CircleF
+0.300 UP
+3907 606 CircleF
+0.300 UP
+1934 2579 CircleF
+0.300 UP
+3904 609 CircleF
+0.300 UP
+1936 2576 CircleF
+0.300 UP
+3901 611 CircleF
+0.300 UP
+1939 2573 CircleF
+0.300 UP
+3898 614 CircleF
+0.300 UP
+1942 2570 CircleF
+0.300 UP
+3895 617 CircleF
+0.300 UP
+1948 2564 CircleF
+0.300 UP
+3889 623 CircleF
+0.300 UP
+1951 2561 CircleF
+0.300 UP
+3886 626 CircleF
+0.300 UP
+1954 2558 CircleF
+0.300 UP
+3883 629 CircleF
+0.300 UP
+1957 2555 CircleF
+0.300 UP
+3880 632 CircleF
+0.300 UP
+1974 2541 CircleF
+0.300 UP
+3866 649 CircleF
+0.300 UP
+1977 2538 CircleF
+0.300 UP
+3863 652 CircleF
+0.300 UP
+1980 2535 CircleF
+0.300 UP
+3860 655 CircleF
+0.300 UP
+1983 2532 CircleF
+0.300 UP
+3857 658 CircleF
+0.300 UP
+1986 2529 CircleF
+0.300 UP
+3854 661 CircleF
+0.300 UP
+1989 2526 CircleF
+0.300 UP
+3851 664 CircleF
+0.300 UP
+1992 2523 CircleF
+0.300 UP
+3848 667 CircleF
+0.300 UP
+1995 2520 CircleF
+0.300 UP
+3845 670 CircleF
+0.300 UP
+1998 2517 CircleF
+0.300 UP
+3842 673 CircleF
+0.300 UP
+2001 2515 CircleF
+0.300 UP
+3840 676 CircleF
+0.300 UP
+2018 743 CircleF
+0.300 UP
+2068 693 CircleF
+0.300 UP
+2021 740 CircleF
+0.300 UP
+2065 696 CircleF
+0.300 UP
+2024 737 CircleF
+0.300 UP
+2062 699 CircleF
+0.300 UP
+2027 734 CircleF
+0.300 UP
+2059 702 CircleF
+0.300 UP
+2030 731 CircleF
+0.300 UP
+2056 705 CircleF
+0.300 UP
+2033 728 CircleF
+0.300 UP
+2053 708 CircleF
+0.300 UP
+2053 708 CircleF
+0.300 UP
+2033 728 CircleF
+0.300 UP
+2056 705 CircleF
+0.300 UP
+2030 731 CircleF
+0.300 UP
+2059 702 CircleF
+0.300 UP
+2027 734 CircleF
+0.300 UP
+2062 699 CircleF
+0.300 UP
+2024 737 CircleF
+0.300 UP
+2065 696 CircleF
+0.300 UP
+2021 740 CircleF
+0.300 UP
+2068 693 CircleF
+0.300 UP
+2018 743 CircleF
+0.300 UP
+2077 790 CircleF
+0.300 UP
+2115 752 CircleF
+0.300 UP
+2079 787 CircleF
+0.300 UP
+2112 754 CircleF
+0.300 UP
+2082 784 CircleF
+0.300 UP
+2109 757 CircleF
+0.300 UP
+2085 781 CircleF
+0.300 UP
+2106 760 CircleF
+0.300 UP
+2106 760 CircleF
+0.300 UP
+2085 781 CircleF
+0.300 UP
+2109 757 CircleF
+0.300 UP
+2082 784 CircleF
+0.300 UP
+2112 754 CircleF
+0.300 UP
+2079 787 CircleF
+0.300 UP
+2115 752 CircleF
+0.300 UP
+2077 790 CircleF
+0.300 UP
+2152 892 CircleF
+0.300 UP
+2217 827 CircleF
+0.300 UP
+2155 889 CircleF
+0.300 UP
+2214 830 CircleF
+0.300 UP
+2161 883 CircleF
+0.300 UP
+2208 836 CircleF
+0.300 UP
+2164 880 CircleF
+0.300 UP
+2205 839 CircleF
+0.300 UP
+2167 877 CircleF
+0.300 UP
+2202 842 CircleF
+0.300 UP
+2170 874 CircleF
+0.300 UP
+2199 845 CircleF
+0.300 UP
+2173 871 CircleF
+0.300 UP
+2196 848 CircleF
+0.300 UP
+2176 868 CircleF
+0.300 UP
+2193 851 CircleF
+0.300 UP
+2179 865 CircleF
+0.300 UP
+2190 854 CircleF
+0.300 UP
+2190 854 CircleF
+0.300 UP
+2179 865 CircleF
+0.300 UP
+2193 851 CircleF
+0.300 UP
+2176 868 CircleF
+0.300 UP
+2196 848 CircleF
+0.300 UP
+2173 871 CircleF
+0.300 UP
+2199 845 CircleF
+0.300 UP
+2170 874 CircleF
+0.300 UP
+2202 842 CircleF
+0.300 UP
+2167 877 CircleF
+0.300 UP
+2205 839 CircleF
+0.300 UP
+2164 880 CircleF
+0.300 UP
+2208 836 CircleF
+0.300 UP
+2161 883 CircleF
+0.300 UP
+2214 830 CircleF
+0.300 UP
+2155 889 CircleF
+0.300 UP
+2217 827 CircleF
+0.300 UP
+2152 892 CircleF
+0.300 UP
+2225 2319 CircleF
+0.300 UP
+3644 900 CircleF
+0.300 UP
+2228 2316 CircleF
+0.300 UP
+3641 903 CircleF
+0.300 UP
+2231 2313 CircleF
+0.300 UP
+3638 906 CircleF
+0.300 UP
+2234 2310 CircleF
+0.300 UP
+3635 909 CircleF
+0.300 UP
+2237 2304 CircleF
+0.300 UP
+3629 912 CircleF
+0.300 UP
+2240 2301 CircleF
+0.300 UP
+3626 915 CircleF
+0.300 UP
+2243 2299 CircleF
+0.300 UP
+3624 918 CircleF
+0.300 UP
+2246 2296 CircleF
+0.300 UP
+3621 921 CircleF
+0.300 UP
+2249 2293 CircleF
+0.300 UP
+3618 924 CircleF
+0.300 UP
+2252 2290 CircleF
+0.300 UP
+3615 927 CircleF
+0.300 UP
+2255 2287 CircleF
+0.300 UP
+3612 930 CircleF
+0.300 UP
+2263 2246 CircleF
+0.300 UP
+3571 938 CircleF
+0.300 UP
+2266 2243 CircleF
+0.300 UP
+3568 941 CircleF
+0.300 UP
+2269 2240 CircleF
+0.300 UP
+3565 944 CircleF
+0.300 UP
+2272 2234 CircleF
+0.300 UP
+3559 947 CircleF
+0.300 UP
+2275 2231 CircleF
+0.300 UP
+3556 950 CircleF
+0.300 UP
+2278 2228 CircleF
+0.300 UP
+3553 953 CircleF
+0.300 UP
+2281 2226 CircleF
+0.300 UP
+3551 956 CircleF
+0.300 UP
+2284 2223 CircleF
+0.300 UP
+3548 959 CircleF
+0.300 UP
+2287 2220 CircleF
+0.300 UP
+3545 962 CircleF
+0.300 UP
+2293 2217 CircleF
+0.300 UP
+3542 968 CircleF
+0.300 UP
+2295 2214 CircleF
+0.300 UP
+3539 970 CircleF
+0.300 UP
+2298 2211 CircleF
+0.300 UP
+3536 973 CircleF
+0.300 UP
+2304 2202 CircleF
+0.300 UP
+3527 979 CircleF
+0.300 UP
+2307 2199 CircleF
+0.300 UP
+3524 982 CircleF
+0.300 UP
+2319 2188 CircleF
+0.300 UP
+3513 994 CircleF
+0.300 UP
+2325 2182 CircleF
+0.300 UP
+3507 1000 CircleF
+0.300 UP
+2328 2179 CircleF
+0.300 UP
+3504 1003 CircleF
+0.300 UP
+2330 2176 CircleF
+0.300 UP
+3501 1005 CircleF
+0.300 UP
+2333 2173 CircleF
+0.300 UP
+3498 1008 CircleF
+0.300 UP
+2336 2170 CircleF
+0.300 UP
+3495 1011 CircleF
+0.300 UP
+2339 2156 CircleF
+0.300 UP
+3481 1014 CircleF
+0.300 UP
+2342 2153 CircleF
+0.300 UP
+3478 1017 CircleF
+0.300 UP
+2345 2150 CircleF
+0.300 UP
+3475 1020 CircleF
+0.300 UP
+2348 2147 CircleF
+0.300 UP
+3472 1023 CircleF
+0.300 UP
+2354 2144 CircleF
+0.300 UP
+3469 1029 CircleF
+0.300 UP
+2357 2141 CircleF
+0.300 UP
+3466 1032 CircleF
+0.300 UP
+2360 2138 CircleF
+0.300 UP
+3463 1035 CircleF
+0.300 UP
+2363 2132 CircleF
+0.300 UP
+3457 1038 CircleF
+0.300 UP
+2366 2129 CircleF
+0.300 UP
+3454 1041 CircleF
+0.300 UP
+2368 2126 CircleF
+0.300 UP
+3451 1043 CircleF
+0.300 UP
+2371 2123 CircleF
+0.300 UP
+3448 1046 CircleF
+0.300 UP
+2374 2120 CircleF
+0.300 UP
+3445 1049 CircleF
+0.300 UP
+2383 2109 CircleF
+0.300 UP
+3434 1058 CircleF
+0.300 UP
+2386 2106 CircleF
+0.300 UP
+3431 1061 CircleF
+0.300 UP
+2389 2103 CircleF
+0.300 UP
+3428 1064 CircleF
+0.300 UP
+2392 2100 CircleF
+0.300 UP
+3425 1067 CircleF
+0.300 UP
+2395 2097 CircleF
+0.300 UP
+3422 1070 CircleF
+0.300 UP
+2398 2094 CircleF
+0.300 UP
+3419 1073 CircleF
+0.300 UP
+2401 2091 CircleF
+0.300 UP
+3416 1076 CircleF
+0.300 UP
+2406 2085 CircleF
+0.300 UP
+3410 1081 CircleF
+0.300 UP
+2409 2083 CircleF
+0.300 UP
+3408 1084 CircleF
+0.300 UP
+2412 2080 CircleF
+0.300 UP
+3405 1087 CircleF
+0.300 UP
+2415 2077 CircleF
+0.300 UP
+3402 1090 CircleF
+0.300 UP
+2418 2071 CircleF
+0.300 UP
+3396 1093 CircleF
+0.300 UP
+2421 2068 CircleF
+0.300 UP
+3393 1096 CircleF
+0.300 UP
+2424 2065 CircleF
+0.300 UP
+3390 1099 CircleF
+0.300 UP
+2427 2062 CircleF
+0.300 UP
+3387 1102 CircleF
+0.300 UP
+2430 2059 CircleF
+0.300 UP
+3384 1105 CircleF
+0.300 UP
+2447 2042 CircleF
+0.300 UP
+3367 1122 CircleF
+0.300 UP
+2450 2039 CircleF
+0.300 UP
+3364 1125 CircleF
+0.300 UP
+2453 2036 CircleF
+0.300 UP
+3361 1128 CircleF
+0.300 UP
+2456 2033 CircleF
+0.300 UP
+3358 1131 CircleF
+0.300 UP
+2459 2030 CircleF
+0.300 UP
+3355 1134 CircleF
+0.300 UP
+2462 2027 CircleF
+0.300 UP
+3352 1137 CircleF
+0.300 UP
+2468 2018 CircleF
+0.300 UP
+3343 1143 CircleF
+0.300 UP
+2471 2015 CircleF
+0.300 UP
+3340 1146 CircleF
+0.300 UP
+2474 2012 CircleF
+0.300 UP
+3337 1149 CircleF
+0.300 UP
+2479 2007 CircleF
+0.300 UP
+3332 1154 CircleF
+0.300 UP
+2482 2004 CircleF
+0.300 UP
+3329 1157 CircleF
+0.300 UP
+2485 2001 CircleF
+0.300 UP
+3326 1160 CircleF
+0.300 UP
+2488 1998 CircleF
+0.300 UP
+3323 1163 CircleF
+0.300 UP
+2491 1989 CircleF
+0.300 UP
+3314 1166 CircleF
+0.300 UP
+2494 1986 CircleF
+0.300 UP
+3311 1169 CircleF
+0.300 UP
+2497 1983 CircleF
+0.300 UP
+3308 1172 CircleF
+0.300 UP
+2500 1980 CircleF
+0.300 UP
+3305 1175 CircleF
+0.300 UP
+2503 1977 CircleF
+0.300 UP
+3302 1178 CircleF
+0.300 UP
+2514 1963 CircleF
+0.300 UP
+3288 1189 CircleF
+0.300 UP
+2517 1960 CircleF
+0.300 UP
+3285 1192 CircleF
+0.300 UP
+2520 1957 CircleF
+0.300 UP
+3282 1195 CircleF
+0.300 UP
+2523 1954 CircleF
+0.300 UP
+3279 1198 CircleF
+0.300 UP
+2526 1951 CircleF
+0.300 UP
+3276 1201 CircleF
+0.300 UP
+2529 1948 CircleF
+0.300 UP
+3273 1204 CircleF
+0.300 UP
+2532 1945 CircleF
+0.300 UP
+3270 1207 CircleF
+0.300 UP
+2546 1937 CircleF
+0.300 UP
+3262 1221 CircleF
+0.300 UP
+2549 1934 CircleF
+0.300 UP
+3259 1224 CircleF
+0.300 UP
+2552 1931 CircleF
+0.300 UP
+3256 1227 CircleF
+0.300 UP
+2555 1925 CircleF
+0.300 UP
+3250 1230 CircleF
+0.300 UP
+2564 1913 CircleF
+0.300 UP
+3238 1239 CircleF
+0.300 UP
+2567 1910 CircleF
+0.300 UP
+3235 1242 CircleF
+0.300 UP
+2570 1907 CircleF
+0.300 UP
+3232 1245 CircleF
+0.300 UP
+2576 1902 CircleF
+0.300 UP
+3227 1251 CircleF
+0.300 UP
+2579 1899 CircleF
+0.300 UP
+3224 1254 CircleF
+0.300 UP
+2582 1896 CircleF
+0.300 UP
+3221 1257 CircleF
+0.300 UP
+2584 1893 CircleF
+0.300 UP
+3218 1259 CircleF
+0.300 UP
+2587 1890 CircleF
+0.300 UP
+3215 1262 CircleF
+0.300 UP
+2590 1887 CircleF
+0.300 UP
+3212 1265 CircleF
+0.300 UP
+2593 1884 CircleF
+0.300 UP
+3209 1268 CircleF
+0.300 UP
+2602 1872 CircleF
+0.300 UP
+3197 1277 CircleF
+0.300 UP
+2605 1869 CircleF
+0.300 UP
+3194 1280 CircleF
+0.300 UP
+2608 1867 CircleF
+0.300 UP
+3192 1283 CircleF
+0.300 UP
+2611 1864 CircleF
+0.300 UP
+3189 1286 CircleF
+0.300 UP
+2617 1861 CircleF
+0.300 UP
+3186 1292 CircleF
+0.300 UP
+2619 1858 CircleF
+0.300 UP
+3183 1294 CircleF
+0.300 UP
+2622 1855 CircleF
+0.300 UP
+3180 1297 CircleF
+0.300 UP
+2625 1852 CircleF
+0.300 UP
+3177 1300 CircleF
+0.300 UP
+2628 1849 CircleF
+0.300 UP
+3174 1303 CircleF
+0.300 UP
+2631 1843 CircleF
+0.300 UP
+3168 1306 CircleF
+0.300 UP
+2634 1840 CircleF
+0.300 UP
+3165 1309 CircleF
+0.300 UP
+2637 1837 CircleF
+0.300 UP
+3162 1312 CircleF
+0.300 UP
+2640 1834 CircleF
+0.300 UP
+3159 1315 CircleF
+0.300 UP
+2643 1832 CircleF
+0.300 UP
+3157 1318 CircleF
+0.300 UP
+2649 1829 CircleF
+0.300 UP
+3154 1324 CircleF
+0.300 UP
+2652 1826 CircleF
+0.300 UP
+3151 1327 CircleF
+0.300 UP
+2654 1823 CircleF
+0.300 UP
+3148 1329 CircleF
+0.300 UP
+2660 1814 CircleF
+0.300 UP
+3139 1335 CircleF
+0.300 UP
+2663 1811 CircleF
+0.300 UP
+3136 1338 CircleF
+0.300 UP
+2666 1808 CircleF
+0.300 UP
+3133 1341 CircleF
+0.300 UP
+2669 1805 CircleF
+0.300 UP
+3130 1344 CircleF
+0.300 UP
+2672 1802 CircleF
+0.300 UP
+3127 1347 CircleF
+0.300 UP
+2675 1799 CircleF
+0.300 UP
+3124 1350 CircleF
+0.300 UP
+2687 1791 CircleF
+0.300 UP
+3116 1362 CircleF
+0.300 UP
+2690 1788 CircleF
+0.300 UP
+3113 1365 CircleF
+0.300 UP
+2692 1785 CircleF
+0.300 UP
+3110 1367 CircleF
+0.300 UP
+2695 1782 CircleF
+0.300 UP
+3107 1370 CircleF
+0.300 UP
+2698 1779 CircleF
+0.300 UP
+3104 1373 CircleF
+0.300 UP
+2707 1770 CircleF
+0.300 UP
+3095 1382 CircleF
+0.300 UP
+2710 1767 CircleF
+0.300 UP
+3092 1385 CircleF
+0.300 UP
+2713 1764 CircleF
+0.300 UP
+3089 1388 CircleF
+0.300 UP
+2716 1761 CircleF
+0.300 UP
+3086 1391 CircleF
+0.300 UP
+2719 1753 CircleF
+0.300 UP
+3078 1394 CircleF
+0.300 UP
+2722 1750 CircleF
+0.300 UP
+3075 1397 CircleF
+0.300 UP
+2725 1747 CircleF
+0.300 UP
+3072 1400 CircleF
+0.300 UP
+2727 1744 CircleF
+0.300 UP
+3069 1402 CircleF
+0.300 UP
+2730 1741 CircleF
+0.300 UP
+3066 1405 CircleF
+0.300 UP
+2733 1738 CircleF
+0.300 UP
+3063 1408 CircleF
+0.300 UP
+2736 1735 CircleF
+0.300 UP
+3060 1411 CircleF
+0.300 UP
+2739 1732 CircleF
+0.300 UP
+3057 1414 CircleF
+0.300 UP
+2742 1726 CircleF
+0.300 UP
+3051 1417 CircleF
+0.300 UP
+2745 1724 CircleF
+0.300 UP
+3049 1420 CircleF
+0.300 UP
+2751 1718 CircleF
+0.300 UP
+3043 1426 CircleF
+0.300 UP
+2754 1712 CircleF
+0.300 UP
+3037 1429 CircleF
+0.300 UP
+2757 1709 CircleF
+0.300 UP
+3034 1432 CircleF
+0.300 UP
+2760 1706 CircleF
+0.300 UP
+3031 1435 CircleF
+0.300 UP
+2762 1703 CircleF
+0.300 UP
+3028 1437 CircleF
+0.300 UP
+2765 1700 CircleF
+0.300 UP
+3025 1440 CircleF
+0.300 UP
+2768 1694 CircleF
+0.300 UP
+3019 1443 CircleF
+0.300 UP
+2771 1691 CircleF
+0.300 UP
+3016 1446 CircleF
+0.300 UP
+2774 1689 CircleF
+0.300 UP
+3014 1449 CircleF
+0.300 UP
+2780 1683 CircleF
+0.300 UP
+3008 1455 CircleF
+0.300 UP
+2786 1680 CircleF
+0.300 UP
+3005 1461 CircleF
+0.300 UP
+2789 1677 CircleF
+0.300 UP
+3002 1464 CircleF
+0.300 UP
+2792 1674 CircleF
+0.300 UP
+2999 1467 CircleF
+0.300 UP
+2795 1671 CircleF
+0.300 UP
+2996 1470 CircleF
+0.300 UP
+2798 1668 CircleF
+0.300 UP
+2993 1473 CircleF
+0.300 UP
+2800 1665 CircleF
+0.300 UP
+2990 1475 CircleF
+0.300 UP
+2803 1662 CircleF
+0.300 UP
+2987 1478 CircleF
+0.300 UP
+2806 1659 CircleF
+0.300 UP
+2984 1481 CircleF
+0.300 UP
+2809 1656 CircleF
+0.300 UP
+2981 1484 CircleF
+0.300 UP
+2812 1653 CircleF
+0.300 UP
+2978 1487 CircleF
+0.300 UP
+2815 1651 CircleF
+0.300 UP
+2976 1490 CircleF
+0.300 UP
+2818 1648 CircleF
+0.300 UP
+2973 1493 CircleF
+0.300 UP
+2821 1572 CircleF
+0.300 UP
+2897 1496 CircleF
+0.300 UP
+2824 1569 CircleF
+0.300 UP
+2894 1499 CircleF
+0.300 UP
+2827 1566 CircleF
+0.300 UP
+2891 1502 CircleF
+0.300 UP
+2830 1563 CircleF
+0.300 UP
+2888 1505 CircleF
+0.300 UP
+2833 1560 CircleF
+0.300 UP
+2885 1508 CircleF
+0.300 UP
+2841 1554 CircleF
+0.300 UP
+2879 1516 CircleF
+0.300 UP
+2844 1551 CircleF
+0.300 UP
+2876 1519 CircleF
+0.300 UP
+2847 1548 CircleF
+0.300 UP
+2873 1522 CircleF
+0.300 UP
+2850 1545 CircleF
+0.300 UP
+2870 1525 CircleF
+0.300 UP
+2853 1543 CircleF
+0.300 UP
+2868 1528 CircleF
+0.300 UP
+2868 1528 CircleF
+0.300 UP
+2853 1543 CircleF
+0.300 UP
+2870 1525 CircleF
+0.300 UP
+2850 1545 CircleF
+0.300 UP
+2873 1522 CircleF
+0.300 UP
+2847 1548 CircleF
+0.300 UP
+2876 1519 CircleF
+0.300 UP
+2844 1551 CircleF
+0.300 UP
+2879 1516 CircleF
+0.300 UP
+2841 1554 CircleF
+0.300 UP
+2885 1508 CircleF
+0.300 UP
+2833 1560 CircleF
+0.300 UP
+2888 1505 CircleF
+0.300 UP
+2830 1563 CircleF
+0.300 UP
+2891 1502 CircleF
+0.300 UP
+2827 1566 CircleF
+0.300 UP
+2894 1499 CircleF
+0.300 UP
+2824 1569 CircleF
+0.300 UP
+2897 1496 CircleF
+0.300 UP
+2821 1572 CircleF
+0.300 UP
+2900 1601 CircleF
+0.300 UP
+2926 1575 CircleF
+0.300 UP
+2903 1598 CircleF
+0.300 UP
+2923 1578 CircleF
+0.300 UP
+2906 1595 CircleF
+0.300 UP
+2920 1581 CircleF
+0.300 UP
+2920 1581 CircleF
+0.300 UP
+2906 1595 CircleF
+0.300 UP
+2923 1578 CircleF
+0.300 UP
+2903 1598 CircleF
+0.300 UP
+2926 1575 CircleF
+0.300 UP
+2900 1601 CircleF
+0.300 UP
+2929 1645 CircleF
+0.300 UP
+2970 1604 CircleF
+0.300 UP
+2932 1642 CircleF
+0.300 UP
+2967 1607 CircleF
+0.300 UP
+2935 1639 CircleF
+0.300 UP
+2964 1610 CircleF
+0.300 UP
+2938 1636 CircleF
+0.300 UP
+2961 1613 CircleF
+0.300 UP
+2941 1633 CircleF
+0.300 UP
+2958 1616 CircleF
+0.300 UP
+2943 1630 CircleF
+0.300 UP
+2955 1618 CircleF
+0.300 UP
+2955 1618 CircleF
+0.300 UP
+2943 1630 CircleF
+0.300 UP
+2958 1616 CircleF
+0.300 UP
+2941 1633 CircleF
+0.300 UP
+2961 1613 CircleF
+0.300 UP
+2938 1636 CircleF
+0.300 UP
+2964 1610 CircleF
+0.300 UP
+2935 1639 CircleF
+0.300 UP
+2967 1607 CircleF
+0.300 UP
+2932 1642 CircleF
+0.300 UP
+2970 1604 CircleF
+0.300 UP
+2929 1645 CircleF
+0.300 UP
+2973 1493 CircleF
+0.300 UP
+2818 1648 CircleF
+0.300 UP
+2976 1490 CircleF
+0.300 UP
+2815 1651 CircleF
+0.300 UP
+2978 1487 CircleF
+0.300 UP
+2812 1653 CircleF
+0.300 UP
+2981 1484 CircleF
+0.300 UP
+2809 1656 CircleF
+0.300 UP
+2984 1481 CircleF
+0.300 UP
+2806 1659 CircleF
+0.300 UP
+2987 1478 CircleF
+0.300 UP
+2803 1662 CircleF
+0.300 UP
+2990 1475 CircleF
+0.300 UP
+2800 1665 CircleF
+0.300 UP
+2993 1473 CircleF
+0.300 UP
+2798 1668 CircleF
+0.300 UP
+2996 1470 CircleF
+0.300 UP
+2795 1671 CircleF
+0.300 UP
+2999 1467 CircleF
+0.300 UP
+2792 1674 CircleF
+0.300 UP
+3002 1464 CircleF
+0.300 UP
+2789 1677 CircleF
+0.300 UP
+3005 1461 CircleF
+0.300 UP
+2786 1680 CircleF
+0.300 UP
+3008 1455 CircleF
+0.300 UP
+2780 1683 CircleF
+0.300 UP
+3014 1449 CircleF
+0.300 UP
+2774 1689 CircleF
+0.300 UP
+3016 1446 CircleF
+0.300 UP
+2771 1691 CircleF
+0.300 UP
+3019 1443 CircleF
+0.300 UP
+2768 1694 CircleF
+0.300 UP
+3025 1440 CircleF
+0.300 UP
+2765 1700 CircleF
+0.300 UP
+3028 1437 CircleF
+0.300 UP
+2762 1703 CircleF
+0.300 UP
+3031 1435 CircleF
+0.300 UP
+2760 1706 CircleF
+0.300 UP
+3034 1432 CircleF
+0.300 UP
+2757 1709 CircleF
+0.300 UP
+3037 1429 CircleF
+0.300 UP
+2754 1712 CircleF
+0.300 UP
+3043 1426 CircleF
+0.300 UP
+2751 1718 CircleF
+0.300 UP
+3049 1420 CircleF
+0.300 UP
+2745 1724 CircleF
+0.300 UP
+3051 1417 CircleF
+0.300 UP
+2742 1726 CircleF
+0.300 UP
+3057 1414 CircleF
+0.300 UP
+2739 1732 CircleF
+0.300 UP
+3060 1411 CircleF
+0.300 UP
+2736 1735 CircleF
+0.300 UP
+3063 1408 CircleF
+0.300 UP
+2733 1738 CircleF
+0.300 UP
+3066 1405 CircleF
+0.300 UP
+2730 1741 CircleF
+0.300 UP
+3069 1402 CircleF
+0.300 UP
+2727 1744 CircleF
+0.300 UP
+3072 1400 CircleF
+0.300 UP
+2725 1747 CircleF
+0.300 UP
+3075 1397 CircleF
+0.300 UP
+2722 1750 CircleF
+0.300 UP
+3078 1394 CircleF
+0.300 UP
+2719 1753 CircleF
+0.300 UP
+3086 1391 CircleF
+0.300 UP
+2716 1761 CircleF
+0.300 UP
+3089 1388 CircleF
+0.300 UP
+2713 1764 CircleF
+0.300 UP
+3092 1385 CircleF
+0.300 UP
+2710 1767 CircleF
+0.300 UP
+3095 1382 CircleF
+0.300 UP
+2707 1770 CircleF
+0.300 UP
+3104 1373 CircleF
+0.300 UP
+2698 1779 CircleF
+0.300 UP
+3107 1370 CircleF
+0.300 UP
+2695 1782 CircleF
+0.300 UP
+3110 1367 CircleF
+0.300 UP
+2692 1785 CircleF
+0.300 UP
+3113 1365 CircleF
+0.300 UP
+2690 1788 CircleF
+0.300 UP
+3116 1362 CircleF
+0.300 UP
+2687 1791 CircleF
+0.300 UP
+3124 1350 CircleF
+0.300 UP
+2675 1799 CircleF
+0.300 UP
+3127 1347 CircleF
+0.300 UP
+2672 1802 CircleF
+0.300 UP
+3130 1344 CircleF
+0.300 UP
+2669 1805 CircleF
+0.300 UP
+3133 1341 CircleF
+0.300 UP
+2666 1808 CircleF
+0.300 UP
+3136 1338 CircleF
+0.300 UP
+2663 1811 CircleF
+0.300 UP
+3139 1335 CircleF
+0.300 UP
+2660 1814 CircleF
+0.300 UP
+3148 1329 CircleF
+0.300 UP
+2654 1823 CircleF
+0.300 UP
+3151 1327 CircleF
+0.300 UP
+2652 1826 CircleF
+0.300 UP
+3154 1324 CircleF
+0.300 UP
+2649 1829 CircleF
+0.300 UP
+3157 1318 CircleF
+0.300 UP
+2643 1832 CircleF
+0.300 UP
+3159 1315 CircleF
+0.300 UP
+2640 1834 CircleF
+0.300 UP
+3162 1312 CircleF
+0.300 UP
+2637 1837 CircleF
+0.300 UP
+3165 1309 CircleF
+0.300 UP
+2634 1840 CircleF
+0.300 UP
+3168 1306 CircleF
+0.300 UP
+2631 1843 CircleF
+0.300 UP
+3174 1303 CircleF
+0.300 UP
+2628 1849 CircleF
+0.300 UP
+3177 1300 CircleF
+0.300 UP
+2625 1852 CircleF
+0.300 UP
+3180 1297 CircleF
+0.300 UP
+2622 1855 CircleF
+0.300 UP
+3183 1294 CircleF
+0.300 UP
+2619 1858 CircleF
+0.300 UP
+3186 1292 CircleF
+0.300 UP
+2617 1861 CircleF
+0.300 UP
+3189 1286 CircleF
+0.300 UP
+2611 1864 CircleF
+0.300 UP
+3192 1283 CircleF
+0.300 UP
+2608 1867 CircleF
+0.300 UP
+3194 1280 CircleF
+0.300 UP
+2605 1869 CircleF
+0.300 UP
+3197 1277 CircleF
+0.300 UP
+2602 1872 CircleF
+0.300 UP
+3209 1268 CircleF
+0.300 UP
+2593 1884 CircleF
+0.300 UP
+3212 1265 CircleF
+0.300 UP
+2590 1887 CircleF
+0.300 UP
+3215 1262 CircleF
+0.300 UP
+2587 1890 CircleF
+0.300 UP
+3218 1259 CircleF
+0.300 UP
+2584 1893 CircleF
+0.300 UP
+3221 1257 CircleF
+0.300 UP
+2582 1896 CircleF
+0.300 UP
+3224 1254 CircleF
+0.300 UP
+2579 1899 CircleF
+0.300 UP
+3227 1251 CircleF
+0.300 UP
+2576 1902 CircleF
+0.300 UP
+3232 1245 CircleF
+0.300 UP
+2570 1907 CircleF
+0.300 UP
+3235 1242 CircleF
+0.300 UP
+2567 1910 CircleF
+0.300 UP
+3238 1239 CircleF
+0.300 UP
+2564 1913 CircleF
+0.300 UP
+3250 1230 CircleF
+0.300 UP
+2555 1925 CircleF
+0.300 UP
+3256 1227 CircleF
+0.300 UP
+2552 1931 CircleF
+0.300 UP
+3259 1224 CircleF
+0.300 UP
+2549 1934 CircleF
+0.300 UP
+3262 1221 CircleF
+0.300 UP
+2546 1937 CircleF
+0.300 UP
+3270 1207 CircleF
+0.300 UP
+2532 1945 CircleF
+0.300 UP
+3273 1204 CircleF
+0.300 UP
+2529 1948 CircleF
+0.300 UP
+3276 1201 CircleF
+0.300 UP
+2526 1951 CircleF
+0.300 UP
+3279 1198 CircleF
+0.300 UP
+2523 1954 CircleF
+0.300 UP
+3282 1195 CircleF
+0.300 UP
+2520 1957 CircleF
+0.300 UP
+3285 1192 CircleF
+0.300 UP
+2517 1960 CircleF
+0.300 UP
+3288 1189 CircleF
+0.300 UP
+2514 1963 CircleF
+0.300 UP
+3302 1178 CircleF
+0.300 UP
+2503 1977 CircleF
+0.300 UP
+3305 1175 CircleF
+0.300 UP
+2500 1980 CircleF
+0.300 UP
+3308 1172 CircleF
+0.300 UP
+2497 1983 CircleF
+0.300 UP
+3311 1169 CircleF
+0.300 UP
+2494 1986 CircleF
+0.300 UP
+3314 1166 CircleF
+0.300 UP
+2491 1989 CircleF
+0.300 UP
+3323 1163 CircleF
+0.300 UP
+2488 1998 CircleF
+0.300 UP
+3326 1160 CircleF
+0.300 UP
+2485 2001 CircleF
+0.300 UP
+3329 1157 CircleF
+0.300 UP
+2482 2004 CircleF
+0.300 UP
+3332 1154 CircleF
+0.300 UP
+2479 2007 CircleF
+0.300 UP
+3337 1149 CircleF
+0.300 UP
+2474 2012 CircleF
+0.300 UP
+3340 1146 CircleF
+0.300 UP
+2471 2015 CircleF
+0.300 UP
+3343 1143 CircleF
+0.300 UP
+2468 2018 CircleF
+0.300 UP
+3352 1137 CircleF
+0.300 UP
+2462 2027 CircleF
+0.300 UP
+3355 1134 CircleF
+0.300 UP
+2459 2030 CircleF
+0.300 UP
+3358 1131 CircleF
+0.300 UP
+2456 2033 CircleF
+0.300 UP
+3361 1128 CircleF
+0.300 UP
+2453 2036 CircleF
+0.300 UP
+3364 1125 CircleF
+0.300 UP
+2450 2039 CircleF
+0.300 UP
+3367 1122 CircleF
+0.300 UP
+2447 2042 CircleF
+0.300 UP
+3384 1105 CircleF
+0.300 UP
+2430 2059 CircleF
+0.300 UP
+3387 1102 CircleF
+0.300 UP
+2427 2062 CircleF
+0.300 UP
+3390 1099 CircleF
+0.300 UP
+2424 2065 CircleF
+0.300 UP
+3393 1096 CircleF
+0.300 UP
+2421 2068 CircleF
+0.300 UP
+3396 1093 CircleF
+0.300 UP
+2418 2071 CircleF
+0.300 UP
+3402 1090 CircleF
+0.300 UP
+2415 2077 CircleF
+0.300 UP
+3405 1087 CircleF
+0.300 UP
+2412 2080 CircleF
+0.300 UP
+3408 1084 CircleF
+0.300 UP
+2409 2083 CircleF
+0.300 UP
+3410 1081 CircleF
+0.300 UP
+2406 2085 CircleF
+0.300 UP
+3416 1076 CircleF
+0.300 UP
+2401 2091 CircleF
+0.300 UP
+3419 1073 CircleF
+0.300 UP
+2398 2094 CircleF
+0.300 UP
+3422 1070 CircleF
+0.300 UP
+2395 2097 CircleF
+0.300 UP
+3425 1067 CircleF
+0.300 UP
+2392 2100 CircleF
+0.300 UP
+3428 1064 CircleF
+0.300 UP
+2389 2103 CircleF
+0.300 UP
+3431 1061 CircleF
+0.300 UP
+2386 2106 CircleF
+0.300 UP
+3434 1058 CircleF
+0.300 UP
+2383 2109 CircleF
+0.300 UP
+3445 1049 CircleF
+0.300 UP
+2374 2120 CircleF
+0.300 UP
+3448 1046 CircleF
+0.300 UP
+2371 2123 CircleF
+0.300 UP
+3451 1043 CircleF
+0.300 UP
+2368 2126 CircleF
+0.300 UP
+3454 1041 CircleF
+0.300 UP
+2366 2129 CircleF
+0.300 UP
+3457 1038 CircleF
+0.300 UP
+2363 2132 CircleF
+0.300 UP
+3463 1035 CircleF
+0.300 UP
+2360 2138 CircleF
+0.300 UP
+3466 1032 CircleF
+0.300 UP
+2357 2141 CircleF
+0.300 UP
+3469 1029 CircleF
+0.300 UP
+2354 2144 CircleF
+0.300 UP
+3472 1023 CircleF
+0.300 UP
+2348 2147 CircleF
+0.300 UP
+3475 1020 CircleF
+0.300 UP
+2345 2150 CircleF
+0.300 UP
+3478 1017 CircleF
+0.300 UP
+2342 2153 CircleF
+0.300 UP
+3481 1014 CircleF
+0.300 UP
+2339 2156 CircleF
+0.300 UP
+3495 1011 CircleF
+0.300 UP
+2336 2170 CircleF
+0.300 UP
+3498 1008 CircleF
+0.300 UP
+2333 2173 CircleF
+0.300 UP
+3501 1005 CircleF
+0.300 UP
+2330 2176 CircleF
+0.300 UP
+3504 1003 CircleF
+0.300 UP
+2328 2179 CircleF
+0.300 UP
+3507 1000 CircleF
+0.300 UP
+2325 2182 CircleF
+0.300 UP
+3513 994 CircleF
+0.300 UP
+2319 2188 CircleF
+0.300 UP
+3524 982 CircleF
+0.300 UP
+2307 2199 CircleF
+0.300 UP
+3527 979 CircleF
+0.300 UP
+2304 2202 CircleF
+0.300 UP
+3536 973 CircleF
+0.300 UP
+2298 2211 CircleF
+0.300 UP
+3539 970 CircleF
+0.300 UP
+2295 2214 CircleF
+0.300 UP
+3542 968 CircleF
+0.300 UP
+2293 2217 CircleF
+0.300 UP
+3545 962 CircleF
+0.300 UP
+2287 2220 CircleF
+0.300 UP
+3548 959 CircleF
+0.300 UP
+2284 2223 CircleF
+0.300 UP
+3551 956 CircleF
+0.300 UP
+2281 2226 CircleF
+0.300 UP
+3553 953 CircleF
+0.300 UP
+2278 2228 CircleF
+0.300 UP
+3556 950 CircleF
+0.300 UP
+2275 2231 CircleF
+0.300 UP
+3559 947 CircleF
+0.300 UP
+2272 2234 CircleF
+0.300 UP
+3565 944 CircleF
+0.300 UP
+2269 2240 CircleF
+0.300 UP
+3568 941 CircleF
+0.300 UP
+2266 2243 CircleF
+0.300 UP
+3571 938 CircleF
+0.300 UP
+2263 2246 CircleF
+0.300 UP
+3612 930 CircleF
+0.300 UP
+2255 2287 CircleF
+0.300 UP
+3615 927 CircleF
+0.300 UP
+2252 2290 CircleF
+0.300 UP
+3618 924 CircleF
+0.300 UP
+2249 2293 CircleF
+0.300 UP
+3621 921 CircleF
+0.300 UP
+2246 2296 CircleF
+0.300 UP
+3624 918 CircleF
+0.300 UP
+2243 2299 CircleF
+0.300 UP
+3626 915 CircleF
+0.300 UP
+2240 2301 CircleF
+0.300 UP
+3629 912 CircleF
+0.300 UP
+2237 2304 CircleF
+0.300 UP
+3635 909 CircleF
+0.300 UP
+2234 2310 CircleF
+0.300 UP
+3638 906 CircleF
+0.300 UP
+2231 2313 CircleF
+0.300 UP
+3641 903 CircleF
+0.300 UP
+2228 2316 CircleF
+0.300 UP
+3644 900 CircleF
+0.300 UP
+2225 2319 CircleF
+0.300 UP
+3653 2436 CircleF
+0.300 UP
+3761 2328 CircleF
+0.300 UP
+3656 2433 CircleF
+0.300 UP
+3758 2331 CircleF
+0.300 UP
+3659 2430 CircleF
+0.300 UP
+3755 2334 CircleF
+0.300 UP
+3661 2427 CircleF
+0.300 UP
+3752 2336 CircleF
+0.300 UP
+3667 2424 CircleF
+0.300 UP
+3749 2342 CircleF
+0.300 UP
+3670 2421 CircleF
+0.300 UP
+3746 2345 CircleF
+0.300 UP
+3682 2415 CircleF
+0.300 UP
+3740 2357 CircleF
+0.300 UP
+3685 2412 CircleF
+0.300 UP
+3737 2360 CircleF
+0.300 UP
+3688 2409 CircleF
+0.300 UP
+3734 2363 CircleF
+0.300 UP
+3691 2407 CircleF
+0.300 UP
+3732 2366 CircleF
+0.300 UP
+3694 2404 CircleF
+0.300 UP
+3729 2369 CircleF
+0.300 UP
+3697 2398 CircleF
+0.300 UP
+3723 2372 CircleF
+0.300 UP
+3699 2395 CircleF
+0.300 UP
+3720 2374 CircleF
+0.300 UP
+3702 2392 CircleF
+0.300 UP
+3717 2377 CircleF
+0.300 UP
+3717 2377 CircleF
+0.300 UP
+3702 2392 CircleF
+0.300 UP
+3720 2374 CircleF
+0.300 UP
+3699 2395 CircleF
+0.300 UP
+3723 2372 CircleF
+0.300 UP
+3697 2398 CircleF
+0.300 UP
+3729 2369 CircleF
+0.300 UP
+3694 2404 CircleF
+0.300 UP
+3732 2366 CircleF
+0.300 UP
+3691 2407 CircleF
+0.300 UP
+3734 2363 CircleF
+0.300 UP
+3688 2409 CircleF
+0.300 UP
+3737 2360 CircleF
+0.300 UP
+3685 2412 CircleF
+0.300 UP
+3740 2357 CircleF
+0.300 UP
+3682 2415 CircleF
+0.300 UP
+3746 2345 CircleF
+0.300 UP
+3670 2421 CircleF
+0.300 UP
+3749 2342 CircleF
+0.300 UP
+3667 2424 CircleF
+0.300 UP
+3752 2336 CircleF
+0.300 UP
+3661 2427 CircleF
+0.300 UP
+3755 2334 CircleF
+0.300 UP
+3659 2430 CircleF
+0.300 UP
+3758 2331 CircleF
+0.300 UP
+3656 2433 CircleF
+0.300 UP
+3761 2328 CircleF
+0.300 UP
+3653 2436 CircleF
+0.300 UP
+3769 2512 CircleF
+0.300 UP
+3837 2444 CircleF
+0.300 UP
+3772 2509 CircleF
+0.300 UP
+3834 2447 CircleF
+0.300 UP
+3775 2506 CircleF
+0.300 UP
+3831 2450 CircleF
+0.300 UP
+3778 2503 CircleF
+0.300 UP
+3828 2453 CircleF
+0.300 UP
+3781 2500 CircleF
+0.300 UP
+3825 2456 CircleF
+0.300 UP
+3784 2497 CircleF
+0.300 UP
+3822 2459 CircleF
+0.300 UP
+3787 2494 CircleF
+0.300 UP
+3819 2462 CircleF
+0.300 UP
+3790 2491 CircleF
+0.300 UP
+3816 2465 CircleF
+0.300 UP
+3793 2488 CircleF
+0.300 UP
+3813 2468 CircleF
+0.300 UP
+3813 2468 CircleF
+0.300 UP
+3793 2488 CircleF
+0.300 UP
+3816 2465 CircleF
+0.300 UP
+3790 2491 CircleF
+0.300 UP
+3819 2462 CircleF
+0.300 UP
+3787 2494 CircleF
+0.300 UP
+3822 2459 CircleF
+0.300 UP
+3784 2497 CircleF
+0.300 UP
+3825 2456 CircleF
+0.300 UP
+3781 2500 CircleF
+0.300 UP
+3828 2453 CircleF
+0.300 UP
+3778 2503 CircleF
+0.300 UP
+3831 2450 CircleF
+0.300 UP
+3775 2506 CircleF
+0.300 UP
+3834 2447 CircleF
+0.300 UP
+3772 2509 CircleF
+0.300 UP
+3837 2444 CircleF
+0.300 UP
+3769 2512 CircleF
+0.300 UP
+3840 676 CircleF
+0.300 UP
+2001 2515 CircleF
+0.300 UP
+3842 673 CircleF
+0.300 UP
+1998 2517 CircleF
+0.300 UP
+3845 670 CircleF
+0.300 UP
+1995 2520 CircleF
+0.300 UP
+3848 667 CircleF
+0.300 UP
+1992 2523 CircleF
+0.300 UP
+3851 664 CircleF
+0.300 UP
+1989 2526 CircleF
+0.300 UP
+3854 661 CircleF
+0.300 UP
+1986 2529 CircleF
+0.300 UP
+3857 658 CircleF
+0.300 UP
+1983 2532 CircleF
+0.300 UP
+3860 655 CircleF
+0.300 UP
+1980 2535 CircleF
+0.300 UP
+3863 652 CircleF
+0.300 UP
+1977 2538 CircleF
+0.300 UP
+3866 649 CircleF
+0.300 UP
+1974 2541 CircleF
+0.300 UP
+3880 632 CircleF
+0.300 UP
+1957 2555 CircleF
+0.300 UP
+3883 629 CircleF
+0.300 UP
+1954 2558 CircleF
+0.300 UP
+3886 626 CircleF
+0.300 UP
+1951 2561 CircleF
+0.300 UP
+3889 623 CircleF
+0.300 UP
+1948 2564 CircleF
+0.300 UP
+3895 617 CircleF
+0.300 UP
+1942 2570 CircleF
+0.300 UP
+3898 614 CircleF
+0.300 UP
+1939 2573 CircleF
+0.300 UP
+3901 611 CircleF
+0.300 UP
+1936 2576 CircleF
+0.300 UP
+3904 609 CircleF
+0.300 UP
+1934 2579 CircleF
+0.300 UP
+3907 606 CircleF
+0.300 UP
+1931 2582 CircleF
+0.300 UP
+3912 600 CircleF
+0.300 UP
+1925 2587 CircleF
+0.300 UP
+3915 597 CircleF
+0.300 UP
+1922 2590 CircleF
+0.300 UP
+3918 594 CircleF
+0.300 UP
+1919 2593 CircleF
+0.300 UP
+3921 585 CircleF
+0.300 UP
+1910 2596 CircleF
+0.300 UP
+3924 582 CircleF
+0.300 UP
+1907 2599 CircleF
+0.300 UP
+3927 579 CircleF
+0.300 UP
+1904 2602 CircleF
+0.300 UP
+3930 576 CircleF
+0.300 UP
+1901 2605 CircleF
+0.300 UP
+3933 574 CircleF
+0.300 UP
+1899 2608 CircleF
+0.300 UP
+3942 565 CircleF
+0.300 UP
+1890 2617 CircleF
+0.300 UP
+3945 562 CircleF
+0.300 UP
+1887 2620 CircleF
+0.300 UP
+3950 559 CircleF
+0.300 UP
+1884 2625 CircleF
+0.300 UP
+3953 556 CircleF
+0.300 UP
+1881 2628 CircleF
+0.300 UP
+3956 553 CircleF
+0.300 UP
+1878 2631 CircleF
+0.300 UP
+3959 550 CircleF
+0.300 UP
+1875 2634 CircleF
+0.300 UP
+3962 547 CircleF
+0.300 UP
+1872 2637 CircleF
+0.300 UP
+3965 544 CircleF
+0.300 UP
+1869 2640 CircleF
+0.300 UP
+3974 533 CircleF
+0.300 UP
+1858 2649 CircleF
+0.300 UP
+3977 530 CircleF
+0.300 UP
+1855 2652 CircleF
+0.300 UP
+3980 527 CircleF
+0.300 UP
+1852 2655 CircleF
+0.300 UP
+3983 524 CircleF
+0.300 UP
+1849 2658 CircleF
+0.300 UP
+3985 521 CircleF
+0.300 UP
+1846 2660 CircleF
+0.300 UP
+3988 518 CircleF
+0.300 UP
+1843 2663 CircleF
+0.300 UP
+3991 515 CircleF
+0.300 UP
+1840 2666 CircleF
+0.300 UP
+3997 512 CircleF
+0.300 UP
+1837 2672 CircleF
+0.300 UP
+4000 509 CircleF
+0.300 UP
+1834 2675 CircleF
+0.300 UP
+4003 506 CircleF
+0.300 UP
+1831 2678 CircleF
+0.300 UP
+4009 501 CircleF
+0.300 UP
+1826 2684 CircleF
+0.300 UP
+4012 498 CircleF
+0.300 UP
+1823 2687 CircleF
+0.300 UP
+4015 495 CircleF
+0.300 UP
+1820 2690 CircleF
+0.300 UP
+4018 492 CircleF
+0.300 UP
+1817 2693 CircleF
+0.300 UP
+4020 489 CircleF
+0.300 UP
+1814 2695 CircleF
+0.300 UP
+4023 480 CircleF
+0.300 UP
+1805 2698 CircleF
+0.300 UP
+4026 477 CircleF
+0.300 UP
+1802 2701 CircleF
+0.300 UP
+4029 474 CircleF
+0.300 UP
+1799 2704 CircleF
+0.300 UP
+4035 468 CircleF
+0.300 UP
+1793 2710 CircleF
+0.300 UP
+4038 466 CircleF
+0.300 UP
+1791 2713 CircleF
+0.300 UP
+4041 463 CircleF
+0.300 UP
+1788 2716 CircleF
+0.300 UP
+4044 454 CircleF
+0.300 UP
+1779 2719 CircleF
+0.300 UP
+4047 451 CircleF
+0.300 UP
+1776 2722 CircleF
+0.300 UP
+4050 448 CircleF
+0.300 UP
+1773 2725 CircleF
+0.300 UP
+4053 4619 CircleF
+0.300 UP
+5944 2728 CircleF
+0.300 UP
+4056 4616 CircleF
+0.300 UP
+5941 2731 CircleF
+0.300 UP
+4061 4613 CircleF
+0.300 UP
+5938 2736 CircleF
+0.300 UP
+4064 4610 CircleF
+0.300 UP
+5935 2739 CircleF
+0.300 UP
+4067 4607 CircleF
+0.300 UP
+5932 2742 CircleF
+0.300 UP
+4070 4604 CircleF
+0.300 UP
+5929 2745 CircleF
+0.300 UP
+4073 4601 CircleF
+0.300 UP
+5926 2748 CircleF
+0.300 UP
+4079 4596 CircleF
+0.300 UP
+5921 2754 CircleF
+0.300 UP
+4082 4593 CircleF
+0.300 UP
+5918 2757 CircleF
+0.300 UP
+4085 4590 CircleF
+0.300 UP
+5915 2760 CircleF
+0.300 UP
+4088 4587 CircleF
+0.300 UP
+5912 2763 CircleF
+0.300 UP
+4091 4584 CircleF
+0.300 UP
+5909 2766 CircleF
+0.300 UP
+4093 4581 CircleF
+0.300 UP
+5906 2768 CircleF
+0.300 UP
+4105 4569 CircleF
+0.300 UP
+5894 2780 CircleF
+0.300 UP
+4108 4566 CircleF
+0.300 UP
+5891 2783 CircleF
+0.300 UP
+4111 4564 CircleF
+0.300 UP
+5889 2786 CircleF
+0.300 UP
+4114 4561 CircleF
+0.300 UP
+5886 2789 CircleF
+0.300 UP
+4117 4555 CircleF
+0.300 UP
+5880 2792 CircleF
+0.300 UP
+4120 4552 CircleF
+0.300 UP
+5877 2795 CircleF
+0.300 UP
+4123 4549 CircleF
+0.300 UP
+5874 2798 CircleF
+0.300 UP
+4126 4546 CircleF
+0.300 UP
+5871 2801 CircleF
+0.300 UP
+4128 4543 CircleF
+0.300 UP
+5868 2803 CircleF
+0.300 UP
+4131 4540 CircleF
+0.300 UP
+5865 2806 CircleF
+0.300 UP
+4134 4537 CircleF
+0.300 UP
+5862 2809 CircleF
+0.300 UP
+4140 4534 CircleF
+0.300 UP
+5859 2815 CircleF
+0.300 UP
+4143 4531 CircleF
+0.300 UP
+5856 2818 CircleF
+0.300 UP
+4146 4529 CircleF
+0.300 UP
+5854 2821 CircleF
+0.300 UP
+4149 4523 CircleF
+0.300 UP
+5848 2824 CircleF
+0.300 UP
+4152 4520 CircleF
+0.300 UP
+5845 2827 CircleF
+0.300 UP
+4155 4517 CircleF
+0.300 UP
+5842 2830 CircleF
+0.300 UP
+4161 4514 CircleF
+0.300 UP
+5839 2836 CircleF
+0.300 UP
+4164 4511 CircleF
+0.300 UP
+5836 2839 CircleF
+0.300 UP
+4166 4508 CircleF
+0.300 UP
+5833 2841 CircleF
+0.300 UP
+4172 4502 CircleF
+0.300 UP
+5827 2847 CircleF
+0.300 UP
+4175 4499 CircleF
+0.300 UP
+5824 2850 CircleF
+0.300 UP
+4181 4493 CircleF
+0.300 UP
+5818 2856 CircleF
+0.300 UP
+4184 4491 CircleF
+0.300 UP
+5816 2859 CircleF
+0.300 UP
+4187 4488 CircleF
+0.300 UP
+5813 2862 CircleF
+0.300 UP
+4190 4485 CircleF
+0.300 UP
+5810 2865 CircleF
+0.300 UP
+4193 4482 CircleF
+0.300 UP
+5807 2868 CircleF
+0.300 UP
+4196 4479 CircleF
+0.300 UP
+5804 2871 CircleF
+0.300 UP
+4199 4476 CircleF
+0.300 UP
+5801 2874 CircleF
+0.300 UP
+4201 4470 CircleF
+0.300 UP
+5795 2876 CircleF
+0.300 UP
+4207 4464 CircleF
+0.300 UP
+5789 2882 CircleF
+0.300 UP
+4210 4461 CircleF
+0.300 UP
+5786 2885 CircleF
+0.300 UP
+4213 4458 CircleF
+0.300 UP
+5783 2888 CircleF
+0.300 UP
+4216 4456 CircleF
+0.300 UP
+5781 2891 CircleF
+0.300 UP
+4219 4453 CircleF
+0.300 UP
+5778 2894 CircleF
+0.300 UP
+4225 4447 CircleF
+0.300 UP
+5772 2900 CircleF
+0.300 UP
+4228 4444 CircleF
+0.300 UP
+5769 2903 CircleF
+0.300 UP
+4231 4441 CircleF
+0.300 UP
+5766 2906 CircleF
+0.300 UP
+4234 4438 CircleF
+0.300 UP
+5763 2909 CircleF
+0.300 UP
+4236 4432 CircleF
+0.300 UP
+5757 2911 CircleF
+0.300 UP
+4242 4426 CircleF
+0.300 UP
+5751 2917 CircleF
+0.300 UP
+4245 4423 CircleF
+0.300 UP
+5748 2920 CircleF
+0.300 UP
+4248 4421 CircleF
+0.300 UP
+5746 2923 CircleF
+0.300 UP
+4251 4418 CircleF
+0.300 UP
+5743 2926 CircleF
+0.300 UP
+4266 4409 CircleF
+0.300 UP
+5734 2941 CircleF
+0.300 UP
+4269 4406 CircleF
+0.300 UP
+5731 2944 CircleF
+0.300 UP
+4272 4403 CircleF
+0.300 UP
+5728 2947 CircleF
+0.300 UP
+4277 4394 CircleF
+0.300 UP
+5719 2952 CircleF
+0.300 UP
+4280 4391 CircleF
+0.300 UP
+5716 2955 CircleF
+0.300 UP
+4283 4388 CircleF
+0.300 UP
+5713 2958 CircleF
+0.300 UP
+4286 4385 CircleF
+0.300 UP
+5710 2961 CircleF
+0.300 UP
+4292 4383 CircleF
+0.300 UP
+5708 2967 CircleF
+0.300 UP
+4298 4377 CircleF
+0.300 UP
+5702 2973 CircleF
+0.300 UP
+4301 4374 CircleF
+0.300 UP
+5699 2976 CircleF
+0.300 UP
+4304 4371 CircleF
+0.300 UP
+5696 2979 CircleF
+0.300 UP
+4307 4368 CircleF
+0.300 UP
+5693 2982 CircleF
+0.300 UP
+4309 4365 CircleF
+0.300 UP
+5690 2984 CircleF
+0.300 UP
+4312 4362 CircleF
+0.300 UP
+5687 2987 CircleF
+0.300 UP
+4324 4353 CircleF
+0.300 UP
+5678 2999 CircleF
+0.300 UP
+4327 4350 CircleF
+0.300 UP
+5675 3002 CircleF
+0.300 UP
+4330 4348 CircleF
+0.300 UP
+5673 3005 CircleF
+0.300 UP
+4333 4345 CircleF
+0.300 UP
+5670 3008 CircleF
+0.300 UP
+4347 4330 CircleF
+0.300 UP
+5655 3022 CircleF
+0.300 UP
+4350 4327 CircleF
+0.300 UP
+5652 3025 CircleF
+0.300 UP
+4353 4324 CircleF
+0.300 UP
+5649 3028 CircleF
+0.300 UP
+4356 4321 CircleF
+0.300 UP
+5646 3031 CircleF
+0.300 UP
+4359 4318 CircleF
+0.300 UP
+5643 3034 CircleF
+0.300 UP
+4365 4310 CircleF
+0.300 UP
+5635 3040 CircleF
+0.300 UP
+4371 4304 CircleF
+0.300 UP
+5629 3046 CircleF
+0.300 UP
+4374 4301 CircleF
+0.300 UP
+5626 3049 CircleF
+0.300 UP
+4377 4298 CircleF
+0.300 UP
+5623 3052 CircleF
+0.300 UP
+4382 4295 CircleF
+0.300 UP
+5620 3057 CircleF
+0.300 UP
+4385 4292 CircleF
+0.300 UP
+5617 3060 CircleF
+0.300 UP
+4388 4289 CircleF
+0.300 UP
+5614 3063 CircleF
+0.300 UP
+4391 4286 CircleF
+0.300 UP
+5611 3066 CircleF
+0.300 UP
+4394 4283 CircleF
+0.300 UP
+5608 3069 CircleF
+0.300 UP
+4400 4272 CircleF
+0.300 UP
+5597 3075 CircleF
+0.300 UP
+4403 4269 CircleF
+0.300 UP
+5594 3078 CircleF
+0.300 UP
+4406 4266 CircleF
+0.300 UP
+5591 3081 CircleF
+0.300 UP
+4409 4263 CircleF
+0.300 UP
+5588 3084 CircleF
+0.300 UP
+4415 4260 CircleF
+0.300 UP
+5585 3090 CircleF
+0.300 UP
+4420 4254 CircleF
+0.300 UP
+5579 3095 CircleF
+0.300 UP
+4423 4251 CircleF
+0.300 UP
+5576 3098 CircleF
+0.300 UP
+4426 4248 CircleF
+0.300 UP
+5573 3101 CircleF
+0.300 UP
+4429 4245 CircleF
+0.300 UP
+5570 3104 CircleF
+0.300 UP
+4432 4242 CircleF
+0.300 UP
+5567 3107 CircleF
+0.300 UP
+4435 4240 CircleF
+0.300 UP
+5565 3110 CircleF
+0.300 UP
+4438 4237 CircleF
+0.300 UP
+5562 3113 CircleF
+0.300 UP
+4444 4231 CircleF
+0.300 UP
+5556 3119 CircleF
+0.300 UP
+4447 4225 CircleF
+0.300 UP
+5550 3122 CircleF
+0.300 UP
+4450 4222 CircleF
+0.300 UP
+5547 3125 CircleF
+0.300 UP
+4452 4216 CircleF
+0.300 UP
+5541 3127 CircleF
+0.300 UP
+4455 4213 CircleF
+0.300 UP
+5538 3130 CircleF
+0.300 UP
+4458 4210 CircleF
+0.300 UP
+5535 3133 CircleF
+0.300 UP
+4461 4207 CircleF
+0.300 UP
+5532 3136 CircleF
+0.300 UP
+4464 4205 CircleF
+0.300 UP
+5530 3139 CircleF
+0.300 UP
+4467 4202 CircleF
+0.300 UP
+5527 3142 CircleF
+0.300 UP
+4470 4199 CircleF
+0.300 UP
+5524 3145 CircleF
+0.300 UP
+4473 4196 CircleF
+0.300 UP
+5521 3148 CircleF
+0.300 UP
+4476 4193 CircleF
+0.300 UP
+5518 3151 CircleF
+0.300 UP
+4479 4190 CircleF
+0.300 UP
+5515 3154 CircleF
+0.300 UP
+4482 4184 CircleF
+0.300 UP
+5509 3157 CircleF
+0.300 UP
+4485 4181 CircleF
+0.300 UP
+5506 3160 CircleF
+0.300 UP
+4496 4175 CircleF
+0.300 UP
+5500 3171 CircleF
+0.300 UP
+4499 4172 CircleF
+0.300 UP
+5497 3174 CircleF
+0.300 UP
+4502 4170 CircleF
+0.300 UP
+5495 3177 CircleF
+0.300 UP
+4505 4167 CircleF
+0.300 UP
+5492 3180 CircleF
+0.300 UP
+4508 4164 CircleF
+0.300 UP
+5489 3183 CircleF
+0.300 UP
+4511 4155 CircleF
+0.300 UP
+5480 3186 CircleF
+0.300 UP
+4514 4152 CircleF
+0.300 UP
+5477 3189 CircleF
+0.300 UP
+4517 4149 CircleF
+0.300 UP
+5474 3192 CircleF
+0.300 UP
+4520 4146 CircleF
+0.300 UP
+5471 3195 CircleF
+0.300 UP
+4528 4140 CircleF
+0.300 UP
+5465 3203 CircleF
+0.300 UP
+4531 4137 CircleF
+0.300 UP
+5462 3206 CircleF
+0.300 UP
+4534 4134 CircleF
+0.300 UP
+5459 3209 CircleF
+0.300 UP
+4537 4132 CircleF
+0.300 UP
+5457 3212 CircleF
+0.300 UP
+4540 4129 CircleF
+0.300 UP
+5454 3215 CircleF
+0.300 UP
+4543 4126 CircleF
+0.300 UP
+5451 3218 CircleF
+0.300 UP
+4546 4123 CircleF
+0.300 UP
+5448 3221 CircleF
+0.300 UP
+4552 4117 CircleF
+0.300 UP
+5442 3227 CircleF
+0.300 UP
+4555 4114 CircleF
+0.300 UP
+5439 3230 CircleF
+0.300 UP
+4563 4108 CircleF
+0.300 UP
+5433 3238 CircleF
+0.300 UP
+4566 4105 CircleF
+0.300 UP
+5430 3241 CircleF
+0.300 UP
+4569 4102 CircleF
+0.300 UP
+5427 3244 CircleF
+0.300 UP
+4572 4099 CircleF
+0.300 UP
+5424 3247 CircleF
+0.300 UP
+4578 4094 CircleF
+0.300 UP
+5419 3253 CircleF
+0.300 UP
+4581 4091 CircleF
+0.300 UP
+5416 3256 CircleF
+0.300 UP
+4584 4088 CircleF
+0.300 UP
+5413 3259 CircleF
+0.300 UP
+4587 4085 CircleF
+0.300 UP
+5410 3262 CircleF
+0.300 UP
+4593 4082 CircleF
+0.300 UP
+5407 3268 CircleF
+0.300 UP
+4596 4079 CircleF
+0.300 UP
+5404 3271 CircleF
+0.300 UP
+4601 4070 CircleF
+0.300 UP
+5395 3276 CircleF
+0.300 UP
+4604 4067 CircleF
+0.300 UP
+5392 3279 CircleF
+0.300 UP
+4607 4064 CircleF
+0.300 UP
+5389 3282 CircleF
+0.300 UP
+4610 4062 CircleF
+0.300 UP
+5387 3285 CircleF
+0.300 UP
+4613 4059 CircleF
+0.300 UP
+5384 3288 CircleF
+0.300 UP
+4622 4053 CircleF
+0.300 UP
+5378 3297 CircleF
+0.300 UP
+4625 4050 CircleF
+0.300 UP
+5375 3300 CircleF
+0.300 UP
+4628 4047 CircleF
+0.300 UP
+5372 3303 CircleF
+0.300 UP
+4631 4044 CircleF
+0.300 UP
+5369 3306 CircleF
+0.300 UP
+4633 4041 CircleF
+0.300 UP
+5366 3308 CircleF
+0.300 UP
+4636 4038 CircleF
+0.300 UP
+5363 3311 CircleF
+0.300 UP
+4645 4029 CircleF
+0.300 UP
+5354 3320 CircleF
+0.300 UP
+4654 4021 CircleF
+0.300 UP
+5346 3329 CircleF
+0.300 UP
+4657 4018 CircleF
+0.300 UP
+5343 3332 CircleF
+0.300 UP
+4660 4015 CircleF
+0.300 UP
+5340 3335 CircleF
+0.300 UP
+4663 4012 CircleF
+0.300 UP
+5337 3338 CircleF
+0.300 UP
+4666 4009 CircleF
+0.300 UP
+5334 3341 CircleF
+0.300 UP
+4671 4003 CircleF
+0.300 UP
+5328 3346 CircleF
+0.300 UP
+4674 4000 CircleF
+0.300 UP
+5325 3349 CircleF
+0.300 UP
+4677 3997 CircleF
+0.300 UP
+5322 3352 CircleF
+0.300 UP
+4680 3994 CircleF
+0.300 UP
+5319 3355 CircleF
+0.300 UP
+4683 3991 CircleF
+0.300 UP
+5316 3358 CircleF
+0.300 UP
+4686 3989 CircleF
+0.300 UP
+5314 3361 CircleF
+0.300 UP
+4689 3983 CircleF
+0.300 UP
+5308 3364 CircleF
+0.300 UP
+4692 3980 CircleF
+0.300 UP
+5305 3367 CircleF
+0.300 UP
+4695 3977 CircleF
+0.300 UP
+5302 3370 CircleF
+0.300 UP
+4698 3974 CircleF
+0.300 UP
+5299 3373 CircleF
+0.300 UP
+4703 3971 CircleF
+0.300 UP
+5296 3378 CircleF
+0.300 UP
+4712 3962 CircleF
+0.300 UP
+5287 3387 CircleF
+0.300 UP
+4715 3959 CircleF
+0.300 UP
+5284 3390 CircleF
+0.300 UP
+4718 3956 CircleF
+0.300 UP
+5281 3393 CircleF
+0.300 UP
+4721 3954 CircleF
+0.300 UP
+5279 3396 CircleF
+0.300 UP
+4724 3951 CircleF
+0.300 UP
+5276 3399 CircleF
+0.300 UP
+4727 3948 CircleF
+0.300 UP
+5273 3402 CircleF
+0.300 UP
+4733 3942 CircleF
+0.300 UP
+5267 3408 CircleF
+0.300 UP
+4736 3939 CircleF
+0.300 UP
+5264 3411 CircleF
+0.300 UP
+4739 3936 CircleF
+0.300 UP
+5261 3414 CircleF
+0.300 UP
+4741 3933 CircleF
+0.300 UP
+5258 3416 CircleF
+0.300 UP
+4744 3930 CircleF
+0.300 UP
+5255 3419 CircleF
+0.300 UP
+4747 3924 CircleF
+0.300 UP
+5249 3422 CircleF
+0.300 UP
+4750 3921 CircleF
+0.300 UP
+5246 3425 CircleF
+0.300 UP
+4753 3918 CircleF
+0.300 UP
+5243 3428 CircleF
+0.300 UP
+4765 3907 CircleF
+0.300 UP
+5232 3440 CircleF
+0.300 UP
+4768 3904 CircleF
+0.300 UP
+5229 3443 CircleF
+0.300 UP
+4771 3901 CircleF
+0.300 UP
+5226 3446 CircleF
+0.300 UP
+4776 3889 CircleF
+0.300 UP
+5214 3451 CircleF
+0.300 UP
+4779 3886 CircleF
+0.300 UP
+5211 3454 CircleF
+0.300 UP
+4782 3883 CircleF
+0.300 UP
+5208 3457 CircleF
+0.300 UP
+4785 3881 CircleF
+0.300 UP
+5206 3460 CircleF
+0.300 UP
+4791 3875 CircleF
+0.300 UP
+5200 3466 CircleF
+0.300 UP
+4794 3872 CircleF
+0.300 UP
+5197 3469 CircleF
+0.300 UP
+4797 3869 CircleF
+0.300 UP
+5194 3472 CircleF
+0.300 UP
+4800 3866 CircleF
+0.300 UP
+5191 3475 CircleF
+0.300 UP
+4803 3860 CircleF
+0.300 UP
+5185 3478 CircleF
+0.300 UP
+4806 3857 CircleF
+0.300 UP
+5182 3481 CircleF
+0.300 UP
+4811 3854 CircleF
+0.300 UP
+5179 3486 CircleF
+0.300 UP
+4817 3851 CircleF
+0.300 UP
+5176 3492 CircleF
+0.300 UP
+4820 3848 CircleF
+0.300 UP
+5173 3495 CircleF
+0.300 UP
+4823 3846 CircleF
+0.300 UP
+5171 3498 CircleF
+0.300 UP
+4826 3843 CircleF
+0.300 UP
+5168 3501 CircleF
+0.300 UP
+4829 3840 CircleF
+0.300 UP
+5165 3504 CircleF
+0.300 UP
+4832 3837 CircleF
+0.300 UP
+5162 3507 CircleF
+0.300 UP
+4838 3831 CircleF
+0.300 UP
+5156 3513 CircleF
+0.300 UP
+4841 3828 CircleF
+0.300 UP
+5153 3516 CircleF
+0.300 UP
+4844 3825 CircleF
+0.300 UP
+5150 3519 CircleF
+0.300 UP
+4847 3822 CircleF
+0.300 UP
+5147 3522 CircleF
+0.300 UP
+4849 3819 CircleF
+0.300 UP
+5144 3524 CircleF
+0.300 UP
+4864 3810 CircleF
+0.300 UP
+5135 3539 CircleF
+0.300 UP
+4867 3808 CircleF
+0.300 UP
+5133 3542 CircleF
+0.300 UP
+4870 3805 CircleF
+0.300 UP
+5130 3545 CircleF
+0.300 UP
+4873 3802 CircleF
+0.300 UP
+5127 3548 CircleF
+0.300 UP
+4876 3799 CircleF
+0.300 UP
+5124 3551 CircleF
+0.300 UP
+4879 3796 CircleF
+0.300 UP
+5121 3554 CircleF
+0.300 UP
+4884 3790 CircleF
+0.300 UP
+5115 3559 CircleF
+0.300 UP
+4887 3787 CircleF
+0.300 UP
+5112 3562 CircleF
+0.300 UP
+4890 3784 CircleF
+0.300 UP
+5109 3565 CircleF
+0.300 UP
+4905 3770 CircleF
+0.300 UP
+5095 3580 CircleF
+0.300 UP
+4908 3767 CircleF
+0.300 UP
+5092 3583 CircleF
+0.300 UP
+4911 3764 CircleF
+0.300 UP
+5089 3586 CircleF
+0.300 UP
+4914 3761 CircleF
+0.300 UP
+5086 3589 CircleF
+0.300 UP
+4917 3758 CircleF
+0.300 UP
+5083 3592 CircleF
+0.300 UP
+4919 3755 CircleF
+0.300 UP
+5080 3594 CircleF
+0.300 UP
+4922 3752 CircleF
+0.300 UP
+5077 3597 CircleF
+0.300 UP
+4925 3749 CircleF
+0.300 UP
+5074 3600 CircleF
+0.300 UP
+4928 3746 CircleF
+0.300 UP
+5071 3603 CircleF
+0.300 UP
+4931 3740 CircleF
+0.300 UP
+5065 3606 CircleF
+0.300 UP
+4934 3738 CircleF
+0.300 UP
+5063 3609 CircleF
+0.300 UP
+4937 3735 CircleF
+0.300 UP
+5060 3612 CircleF
+0.300 UP
+4940 3732 CircleF
+0.300 UP
+5057 3615 CircleF
+0.300 UP
+4943 3729 CircleF
+0.300 UP
+5054 3618 CircleF
+0.300 UP
+4957 3726 CircleF
+0.300 UP
+5051 3632 CircleF
+0.300 UP
+4960 3723 CircleF
+0.300 UP
+5048 3635 CircleF
+0.300 UP
+4963 3720 CircleF
+0.300 UP
+5045 3638 CircleF
+0.300 UP
+4969 3714 CircleF
+0.300 UP
+5039 3644 CircleF
+0.300 UP
+4972 3711 CircleF
+0.300 UP
+5036 3647 CircleF
+0.300 UP
+4975 3708 CircleF
+0.300 UP
+5033 3650 CircleF
+0.300 UP
+4978 3705 CircleF
+0.300 UP
+5030 3653 CircleF
+0.300 UP
+4987 3694 CircleF
+0.300 UP
+5019 3662 CircleF
+0.300 UP
+4990 3691 CircleF
+0.300 UP
+5016 3665 CircleF
+0.300 UP
+4992 3688 CircleF
+0.300 UP
+5013 3667 CircleF
+0.300 UP
+4995 3685 CircleF
+0.300 UP
+5010 3670 CircleF
+0.300 UP
+5010 3670 CircleF
+0.300 UP
+4995 3685 CircleF
+0.300 UP
+5013 3667 CircleF
+0.300 UP
+4992 3688 CircleF
+0.300 UP
+5016 3665 CircleF
+0.300 UP
+4990 3691 CircleF
+0.300 UP
+5019 3662 CircleF
+0.300 UP
+4987 3694 CircleF
+0.300 UP
+5030 3653 CircleF
+0.300 UP
+4978 3705 CircleF
+0.300 UP
+5033 3650 CircleF
+0.300 UP
+4975 3708 CircleF
+0.300 UP
+5036 3647 CircleF
+0.300 UP
+4972 3711 CircleF
+0.300 UP
+5039 3644 CircleF
+0.300 UP
+4969 3714 CircleF
+0.300 UP
+5045 3638 CircleF
+0.300 UP
+4963 3720 CircleF
+0.300 UP
+5048 3635 CircleF
+0.300 UP
+4960 3723 CircleF
+0.300 UP
+5051 3632 CircleF
+0.300 UP
+4957 3726 CircleF
+0.300 UP
+5054 3618 CircleF
+0.300 UP
+4943 3729 CircleF
+0.300 UP
+5057 3615 CircleF
+0.300 UP
+4940 3732 CircleF
+0.300 UP
+5060 3612 CircleF
+0.300 UP
+4937 3735 CircleF
+0.300 UP
+5063 3609 CircleF
+0.300 UP
+4934 3738 CircleF
+0.300 UP
+5065 3606 CircleF
+0.300 UP
+4931 3740 CircleF
+0.300 UP
+5071 3603 CircleF
+0.300 UP
+4928 3746 CircleF
+0.300 UP
+5074 3600 CircleF
+0.300 UP
+4925 3749 CircleF
+0.300 UP
+5077 3597 CircleF
+0.300 UP
+4922 3752 CircleF
+0.300 UP
+5080 3594 CircleF
+0.300 UP
+4919 3755 CircleF
+0.300 UP
+5083 3592 CircleF
+0.300 UP
+4917 3758 CircleF
+0.300 UP
+5086 3589 CircleF
+0.300 UP
+4914 3761 CircleF
+0.300 UP
+5089 3586 CircleF
+0.300 UP
+4911 3764 CircleF
+0.300 UP
+5092 3583 CircleF
+0.300 UP
+4908 3767 CircleF
+0.300 UP
+5095 3580 CircleF
+0.300 UP
+4905 3770 CircleF
+0.300 UP
+5109 3565 CircleF
+0.300 UP
+4890 3784 CircleF
+0.300 UP
+5112 3562 CircleF
+0.300 UP
+4887 3787 CircleF
+0.300 UP
+5115 3559 CircleF
+0.300 UP
+4884 3790 CircleF
+0.300 UP
+5121 3554 CircleF
+0.300 UP
+4879 3796 CircleF
+0.300 UP
+5124 3551 CircleF
+0.300 UP
+4876 3799 CircleF
+0.300 UP
+5127 3548 CircleF
+0.300 UP
+4873 3802 CircleF
+0.300 UP
+5130 3545 CircleF
+0.300 UP
+4870 3805 CircleF
+0.300 UP
+5133 3542 CircleF
+0.300 UP
+4867 3808 CircleF
+0.300 UP
+5135 3539 CircleF
+0.300 UP
+4864 3810 CircleF
+0.300 UP
+5144 3524 CircleF
+0.300 UP
+4849 3819 CircleF
+0.300 UP
+5147 3522 CircleF
+0.300 UP
+4847 3822 CircleF
+0.300 UP
+5150 3519 CircleF
+0.300 UP
+4844 3825 CircleF
+0.300 UP
+5153 3516 CircleF
+0.300 UP
+4841 3828 CircleF
+0.300 UP
+5156 3513 CircleF
+0.300 UP
+4838 3831 CircleF
+0.300 UP
+5162 3507 CircleF
+0.300 UP
+4832 3837 CircleF
+0.300 UP
+5165 3504 CircleF
+0.300 UP
+4829 3840 CircleF
+0.300 UP
+5168 3501 CircleF
+0.300 UP
+4826 3843 CircleF
+0.300 UP
+5171 3498 CircleF
+0.300 UP
+4823 3846 CircleF
+0.300 UP
+5173 3495 CircleF
+0.300 UP
+4820 3848 CircleF
+0.300 UP
+5176 3492 CircleF
+0.300 UP
+4817 3851 CircleF
+0.300 UP
+5179 3486 CircleF
+0.300 UP
+4811 3854 CircleF
+0.300 UP
+5182 3481 CircleF
+0.300 UP
+4806 3857 CircleF
+0.300 UP
+5185 3478 CircleF
+0.300 UP
+4803 3860 CircleF
+0.300 UP
+5191 3475 CircleF
+0.300 UP
+4800 3866 CircleF
+0.300 UP
+5194 3472 CircleF
+0.300 UP
+4797 3869 CircleF
+0.300 UP
+5197 3469 CircleF
+0.300 UP
+4794 3872 CircleF
+0.300 UP
+5200 3466 CircleF
+0.300 UP
+4791 3875 CircleF
+0.300 UP
+5206 3460 CircleF
+0.300 UP
+4785 3881 CircleF
+0.300 UP
+5208 3457 CircleF
+0.300 UP
+4782 3883 CircleF
+0.300 UP
+5211 3454 CircleF
+0.300 UP
+4779 3886 CircleF
+0.300 UP
+5214 3451 CircleF
+0.300 UP
+4776 3889 CircleF
+0.300 UP
+5226 3446 CircleF
+0.300 UP
+4771 3901 CircleF
+0.300 UP
+5229 3443 CircleF
+0.300 UP
+4768 3904 CircleF
+0.300 UP
+5232 3440 CircleF
+0.300 UP
+4765 3907 CircleF
+0.300 UP
+5243 3428 CircleF
+0.300 UP
+4753 3918 CircleF
+0.300 UP
+5246 3425 CircleF
+0.300 UP
+4750 3921 CircleF
+0.300 UP
+5249 3422 CircleF
+0.300 UP
+4747 3924 CircleF
+0.300 UP
+5255 3419 CircleF
+0.300 UP
+4744 3930 CircleF
+0.300 UP
+5258 3416 CircleF
+0.300 UP
+4741 3933 CircleF
+0.300 UP
+5261 3414 CircleF
+0.300 UP
+4739 3936 CircleF
+0.300 UP
+5264 3411 CircleF
+0.300 UP
+4736 3939 CircleF
+0.300 UP
+5267 3408 CircleF
+0.300 UP
+4733 3942 CircleF
+0.300 UP
+5273 3402 CircleF
+0.300 UP
+4727 3948 CircleF
+0.300 UP
+5276 3399 CircleF
+0.300 UP
+4724 3951 CircleF
+0.300 UP
+5279 3396 CircleF
+0.300 UP
+4721 3954 CircleF
+0.300 UP
+5281 3393 CircleF
+0.300 UP
+4718 3956 CircleF
+0.300 UP
+5284 3390 CircleF
+0.300 UP
+4715 3959 CircleF
+0.300 UP
+5287 3387 CircleF
+0.300 UP
+4712 3962 CircleF
+0.300 UP
+5296 3378 CircleF
+0.300 UP
+4703 3971 CircleF
+0.300 UP
+5299 3373 CircleF
+0.300 UP
+4698 3974 CircleF
+0.300 UP
+5302 3370 CircleF
+0.300 UP
+4695 3977 CircleF
+0.300 UP
+5305 3367 CircleF
+0.300 UP
+4692 3980 CircleF
+0.300 UP
+5308 3364 CircleF
+0.300 UP
+4689 3983 CircleF
+0.300 UP
+5314 3361 CircleF
+0.300 UP
+4686 3989 CircleF
+0.300 UP
+5316 3358 CircleF
+0.300 UP
+4683 3991 CircleF
+0.300 UP
+5319 3355 CircleF
+0.300 UP
+4680 3994 CircleF
+0.300 UP
+5322 3352 CircleF
+0.300 UP
+4677 3997 CircleF
+0.300 UP
+5325 3349 CircleF
+0.300 UP
+4674 4000 CircleF
+0.300 UP
+5328 3346 CircleF
+0.300 UP
+4671 4003 CircleF
+0.300 UP
+5334 3341 CircleF
+0.300 UP
+4666 4009 CircleF
+0.300 UP
+5337 3338 CircleF
+0.300 UP
+4663 4012 CircleF
+0.300 UP
+5340 3335 CircleF
+0.300 UP
+4660 4015 CircleF
+0.300 UP
+5343 3332 CircleF
+0.300 UP
+4657 4018 CircleF
+0.300 UP
+5346 3329 CircleF
+0.300 UP
+4654 4021 CircleF
+0.300 UP
+5354 3320 CircleF
+0.300 UP
+4645 4029 CircleF
+0.300 UP
+5363 3311 CircleF
+0.300 UP
+4636 4038 CircleF
+0.300 UP
+5366 3308 CircleF
+0.300 UP
+4633 4041 CircleF
+0.300 UP
+5369 3306 CircleF
+0.300 UP
+4631 4044 CircleF
+0.300 UP
+5372 3303 CircleF
+0.300 UP
+4628 4047 CircleF
+0.300 UP
+5375 3300 CircleF
+0.300 UP
+4625 4050 CircleF
+0.300 UP
+5378 3297 CircleF
+0.300 UP
+4622 4053 CircleF
+0.300 UP
+5384 3288 CircleF
+0.300 UP
+4613 4059 CircleF
+0.300 UP
+5387 3285 CircleF
+0.300 UP
+4610 4062 CircleF
+0.300 UP
+5389 3282 CircleF
+0.300 UP
+4607 4064 CircleF
+0.300 UP
+5392 3279 CircleF
+0.300 UP
+4604 4067 CircleF
+0.300 UP
+5395 3276 CircleF
+0.300 UP
+4601 4070 CircleF
+0.300 UP
+5404 3271 CircleF
+0.300 UP
+4596 4079 CircleF
+0.300 UP
+5407 3268 CircleF
+0.300 UP
+4593 4082 CircleF
+0.300 UP
+5410 3262 CircleF
+0.300 UP
+4587 4085 CircleF
+0.300 UP
+5413 3259 CircleF
+0.300 UP
+4584 4088 CircleF
+0.300 UP
+5416 3256 CircleF
+0.300 UP
+4581 4091 CircleF
+0.300 UP
+5419 3253 CircleF
+0.300 UP
+4578 4094 CircleF
+0.300 UP
+5424 3247 CircleF
+0.300 UP
+4572 4099 CircleF
+0.300 UP
+5427 3244 CircleF
+0.300 UP
+4569 4102 CircleF
+0.300 UP
+5430 3241 CircleF
+0.300 UP
+4566 4105 CircleF
+0.300 UP
+5433 3238 CircleF
+0.300 UP
+4563 4108 CircleF
+0.300 UP
+5439 3230 CircleF
+0.300 UP
+4555 4114 CircleF
+0.300 UP
+5442 3227 CircleF
+0.300 UP
+4552 4117 CircleF
+0.300 UP
+5448 3221 CircleF
+0.300 UP
+4546 4123 CircleF
+0.300 UP
+5451 3218 CircleF
+0.300 UP
+4543 4126 CircleF
+0.300 UP
+5454 3215 CircleF
+0.300 UP
+4540 4129 CircleF
+0.300 UP
+5457 3212 CircleF
+0.300 UP
+4537 4132 CircleF
+0.300 UP
+5459 3209 CircleF
+0.300 UP
+4534 4134 CircleF
+0.300 UP
+5462 3206 CircleF
+0.300 UP
+4531 4137 CircleF
+0.300 UP
+5465 3203 CircleF
+0.300 UP
+4528 4140 CircleF
+0.300 UP
+5471 3195 CircleF
+0.300 UP
+4520 4146 CircleF
+0.300 UP
+5474 3192 CircleF
+0.300 UP
+4517 4149 CircleF
+0.300 UP
+5477 3189 CircleF
+0.300 UP
+4514 4152 CircleF
+0.300 UP
+5480 3186 CircleF
+0.300 UP
+4511 4155 CircleF
+0.300 UP
+5489 3183 CircleF
+0.300 UP
+4508 4164 CircleF
+0.300 UP
+5492 3180 CircleF
+0.300 UP
+4505 4167 CircleF
+0.300 UP
+5495 3177 CircleF
+0.300 UP
+4502 4170 CircleF
+0.300 UP
+5497 3174 CircleF
+0.300 UP
+4499 4172 CircleF
+0.300 UP
+5500 3171 CircleF
+0.300 UP
+4496 4175 CircleF
+0.300 UP
+5506 3160 CircleF
+0.300 UP
+4485 4181 CircleF
+0.300 UP
+5509 3157 CircleF
+0.300 UP
+4482 4184 CircleF
+0.300 UP
+5515 3154 CircleF
+0.300 UP
+4479 4190 CircleF
+0.300 UP
+5518 3151 CircleF
+0.300 UP
+4476 4193 CircleF
+0.300 UP
+5521 3148 CircleF
+0.300 UP
+4473 4196 CircleF
+0.300 UP
+5524 3145 CircleF
+0.300 UP
+4470 4199 CircleF
+0.300 UP
+5527 3142 CircleF
+0.300 UP
+4467 4202 CircleF
+0.300 UP
+5530 3139 CircleF
+0.300 UP
+4464 4205 CircleF
+0.300 UP
+5532 3136 CircleF
+0.300 UP
+4461 4207 CircleF
+0.300 UP
+5535 3133 CircleF
+0.300 UP
+4458 4210 CircleF
+0.300 UP
+5538 3130 CircleF
+0.300 UP
+4455 4213 CircleF
+0.300 UP
+5541 3127 CircleF
+0.300 UP
+4452 4216 CircleF
+0.300 UP
+5547 3125 CircleF
+0.300 UP
+4450 4222 CircleF
+0.300 UP
+5550 3122 CircleF
+0.300 UP
+4447 4225 CircleF
+0.300 UP
+5556 3119 CircleF
+0.300 UP
+4444 4231 CircleF
+0.300 UP
+5562 3113 CircleF
+0.300 UP
+4438 4237 CircleF
+0.300 UP
+5565 3110 CircleF
+0.300 UP
+4435 4240 CircleF
+0.300 UP
+5567 3107 CircleF
+0.300 UP
+4432 4242 CircleF
+0.300 UP
+5570 3104 CircleF
+0.300 UP
+4429 4245 CircleF
+0.300 UP
+5573 3101 CircleF
+0.300 UP
+4426 4248 CircleF
+0.300 UP
+5576 3098 CircleF
+0.300 UP
+4423 4251 CircleF
+0.300 UP
+5579 3095 CircleF
+0.300 UP
+4420 4254 CircleF
+0.300 UP
+5585 3090 CircleF
+0.300 UP
+4415 4260 CircleF
+0.300 UP
+5588 3084 CircleF
+0.300 UP
+4409 4263 CircleF
+0.300 UP
+5591 3081 CircleF
+0.300 UP
+4406 4266 CircleF
+0.300 UP
+5594 3078 CircleF
+0.300 UP
+4403 4269 CircleF
+0.300 UP
+5597 3075 CircleF
+0.300 UP
+4400 4272 CircleF
+0.300 UP
+5608 3069 CircleF
+0.300 UP
+4394 4283 CircleF
+0.300 UP
+5611 3066 CircleF
+0.300 UP
+4391 4286 CircleF
+0.300 UP
+5614 3063 CircleF
+0.300 UP
+4388 4289 CircleF
+0.300 UP
+5617 3060 CircleF
+0.300 UP
+4385 4292 CircleF
+0.300 UP
+5620 3057 CircleF
+0.300 UP
+4382 4295 CircleF
+0.300 UP
+5623 3052 CircleF
+0.300 UP
+4377 4298 CircleF
+0.300 UP
+5626 3049 CircleF
+0.300 UP
+4374 4301 CircleF
+0.300 UP
+5629 3046 CircleF
+0.300 UP
+4371 4304 CircleF
+0.300 UP
+5635 3040 CircleF
+0.300 UP
+4365 4310 CircleF
+0.300 UP
+5643 3034 CircleF
+0.300 UP
+4359 4318 CircleF
+0.300 UP
+5646 3031 CircleF
+0.300 UP
+4356 4321 CircleF
+0.300 UP
+5649 3028 CircleF
+0.300 UP
+4353 4324 CircleF
+0.300 UP
+5652 3025 CircleF
+0.300 UP
+4350 4327 CircleF
+0.300 UP
+5655 3022 CircleF
+0.300 UP
+4347 4330 CircleF
+0.300 UP
+5670 3008 CircleF
+0.300 UP
+4333 4345 CircleF
+0.300 UP
+5673 3005 CircleF
+0.300 UP
+4330 4348 CircleF
+0.300 UP
+5675 3002 CircleF
+0.300 UP
+4327 4350 CircleF
+0.300 UP
+5678 2999 CircleF
+0.300 UP
+4324 4353 CircleF
+0.300 UP
+5687 2987 CircleF
+0.300 UP
+4312 4362 CircleF
+0.300 UP
+5690 2984 CircleF
+0.300 UP
+4309 4365 CircleF
+0.300 UP
+5693 2982 CircleF
+0.300 UP
+4307 4368 CircleF
+0.300 UP
+5696 2979 CircleF
+0.300 UP
+4304 4371 CircleF
+0.300 UP
+5699 2976 CircleF
+0.300 UP
+4301 4374 CircleF
+0.300 UP
+5702 2973 CircleF
+0.300 UP
+4298 4377 CircleF
+0.300 UP
+5708 2967 CircleF
+0.300 UP
+4292 4383 CircleF
+0.300 UP
+5710 2961 CircleF
+0.300 UP
+4286 4385 CircleF
+0.300 UP
+5713 2958 CircleF
+0.300 UP
+4283 4388 CircleF
+0.300 UP
+5716 2955 CircleF
+0.300 UP
+4280 4391 CircleF
+0.300 UP
+5719 2952 CircleF
+0.300 UP
+4277 4394 CircleF
+0.300 UP
+5728 2947 CircleF
+0.300 UP
+4272 4403 CircleF
+0.300 UP
+5731 2944 CircleF
+0.300 UP
+4269 4406 CircleF
+0.300 UP
+5734 2941 CircleF
+0.300 UP
+4266 4409 CircleF
+0.300 UP
+5743 2926 CircleF
+0.300 UP
+4251 4418 CircleF
+0.300 UP
+5746 2923 CircleF
+0.300 UP
+4248 4421 CircleF
+0.300 UP
+5748 2920 CircleF
+0.300 UP
+4245 4423 CircleF
+0.300 UP
+5751 2917 CircleF
+0.300 UP
+4242 4426 CircleF
+0.300 UP
+5757 2911 CircleF
+0.300 UP
+4236 4432 CircleF
+0.300 UP
+5763 2909 CircleF
+0.300 UP
+4234 4438 CircleF
+0.300 UP
+5766 2906 CircleF
+0.300 UP
+4231 4441 CircleF
+0.300 UP
+5769 2903 CircleF
+0.300 UP
+4228 4444 CircleF
+0.300 UP
+5772 2900 CircleF
+0.300 UP
+4225 4447 CircleF
+0.300 UP
+5778 2894 CircleF
+0.300 UP
+4219 4453 CircleF
+0.300 UP
+5781 2891 CircleF
+0.300 UP
+4216 4456 CircleF
+0.300 UP
+5783 2888 CircleF
+0.300 UP
+4213 4458 CircleF
+0.300 UP
+5786 2885 CircleF
+0.300 UP
+4210 4461 CircleF
+0.300 UP
+5789 2882 CircleF
+0.300 UP
+4207 4464 CircleF
+0.300 UP
+5795 2876 CircleF
+0.300 UP
+4201 4470 CircleF
+0.300 UP
+5801 2874 CircleF
+0.300 UP
+4199 4476 CircleF
+0.300 UP
+5804 2871 CircleF
+0.300 UP
+4196 4479 CircleF
+0.300 UP
+5807 2868 CircleF
+0.300 UP
+4193 4482 CircleF
+0.300 UP
+5810 2865 CircleF
+0.300 UP
+4190 4485 CircleF
+0.300 UP
+5813 2862 CircleF
+0.300 UP
+4187 4488 CircleF
+0.300 UP
+5816 2859 CircleF
+0.300 UP
+4184 4491 CircleF
+0.300 UP
+5818 2856 CircleF
+0.300 UP
+4181 4493 CircleF
+0.300 UP
+5824 2850 CircleF
+0.300 UP
+4175 4499 CircleF
+0.300 UP
+5827 2847 CircleF
+0.300 UP
+4172 4502 CircleF
+0.300 UP
+5833 2841 CircleF
+0.300 UP
+4166 4508 CircleF
+0.300 UP
+5836 2839 CircleF
+0.300 UP
+4164 4511 CircleF
+0.300 UP
+5839 2836 CircleF
+0.300 UP
+4161 4514 CircleF
+0.300 UP
+5842 2830 CircleF
+0.300 UP
+4155 4517 CircleF
+0.300 UP
+5845 2827 CircleF
+0.300 UP
+4152 4520 CircleF
+0.300 UP
+5848 2824 CircleF
+0.300 UP
+4149 4523 CircleF
+0.300 UP
+5854 2821 CircleF
+0.300 UP
+4146 4529 CircleF
+0.300 UP
+5856 2818 CircleF
+0.300 UP
+4143 4531 CircleF
+0.300 UP
+5859 2815 CircleF
+0.300 UP
+4140 4534 CircleF
+0.300 UP
+5862 2809 CircleF
+0.300 UP
+4134 4537 CircleF
+0.300 UP
+5865 2806 CircleF
+0.300 UP
+4131 4540 CircleF
+0.300 UP
+5868 2803 CircleF
+0.300 UP
+4128 4543 CircleF
+0.300 UP
+5871 2801 CircleF
+0.300 UP
+4126 4546 CircleF
+0.300 UP
+5874 2798 CircleF
+0.300 UP
+4123 4549 CircleF
+0.300 UP
+5877 2795 CircleF
+0.300 UP
+4120 4552 CircleF
+0.300 UP
+5880 2792 CircleF
+0.300 UP
+4117 4555 CircleF
+0.300 UP
+5886 2789 CircleF
+0.300 UP
+4114 4561 CircleF
+0.300 UP
+5889 2786 CircleF
+0.300 UP
+4111 4564 CircleF
+0.300 UP
+5891 2783 CircleF
+0.300 UP
+4108 4566 CircleF
+0.300 UP
+5894 2780 CircleF
+0.300 UP
+4105 4569 CircleF
+0.300 UP
+5906 2768 CircleF
+0.300 UP
+4093 4581 CircleF
+0.300 UP
+5909 2766 CircleF
+0.300 UP
+4091 4584 CircleF
+0.300 UP
+5912 2763 CircleF
+0.300 UP
+4088 4587 CircleF
+0.300 UP
+5915 2760 CircleF
+0.300 UP
+4085 4590 CircleF
+0.300 UP
+5918 2757 CircleF
+0.300 UP
+4082 4593 CircleF
+0.300 UP
+5921 2754 CircleF
+0.300 UP
+4079 4596 CircleF
+0.300 UP
+5926 2748 CircleF
+0.300 UP
+4073 4601 CircleF
+0.300 UP
+5929 2745 CircleF
+0.300 UP
+4070 4604 CircleF
+0.300 UP
+5932 2742 CircleF
+0.300 UP
+4067 4607 CircleF
+0.300 UP
+5935 2739 CircleF
+0.300 UP
+4064 4610 CircleF
+0.300 UP
+5938 2736 CircleF
+0.300 UP
+4061 4613 CircleF
+0.300 UP
+5941 2731 CircleF
+0.300 UP
+4056 4616 CircleF
+0.300 UP
+5944 2728 CircleF
+0.300 UP
+4053 4619 CircleF
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1773 4619 N
+0 -4171 V
+4171 0 V
+0 4171 V
+-4171 0 V
+Z stroke
+LCb setrgbcolor
+1136 2533 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 140.0 0.0 true true 0 (alignment position)]
+] -46.7 MCshow
+grestore
+/Helvetica findfont 140 scalefont setfont
+LTb
+LCb setrgbcolor
+3858 98 M
+[ [(Helvetica) 140.0 0.0 true true 0 (alignment position)]
+] -46.7 MCshow
+/Helvetica findfont 140 scalefont setfont
+LTb
+0.055 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+3858 4829 M
+(obelisk_omega.dplot) Cshow
+LTb
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

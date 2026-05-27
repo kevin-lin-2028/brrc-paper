@@ -1,0 +1,12 @@
+{
+  "tool": "crispr",
+  "n_obelisks": 5169,
+  "n_spacers": 14111,
+  "seed_k": 16,
+  "max_mismatch": 4,
+  "n_unique_hits": 0,
+  "n_obelisks_with_hit": 0,
+  "pct_obelisks_with_hit": 0.0,
+  "wall_time_s": 0.4,
+  "hits": []
+}

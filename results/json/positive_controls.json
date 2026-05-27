@@ -1,0 +1,509 @@
+{
+  "tool": "positive_controls",
+  "viroids": {
+    "n": 7,
+    "n_passing_brrc": 2,
+    "pass_pct": 28.57,
+    "rows": [
+      {
+        "id": "PSTVd_NC_002030",
+        "length": 359,
+        "frac_paired": 0.7187,
+        "sld_per100nt": 13.93,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -160.3
+      },
+      {
+        "id": "ASBVd_NC_001340",
+        "length": 270,
+        "frac_paired": 0.6667,
+        "sld_per100nt": 7.04,
+        "max_loop": 8,
+        "brrc_pass": false,
+        "mfe_kcal_per_mol": -104.4
+      },
+      {
+        "id": "HSVd_NC_001351",
+        "length": 292,
+        "frac_paired": 0.5,
+        "sld_per100nt": 8.56,
+        "max_loop": 19,
+        "brrc_pass": false,
+        "mfe_kcal_per_mol": -85.5
+      },
+      {
+        "id": "CChMVd_NC_003540",
+        "length": 281,
+        "frac_paired": 0.3488,
+        "sld_per100nt": 5.34,
+        "max_loop": 25,
+        "brrc_pass": false,
+        "mfe_kcal_per_mol": -37.8
+      },
+      {
+        "id": "CCCVd_NC_001464",
+        "length": 264,
+        "frac_paired": 0.6591,
+        "sld_per100nt": 12.88,
+        "max_loop": 18,
+        "brrc_pass": false,
+        "mfe_kcal_per_mol": -99.5
+      },
+      {
+        "id": "TASVd_NC_001553",
+        "length": 317,
+        "frac_paired": 0.6498,
+        "sld_per100nt": 11.67,
+        "max_loop": 13,
+        "brrc_pass": false,
+        "mfe_kcal_per_mol": -102.1
+      },
+      {
+        "id": "CSVd_NC_002015",
+        "length": 321,
+        "frac_paired": 0.6916,
+        "sld_per100nt": 12.77,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -129.5
+      }
+    ]
+  },
+  "delta_class": {
+    "n_attempted": 47,
+    "n_valid_folds": 47,
+    "n_passing_brrc": 47,
+    "pass_pct": 100.0,
+    "rows": [
+      {
+        "id": "OR613679.1",
+        "length": 1681,
+        "frac_paired": 0.765,
+        "sld_per100nt": 13.68,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -859.5
+      },
+      {
+        "id": "PQ673670.1",
+        "length": 1679,
+        "frac_paired": 0.7576,
+        "sld_per100nt": 12.63,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -861.1
+      },
+      {
+        "id": "OM169232.1",
+        "length": 1674,
+        "frac_paired": 0.7551,
+        "sld_per100nt": 12.84,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -844.8
+      },
+      {
+        "id": "PQ673667.1",
+        "length": 1682,
+        "frac_paired": 0.7693,
+        "sld_per100nt": 12.78,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -866.5
+      },
+      {
+        "id": "OM169250.1",
+        "length": 1670,
+        "frac_paired": 0.7605,
+        "sld_per100nt": 13.29,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -882.0
+      },
+      {
+        "id": "OR613632.1",
+        "length": 1695,
+        "frac_paired": 0.7304,
+        "sld_per100nt": 12.74,
+        "max_loop": 10,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -825.6
+      },
+      {
+        "id": "OM169230.1",
+        "length": 1674,
+        "frac_paired": 0.7563,
+        "sld_per100nt": 13.02,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -840.1
+      },
+      {
+        "id": "MT649206.1",
+        "length": 1692,
+        "frac_paired": 0.76,
+        "sld_per100nt": 12.65,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -813.5
+      },
+      {
+        "id": "BK068396.1",
+        "length": 1569,
+        "frac_paired": 0.6909,
+        "sld_per100nt": 14.79,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -671.1
+      },
+      {
+        "id": "OR613670.1",
+        "length": 1678,
+        "frac_paired": 0.7592,
+        "sld_per100nt": 13.47,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -862.5
+      },
+      {
+        "id": "OR613600.1",
+        "length": 1687,
+        "frac_paired": 0.7528,
+        "sld_per100nt": 13.1,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -862.0
+      },
+      {
+        "id": "OR613597.1",
+        "length": 1687,
+        "frac_paired": 0.7481,
+        "sld_per100nt": 13.87,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -827.1
+      },
+      {
+        "id": "OR613635.1",
+        "length": 1693,
+        "frac_paired": 0.7372,
+        "sld_per100nt": 12.58,
+        "max_loop": 12,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -847.5
+      },
+      {
+        "id": "OR613610.1",
+        "length": 1688,
+        "frac_paired": 0.7417,
+        "sld_per100nt": 12.91,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -838.7
+      },
+      {
+        "id": "OM169233.1",
+        "length": 1682,
+        "frac_paired": 0.7622,
+        "sld_per100nt": 13.5,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -864.6
+      },
+      {
+        "id": "OR613628.1",
+        "length": 1686,
+        "frac_paired": 0.758,
+        "sld_per100nt": 13.29,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -849.1
+      },
+      {
+        "id": "OR613687.1",
+        "length": 1668,
+        "frac_paired": 0.7638,
+        "sld_per100nt": 13.07,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -835.1
+      },
+      {
+        "id": "OM169228.1",
+        "length": 1675,
+        "frac_paired": 0.7439,
+        "sld_per100nt": 12.3,
+        "max_loop": 9,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -851.4
+      },
+      {
+        "id": "OM169235.1",
+        "length": 1682,
+        "frac_paired": 0.7634,
+        "sld_per100nt": 12.96,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -867.3
+      },
+      {
+        "id": "OR613699.1",
+        "length": 1672,
+        "frac_paired": 0.7572,
+        "sld_per100nt": 13.22,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -824.9
+      },
+      {
+        "id": "OR613690.1",
+        "length": 1668,
+        "frac_paired": 0.7602,
+        "sld_per100nt": 13.07,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -844.0
+      },
+      {
+        "id": "PQ673672.1",
+        "length": 1681,
+        "frac_paired": 0.7591,
+        "sld_per100nt": 12.85,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -858.0
+      },
+      {
+        "id": "OR613675.1",
+        "length": 1680,
+        "frac_paired": 0.7536,
+        "sld_per100nt": 13.15,
+        "max_loop": 10,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -866.0
+      },
+      {
+        "id": "OR613671.1",
+        "length": 1678,
+        "frac_paired": 0.758,
+        "sld_per100nt": 13.23,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -876.6
+      },
+      {
+        "id": "PQ673676.1",
+        "length": 1675,
+        "frac_paired": 0.7666,
+        "sld_per100nt": 12.9,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -872.3
+      },
+      {
+        "id": "OR613693.1",
+        "length": 1665,
+        "frac_paired": 0.7532,
+        "sld_per100nt": 13.03,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -814.9
+      },
+      {
+        "id": "OR613683.1",
+        "length": 1674,
+        "frac_paired": 0.7503,
+        "sld_per100nt": 13.68,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -824.0
+      },
+      {
+        "id": "OR613694.1",
+        "length": 1672,
+        "frac_paired": 0.7691,
+        "sld_per100nt": 12.38,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -871.8
+      },
+      {
+        "id": "OR613701.1",
+        "length": 1669,
+        "frac_paired": 0.7585,
+        "sld_per100nt": 13.0,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -863.1
+      },
+      {
+        "id": "PQ673679.1",
+        "length": 1672,
+        "frac_paired": 0.7691,
+        "sld_per100nt": 12.86,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -875.2
+      },
+      {
+        "id": "OR613598.1",
+        "length": 1684,
+        "frac_paired": 0.7553,
+        "sld_per100nt": 13.72,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -825.6
+      },
+      {
+        "id": "OR613709.1",
+        "length": 1673,
+        "frac_paired": 0.7603,
+        "sld_per100nt": 12.85,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -853.8
+      },
+      {
+        "id": "OR613625.1",
+        "length": 1691,
+        "frac_paired": 0.7499,
+        "sld_per100nt": 13.96,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -832.5
+      },
+      {
+        "id": "BK068398.1",
+        "length": 1544,
+        "frac_paired": 0.6995,
+        "sld_per100nt": 13.99,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -658.1
+      },
+      {
+        "id": "OR613659.1",
+        "length": 1694,
+        "frac_paired": 0.7403,
+        "sld_per100nt": 12.87,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -863.5
+      },
+      {
+        "id": "OR613648.1",
+        "length": 1694,
+        "frac_paired": 0.7403,
+        "sld_per100nt": 12.93,
+        "max_loop": 9,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -826.7
+      },
+      {
+        "id": "PP271993.1",
+        "length": 1675,
+        "frac_paired": 0.7475,
+        "sld_per100nt": 13.37,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -834.8
+      },
+      {
+        "id": "OR613602.1",
+        "length": 1685,
+        "frac_paired": 0.7501,
+        "sld_per100nt": 13.23,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -852.2
+      },
+      {
+        "id": "OR613596.1",
+        "length": 1686,
+        "frac_paired": 0.7533,
+        "sld_per100nt": 13.05,
+        "max_loop": 8,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -839.2
+      },
+      {
+        "id": "OM169243.1",
+        "length": 1682,
+        "frac_paired": 0.7705,
+        "sld_per100nt": 13.38,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -882.3
+      },
+      {
+        "id": "OR613696.1",
+        "length": 1669,
+        "frac_paired": 0.7705,
+        "sld_per100nt": 13.12,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -837.5
+      },
+      {
+        "id": "OR613590.1",
+        "length": 1681,
+        "frac_paired": 0.7722,
+        "sld_per100nt": 12.79,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -889.6
+      },
+      {
+        "id": "OM169240.1",
+        "length": 1684,
+        "frac_paired": 0.7601,
+        "sld_per100nt": 12.71,
+        "max_loop": 9,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -870.1
+      },
+      {
+        "id": "OR613641.1",
+        "length": 1694,
+        "frac_paired": 0.7532,
+        "sld_per100nt": 12.63,
+        "max_loop": 11,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -851.1
+      },
+      {
+        "id": "OR613713.1",
+        "length": 1678,
+        "frac_paired": 0.7485,
+        "sld_per100nt": 13.95,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -816.8
+      },
+      {
+        "id": "PQ673660.1",
+        "length": 1676,
+        "frac_paired": 0.7649,
+        "sld_per100nt": 12.95,
+        "max_loop": 6,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -892.4
+      },
+      {
+        "id": "OM169246.1",
+        "length": 1680,
+        "frac_paired": 0.7619,
+        "sld_per100nt": 13.51,
+        "max_loop": 7,
+        "brrc_pass": true,
+        "mfe_kcal_per_mol": -863.5
+      }
+    ]
+  },
+  "comparator_summary": {
+    "ob_circ_pass_pct": 88.95,
+    "viroid_pass_pct": 28.57,
+    "delta_class_pass_pct": 100.0
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "probknot_long_timeout_rescue",
+  "n_attempted_longest": 200,
+  "n_completed_longest": 200,
+  "n_pass_longest": 111,
+  "pass_pct_longest": 55.5,
+  "wall_min": 54.1
+}

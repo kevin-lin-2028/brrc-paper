@@ -1,0 +1,14 @@
+{
+  "tool": "trinuc_eulerian",
+  "n_rep": 3,
+  "n_total_shuffles": 15507,
+  "n_fallback_to_original": 0,
+  "fallback_rate_pct": 0.0,
+  "n_pass": 208,
+  "pass_pct": 1.341,
+  "wilson_95ci_pct": [
+    1.172,
+    1.535
+  ],
+  "wall_min": 17.6
+}

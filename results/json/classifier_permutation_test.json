@@ -1,0 +1,45 @@
+{
+  "tool": "classifier_permutation_test",
+  "n_permutations": 500,
+  "n_pos_obelisk": 500,
+  "n_neg_hdv": 47,
+  "n_neg_viroid": 2,
+  "n_neg_srp": 12,
+  "full_9feat": {
+    "observed_cv5_auc": 1.0,
+    "null_mean": 0.5729,
+    "null_sd": 0.0276,
+    "null_p5": 0.5361,
+    "null_p95": 0.6226,
+    "null_max": 0.6971,
+    "p_value": 0.002
+  },
+  "topology_only_8feat": {
+    "observed_cv5_auc": 1.0,
+    "null_mean": 0.5716,
+    "null_sd": 0.026,
+    "null_p5": 0.5348,
+    "null_p95": 0.6189,
+    "null_max": 0.6648,
+    "p_value": 0.002
+  },
+  "feature_names_9feat": [
+    "length",
+    "mfe_per_nt",
+    "frac_paired",
+    "small_loop_density",
+    "max_loop",
+    "small_loop_frac",
+    "gc",
+    "cpg_ratio",
+    "longest_orf_nt"
+  ],
+  "feature_idx_topology_only": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ]
+}

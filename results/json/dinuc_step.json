@@ -1,0 +1,184 @@
+{
+  "tool": "dinuc_step",
+  "n_obelisks": 5169,
+  "all_position": {
+    "AA": {
+      "obelisk_freq": 0.1165,
+      "shuffle_freq": 0.1145,
+      "ratio": 1.017
+    },
+    "AC": {
+      "obelisk_freq": 0.0578,
+      "shuffle_freq": 0.0589,
+      "ratio": 0.981
+    },
+    "AG": {
+      "obelisk_freq": 0.0816,
+      "shuffle_freq": 0.0795,
+      "ratio": 1.027
+    },
+    "AU": {
+      "obelisk_freq": 0.0638,
+      "shuffle_freq": 0.0668,
+      "ratio": 0.955
+    },
+    "CA": {
+      "obelisk_freq": 0.056,
+      "shuffle_freq": 0.0573,
+      "ratio": 0.976
+    },
+    "CC": {
+      "obelisk_freq": 0.0443,
+      "shuffle_freq": 0.0442,
+      "ratio": 1.003
+    },
+    "CG": {
+      "obelisk_freq": 0.0354,
+      "shuffle_freq": 0.0367,
+      "ratio": 0.965
+    },
+    "CU": {
+      "obelisk_freq": 0.0724,
+      "shuffle_freq": 0.0698,
+      "ratio": 1.036
+    },
+    "GA": {
+      "obelisk_freq": 0.0909,
+      "shuffle_freq": 0.0875,
+      "ratio": 1.04
+    },
+    "GC": {
+      "obelisk_freq": 0.0282,
+      "shuffle_freq": 0.0305,
+      "ratio": 0.925
+    },
+    "GG": {
+      "obelisk_freq": 0.046,
+      "shuffle_freq": 0.0457,
+      "ratio": 1.008
+    },
+    "GU": {
+      "obelisk_freq": 0.0437,
+      "shuffle_freq": 0.0453,
+      "ratio": 0.966
+    },
+    "UA": {
+      "obelisk_freq": 0.0563,
+      "shuffle_freq": 0.0604,
+      "ratio": 0.933
+    },
+    "UC": {
+      "obelisk_freq": 0.0778,
+      "shuffle_freq": 0.0745,
+      "ratio": 1.044
+    },
+    "UG": {
+      "obelisk_freq": 0.0458,
+      "shuffle_freq": 0.047,
+      "ratio": 0.974
+    },
+    "UU": {
+      "obelisk_freq": 0.0834,
+      "shuffle_freq": 0.0813,
+      "ratio": 1.025
+    }
+  },
+  "paired_only": {
+    "AA": {
+      "obelisk_freq": 0.0755,
+      "shuffle_freq": 0.0602,
+      "ratio": 1.252,
+      "ob_paired_over_all_pos": 0.647
+    },
+    "AC": {
+      "obelisk_freq": 0.0412,
+      "shuffle_freq": 0.0402,
+      "ratio": 1.026,
+      "ob_paired_over_all_pos": 0.713
+    },
+    "AG": {
+      "obelisk_freq": 0.0825,
+      "shuffle_freq": 0.0851,
+      "ratio": 0.97,
+      "ob_paired_over_all_pos": 1.011
+    },
+    "AU": {
+      "obelisk_freq": 0.0493,
+      "shuffle_freq": 0.0502,
+      "ratio": 0.982,
+      "ob_paired_over_all_pos": 0.772
+    },
+    "CA": {
+      "obelisk_freq": 0.0426,
+      "shuffle_freq": 0.0381,
+      "ratio": 1.118,
+      "ob_paired_over_all_pos": 0.762
+    },
+    "CC": {
+      "obelisk_freq": 0.0455,
+      "shuffle_freq": 0.0447,
+      "ratio": 1.018,
+      "ob_paired_over_all_pos": 1.027
+    },
+    "CG": {
+      "obelisk_freq": 0.0353,
+      "shuffle_freq": 0.0373,
+      "ratio": 0.944,
+      "ob_paired_over_all_pos": 0.995
+    },
+    "CU": {
+      "obelisk_freq": 0.0833,
+      "shuffle_freq": 0.0826,
+      "ratio": 1.009,
+      "ob_paired_over_all_pos": 1.151
+    },
+    "GA": {
+      "obelisk_freq": 0.0976,
+      "shuffle_freq": 0.1023,
+      "ratio": 0.954,
+      "ob_paired_over_all_pos": 1.073
+    },
+    "GC": {
+      "obelisk_freq": 0.0304,
+      "shuffle_freq": 0.0373,
+      "ratio": 0.815,
+      "ob_paired_over_all_pos": 1.079
+    },
+    "GG": {
+      "obelisk_freq": 0.0675,
+      "shuffle_freq": 0.0703,
+      "ratio": 0.96,
+      "ob_paired_over_all_pos": 1.466
+    },
+    "GU": {
+      "obelisk_freq": 0.0535,
+      "shuffle_freq": 0.0603,
+      "ratio": 0.887,
+      "ob_paired_over_all_pos": 1.224
+    },
+    "UA": {
+      "obelisk_freq": 0.0469,
+      "shuffle_freq": 0.0424,
+      "ratio": 1.105,
+      "ob_paired_over_all_pos": 0.833
+    },
+    "UC": {
+      "obelisk_freq": 0.0945,
+      "shuffle_freq": 0.0928,
+      "ratio": 1.018,
+      "ob_paired_over_all_pos": 1.215
+    },
+    "UG": {
+      "obelisk_freq": 0.0543,
+      "shuffle_freq": 0.0579,
+      "ratio": 0.937,
+      "ob_paired_over_all_pos": 1.185
+    },
+    "UU": {
+      "obelisk_freq": 0.1001,
+      "shuffle_freq": 0.098,
+      "ratio": 1.022,
+      "ob_paired_over_all_pos": 1.201
+    }
+  }
+}

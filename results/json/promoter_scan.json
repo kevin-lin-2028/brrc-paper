@@ -1,0 +1,35 @@
+{
+  "tool": "sigma70_scan",
+  "method": "scan both strands for -35 (TTGACA, <=1 mm) and -10 (TATAAT, <=1 mm) at spacing 17+/-2 bp",
+  "n_obelisks": 5169,
+  "n_shuffles": 5169,
+  "obelisk_pct_with_pair": 23.834397368930162,
+  "shuffle_pct_with_pair": 26.81369704004643,
+  "ob_mean_pairs": 0.310311472238344,
+  "shuf_mean_pairs": 0.3431998452311859,
+  "ob_pct_perfect": 0.0,
+  "shuf_pct_perfect": 0.11607661056297155,
+  "enrichment_pct_with_pair": 0.888888888888889,
+  "histogram_obelisk_pair_counts": {
+    "0": 3937,
+    "1": 932,
+    "2": 257,
+    "3": 27,
+    "4": 5,
+    "5": 9,
+    "6": 2,
+    "7": 0,
+    "8": 0
+  },
+  "histogram_shuffle_pair_counts": {
+    "0": 3783,
+    "1": 1074,
+    "2": 255,
+    "3": 39,
+    "4": 17,
+    "5": 1,
+    "6": 0,
+    "7": 0,
+    "8": 0
+  }
+}

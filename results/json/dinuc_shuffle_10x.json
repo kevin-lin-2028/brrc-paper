@@ -1,0 +1,12 @@
+{
+  "tool": "dinuc_shuffle_10x",
+  "n_rep": 10,
+  "n_total_shuffles": 51690,
+  "n_pass": 420,
+  "pass_pct": 0.8125,
+  "wilson_95ci_pct": [
+    0.7387,
+    0.8937
+  ],
+  "wall_min": 58.7
+}

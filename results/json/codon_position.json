@@ -1,0 +1,44 @@
+{
+  "tool": "codon_position",
+  "n_obelisks": 4938,
+  "total_windows": 34328,
+  "overall_pass_pct": 66.51,
+  "by_relative_orf_decile": {
+    "d0": {
+      "n": 5490,
+      "pass_pct": 64.63
+    },
+    "d1": {
+      "n": 4735,
+      "pass_pct": 66.25
+    },
+    "d2": {
+      "n": 4565,
+      "pass_pct": 69.38
+    },
+    "d3": {
+      "n": 4513,
+      "pass_pct": 69.31
+    },
+    "d4": {
+      "n": 4075,
+      "pass_pct": 67.19
+    },
+    "d5": {
+      "n": 4085,
+      "pass_pct": 63.97
+    },
+    "d6": {
+      "n": 3912,
+      "pass_pct": 64.78
+    },
+    "d7": {
+      "n": 2826,
+      "pass_pct": 67.2
+    },
+    "d8": {
+      "n": 127,
+      "pass_pct": 52.76
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tool": "per_class_loop_brrc_variant",
+  "n_sample": 500,
+  "headline_class_blind_sld_obelisk_density": 13.92,
+  "headline_class_blind_sld_shuffle_density": 6.32,
+  "per_class_brrc_variant": {
+    "internal_bulge_density_obelisk_per_100nt": 13.1,
+    "internal_bulge_density_shuffle_per_100nt": 6.32,
+    "internal_bulge_fold_change": 2.07,
+    "hairpin_density_obelisk_per_100nt": 0.42,
+    "hairpin_density_shuffle_per_100nt": 0.96,
+    "hairpin_fold_change": 0.44,
+    "multiloop_density_obelisk_per_100nt": 0.38,
+    "multiloop_density_shuffle_per_100nt": 1.64,
+    "multiloop_fold_change": 0.23
+  },
+  "interpretation": "A per-class BRRC variant that restricts the small-loop-density criterion to internal/bulge loops (where obelisks have 13.1/100nt vs 6.32 in shuffles, 2.07x fold change) gives a more mechanistically specific signature than the class-blind sld. Hairpin and multiloop densities are inverted in obelisks (0.43x and 0.23x fold change respectively), so a per-class BRRC that strictly excludes hairpin/multiloop SLD from the count would be even more specific."
+}

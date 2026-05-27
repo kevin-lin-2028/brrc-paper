@@ -1,0 +1,118 @@
+{
+  "tool": "loop_class_threshold_sweep",
+  "n_obelisks": 5169,
+  "n_shuffles": 5169,
+  "by_cutoff": {
+    "sld_le_3": {
+      "obelisks": {
+        "n": 5169,
+        "joint_pass_pct": 85.084,
+        "mean_density_by_class": {
+          "hairpin": 0.112,
+          "internal_bulge": 12.13,
+          "multiloop": 0.305,
+          "external": 0.061
+        }
+      },
+      "shuffles": {
+        "n": 5169,
+        "joint_pass_pct": 0.039,
+        "mean_density_by_class": {
+          "hairpin": 0.231,
+          "internal_bulge": 5.588,
+          "multiloop": 1.24,
+          "external": 0.078
+        }
+      }
+    },
+    "sld_le_4": {
+      "obelisks": {
+        "n": 5169,
+        "joint_pass_pct": 88.953,
+        "mean_density_by_class": {
+          "hairpin": 0.336,
+          "internal_bulge": 12.817,
+          "multiloop": 0.36,
+          "external": 0.069
+        }
+      },
+      "shuffles": {
+        "n": 5169,
+        "joint_pass_pct": 0.464,
+        "mean_density_by_class": {
+          "hairpin": 0.68,
+          "internal_bulge": 6.029,
+          "multiloop": 1.488,
+          "external": 0.091
+        }
+      }
+    },
+    "sld_le_5": {
+      "obelisks": {
+        "n": 5169,
+        "joint_pass_pct": 89.65,
+        "mean_density_by_class": {
+          "hairpin": 0.417,
+          "internal_bulge": 13.097,
+          "multiloop": 0.395,
+          "external": 0.072
+        }
+      },
+      "shuffles": {
+        "n": 5169,
+        "joint_pass_pct": 0.696,
+        "mean_density_by_class": {
+          "hairpin": 0.951,
+          "internal_bulge": 6.298,
+          "multiloop": 1.683,
+          "external": 0.101
+        }
+      }
+    },
+    "sld_le_6": {
+      "obelisks": {
+        "n": 5169,
+        "joint_pass_pct": 89.785,
+        "mean_density_by_class": {
+          "hairpin": 0.478,
+          "internal_bulge": 13.219,
+          "multiloop": 0.417,
+          "external": 0.073
+        }
+      },
+      "shuffles": {
+        "n": 5169,
+        "joint_pass_pct": 1.064,
+        "mean_density_by_class": {
+          "hairpin": 1.244,
+          "internal_bulge": 6.457,
+          "multiloop": 1.84,
+          "external": 0.108
+        }
+      }
+    },
+    "sld_le_7": {
+      "obelisks": {
+        "n": 5169,
+        "joint_pass_pct": 89.843,
+        "mean_density_by_class": {
+          "hairpin": 0.504,
+          "internal_bulge": 13.263,
+          "multiloop": 0.433,
+          "external": 0.074
+        }
+      },
+      "shuffles": {
+        "n": 5169,
+        "joint_pass_pct": 1.141,
+        "mean_density_by_class": {
+          "hairpin": 1.398,
+          "internal_bulge": 6.557,
+          "multiloop": 1.962,
+          "external": 0.113
+        }
+      }
+    }
+  },
+  "wall_min": 12.2
+}

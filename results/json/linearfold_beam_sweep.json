@@ -1,0 +1,26 @@
+{
+  "tool": "linearfold_beam_sweep",
+  "n_subsample": 200,
+  "by_beam": {
+    "b50": {
+      "n_completed": 200,
+      "brrc_pass_pct": 75.5,
+      "wall_sec": 29.3
+    },
+    "b100": {
+      "n_completed": 200,
+      "brrc_pass_pct": 89.0,
+      "wall_sec": 45.5
+    },
+    "b200": {
+      "n_completed": 200,
+      "brrc_pass_pct": 89.5,
+      "wall_sec": 79.6
+    },
+    "b400": {
+      "n_completed": 200,
+      "brrc_pass_pct": 90.5,
+      "wall_sec": 152.2
+    }
+  }
+}

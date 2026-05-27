@@ -1,0 +1,22 @@
+{
+  "tool": "linearfold_shuffles",
+  "engine": "LinearFold-CONTRAfold",
+  "binary": "tools/LinearFold-master/bin/linearfold_c.exe",
+  "n_obelisks": 100,
+  "n_shuf_per_obelisk": 10,
+  "n_shuf_total": 1000,
+  "seed": 42,
+  "wall_time_s": 251.0,
+  "native_pass_count": 39,
+  "native_pass_pct": 39.0,
+  "native_pass_wilson_lo": 30.02,
+  "native_pass_wilson_hi": 48.8,
+  "shuffle_pass_count": 0,
+  "shuffle_pass_pct": 0.0,
+  "shuf_pass_wilson_lo": 0.0,
+  "shuf_pass_wilson_hi": 0.383,
+  "enrichment_ratio": null,
+  "enrichment_katz95_lo": null,
+  "enrichment_katz95_hi": null,
+  "rule_of_three_pct": 0.3
+}

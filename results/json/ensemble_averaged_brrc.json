@@ -1,0 +1,21 @@
+{
+  "tool": "ensemble_averaged_brrc",
+  "note": "pbacktrack returned None for partition-function-sampled circular structures (ViennaRNA Python-binding limitation); we report the existing ensemble pass-probability distribution from sup:ensemble_brrc instead.",
+  "n_obelisks": 200,
+  "n_subopt_per_obelisk": 30,
+  "mfe_brrc_pass_pct": 88.5,
+  "median_per_obelisk_ensemble_pass_prob": 0.9667,
+  "mean_per_obelisk_ensemble_pass_prob": 0.859,
+  "n_obelisks_all_30_pass": 55,
+  "n_obelisks_at_least_1_pass": 195,
+  "n_ob_none_pass": 5,
+  "pass_prob_distribution": {
+    "min": 0.0,
+    "p25": 0.8333,
+    "p50": 0.9667,
+    "p75": 1.0,
+    "max": 1.0
+  },
+  "frac_obelisks_with_ens_pp_above_50pct": 0.95,
+  "frac_obelisks_with_ens_pp_above_90pct": 0.275
+}

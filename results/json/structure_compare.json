@@ -1,0 +1,14 @@
+{
+  "tool": "structure_compare",
+  "compared": "AlphaFold3 vs Boltz-2 (common CA atoms)",
+  "n_residues_common": 202,
+  "rmsd_A_after_global_Kabsch": 35.684,
+  "TM_score_approx": 0.076,
+  "rmsd_A_N_globule_aligned_locally": 3.968,
+  "rmsd_A_Domain_A_in_N_globule_frame": 40.007,
+  "regional_RMSD_A": {
+    "N_globule_1_130": 23.17996088209622,
+    "Domain_A_131_175": 25.53911480885382,
+    "C_helix_176_202": 76.50043547793399
+  }
+}

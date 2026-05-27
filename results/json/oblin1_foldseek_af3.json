@@ -1,0 +1,129 @@
+{
+  "tool": "foldseek_3diaa_on_boltz2",
+  "ticket": "bg5vL7aimygttFoOdpvKL-fCjFq9o0d99KN2BQ",
+  "databases": [
+    "afdb50",
+    "cath50",
+    "gmgcl_id",
+    "mgnify_esm30",
+    "pdb100"
+  ],
+  "per_db": {
+    "afdb50": {
+      "n_hits_total": 13,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "AF-A0A1G1CKL5-F1-model_v6 Pyrrolo-quinoline quinone repeat domain-containing protein",
+        "seqId": 15.2,
+        "alnLength": 92,
+        "missmatches": 60,
+        "gapsopened": 4,
+        "qStartPos": 11,
+        "qEndPos": 89,
+        "dbStartPos": 633,
+        "dbEndPos": 719,
+        "prob": 0.164,
+        "eval": 5.222,
+        "score": 37,
+        "qLen": 202,
+        "dbLen": 1062,
+        "tSeq": "MLGRFALGYSLFLVSGFLILASPALAQTSADWYMAGANPQRTSWVSTQVEGNANVEWYRPIEAFVDMKTQPIAVNGILYIATSRGLYAIRANDGSELWRYDTALPVATPTVVNGTVYLPSYDGRIYAFNATTGERLWYTQRAGAAFETNPVVVNNRVYNGNRDGRFYAYMATNPLGSTNVPPVWQYPPGNAPLTGSISQSPAFYHDTTNNSNTLYFAANDMYAYALNADSGTLRWKSSAKLPGQDFRNFWPVITGNQVVFVSNFPYREIDSHGYQSTYESLLYQSGTHDGPDNSTILIDDQASWISNSLVGKVIINVLDQDSKGVILANTANTITVTLAGGRDNDWDNPPPAPPPSTLDLPGDTYLISNWCTAETLATCDQSIGPKSTAGPNGPWPEGSTLMNLQKTVNVLNQYPHLQTHTLLHRVSGAPFAYPAPFILVVNNGTGPMYPPIVMPDQTLYQAANTKFGGPLISMGITIAGWQIANSPFIRLTGLTGVSDEPEDFSGGGNRIYRKRYDVSGDSRNVIQFANGGSATYWPPSLSPQDDYPGQAPDNREMQHSQSDWCWWYEGNSLSLSGYYCNGRESPLVPHQDRLFLLYNNSLLAFKVGGGSRKVDAVPIQPPSQPVPEAVPNPTELITKLEQEIQKILAVYTPNPTSPNRFLLPGYRNDGWMLVRQHASYFSNPGDTLYTLALAYPHLSQPLKDQLRNYLIDYYQTYFGTACDNPATTPRIELCAHTGWIEGTSRDALIKPPDWLNQLSSYDRQTKSATPGGGNWPWTYPQPNIYALWLYIHNLHQDNPSVALEAFNKVVNLIELDDSTSIQATLTEFPFTVNMYLSGYQGFLNLCDLVGSTHCSPTLRSQTAAKLNEYLNFRQSHFSTDPHWTNRNRQSFSIAANFMWLTPVVGDLYGQNSTLLPLIQNALTEYYRVAPQWFIGGNQIGYGENSTTHIFDPPALFQAKAWILNQPREELYKYLDTPMFERGDLFYIQNLVALIEAPSDPNYTPPPPSPSPTPFLGFDGDGDVDWLDLSLLVSRFNQTYLPYNLLGTGLIDIFDFNFLVQYL",
+        "taxId": 1817747,
+        "taxName": "Microgenomates group bacterium RBG_16_45_19"
+      }
+    },
+    "cath50": {
+      "n_hits_total": 14,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "2znhA01",
+        "seqId": 10.6,
+        "alnLength": 103,
+        "missmatches": 74,
+        "gapsopened": 4,
+        "qStartPos": 36,
+        "qEndPos": 123,
+        "dbStartPos": 10,
+        "dbEndPos": 109,
+        "prob": 0.051,
+        "eval": 3.062,
+        "score": 24,
+        "qLen": 202,
+        "dbLen": 167,
+        "tSeq": "HGSPVDICTAKPRDIPMNPMCIYRSPTPLSISTAFAMTKLGACNDTLQQLMEVFKFDTISEKTSDQIHFFFAKLNCRLYRSKLVSANRLFGDKSLTFNETYQDISELVYGAKLQPLDFKENAEQSRAAINKWVSNKTEGRITDVIPSEAINELTVLVLVNTIYFKGL",
+        "taxId": 9606,
+        "taxName": "Homo sapiens"
+      }
+    },
+    "gmgcl_id": {
+      "n_hits_total": 8,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "GMGC10.047_881_376.UNKNOWN_trun_1.pdb",
+        "seqId": 6.8,
+        "alnLength": 131,
+        "missmatches": 89,
+        "gapsopened": 4,
+        "qStartPos": 9,
+        "qEndPos": 135,
+        "dbStartPos": 66,
+        "dbEndPos": 167,
+        "prob": 0.106,
+        "eval": 2.576,
+        "score": 32,
+        "qLen": 202,
+        "dbLen": 253,
+        "tSeq": "YLEIKEKYPEYNDEQIKQQMYQEISNNFTSSTTTSDDDYEYDYGNGTGSDSEWMVILKYLSIDELFTLYNLVDRVEAEEIKNYSNIEIGNWQTDRDAFRHTYLSAMLTYEFGEEFAKALTDAHEADTIDELDKEMDLHNNARGIDLEKVWKEKYMKSTSTAWDELSSFITHCVKYGGVYNIVRIEANDNGVKRLLYTTEGIDNLSLFPLPYDEAIVNQEEYGYEGQYFFYEKKLTVSNSHITFETKRLRTGFI"
+      }
+    },
+    "mgnify_esm30": {
+      "n_hits_total": 28,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "MGYP003196519038.pdb.gz",
+        "seqId": 12,
+        "alnLength": 133,
+        "missmatches": 85,
+        "gapsopened": 8,
+        "qStartPos": 7,
+        "qEndPos": 119,
+        "dbStartPos": 239,
+        "dbEndPos": 359,
+        "prob": 0.196,
+        "eval": 1.804,
+        "score": 39,
+        "qLen": 202,
+        "dbLen": 405,
+        "tSeq": "MQQSAERFGAVTELAEVYKASLSGKIKTLETSEGVFQGRTVVIATGASPRPLGVPGEETLVGKGVHYCAACDGAPYRGKTVAVVGGGNSAAADALTLSRIAKKVYLIHRRDSLRAMKVYHEPLMNAPNVEFCWNSTVSALLHDSRLTGLRLKDVNTGAEHDLACDGVFISVGRAPATELFQSELALDKAGYIIADESTRTNLPGVFAVGDVRTKALRQVVTAVADGAVVKETILRTCKDKDELKNEIRQSFEKYISEFDTIPEALKDKRVPDVDRTPAENLAYQVGWTTLLLKWETDEKRGMDVKTPSEQFKWNQLGDLYQWFTDTYAHLSLAELKGKLNENIAAIQTMIDSMSEEELFQPHMRRWADDATKTAVWEAYKFIHVNTVAPFGTFRTKIRKWKKAAL"
+      }
+    },
+    "pdb100": {
+      "n_hits_total": 6,
+      "n_hits_significant_e_lt_0.05": 0,
+      "top_hit": {
+        "query": "job_A",
+        "target": "5com-assembly2.cif.gz_B Crystal structure of Uncharacterized Protein Q187F5 from Clostridium difficile 630",
+        "seqId": 10.2,
+        "alnLength": 127,
+        "missmatches": 83,
+        "gapsopened": 6,
+        "qStartPos": 7,
+        "qEndPos": 112,
+        "dbStartPos": 5,
+        "dbEndPos": 121,
+        "prob": 0.106,
+        "eval": 1.353,
+        "score": 32,
+        "qLen": 202,
+        "dbLen": 171,
+        "tSeq": "RVYENKEELKSEINKTFEKYIAEFDNIPESLKDKRIDEVDRTPAENLAYQVGWTTLVLKWEEDERNGLQVKTPSDEFKWNQLGELYQWFTDTYAYLSLQELKSKLNENINSIYVMIDSLSDEELFKPHMRKWADDATKTAVWEVYKFIHVNTVAPFKTFRNKIRKWKKIVL",
+        "taxId": 272563,
+        "taxName": "Clostridioides difficile 630"
+      }
+    }
+  }
+}

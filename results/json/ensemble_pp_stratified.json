@@ -1,0 +1,196 @@
+{
+  "tool": "ensemble_pp_stratified",
+  "n_obelisks": 5169,
+  "headline_pass_pct": 88.95,
+  "length_quartiles_nt": {
+    "Q1_max": 845,
+    "Q2_max": 995,
+    "Q3_max": 1164
+  },
+  "by_subfamily": {
+    ".": {
+      "n": 4650,
+      "pass_pct": 88.6
+    },
+    "omicron": {
+      "n": 128,
+      "pass_pct": 99.22
+    },
+    "pi": {
+      "n": 74,
+      "pass_pct": 87.84
+    },
+    "tau": {
+      "n": 49,
+      "pass_pct": 100.0
+    },
+    "rho": {
+      "n": 47,
+      "pass_pct": 100.0
+    },
+    "phi": {
+      "n": 33,
+      "pass_pct": 100.0
+    },
+    "omega": {
+      "n": 31,
+      "pass_pct": 100.0
+    },
+    "upsilon": {
+      "n": 30,
+      "pass_pct": 96.67
+    },
+    "chi": {
+      "n": 30,
+      "pass_pct": 0.0
+    },
+    "alpha": {
+      "n": 26,
+      "pass_pct": 100.0
+    },
+    "psi": {
+      "n": 22,
+      "pass_pct": 100.0
+    },
+    "sigma": {
+      "n": 20,
+      "pass_pct": 100.0
+    },
+    "epsilon": {
+      "n": 6,
+      "pass_pct": 100.0
+    },
+    "delta": {
+      "n": 5,
+      "pass_pct": 100.0
+    },
+    "iota": {
+      "n": 4,
+      "pass_pct": 100.0
+    },
+    "beta": {
+      "n": 2,
+      "pass_pct": 100.0
+    },
+    "kappa": {
+      "n": 2,
+      "pass_pct": 100.0
+    },
+    "nu": {
+      "n": 2,
+      "pass_pct": 100.0
+    },
+    "zeta": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "eta": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "theta": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "Ssanguinis": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "gamma": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "lambda": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "mu": {
+      "n": 1,
+      "pass_pct": 100.0
+    },
+    "xi": {
+      "n": 1,
+      "pass_pct": 100.0
+    }
+  },
+  "by_length_quartile": {
+    "Q1": {
+      "n": 1324,
+      "pass_pct": 93.96
+    },
+    "Q2": {
+      "n": 1275,
+      "pass_pct": 90.35
+    },
+    "Q3": {
+      "n": 1291,
+      "pass_pct": 88.23
+    },
+    "Q4": {
+      "n": 1279,
+      "pass_pct": 83.11
+    }
+  },
+  "by_subfamily_x_lengthQ": {
+    "omicron_Q1": {
+      "n": 122,
+      "pass_pct": 99.18
+    },
+    "pi_Q4": {
+      "n": 74,
+      "pass_pct": 87.84
+    },
+    "alpha_Q3": {
+      "n": 23,
+      "pass_pct": 100.0
+    },
+    "rho_Q1": {
+      "n": 47,
+      "pass_pct": 100.0
+    },
+    "sigma_Q2": {
+      "n": 20,
+      "pass_pct": 100.0
+    },
+    "tau_Q1": {
+      "n": 49,
+      "pass_pct": 100.0
+    },
+    "upsilon_Q2": {
+      "n": 30,
+      "pass_pct": 96.67
+    },
+    "phi_Q1": {
+      "n": 33,
+      "pass_pct": 100.0
+    },
+    "chi_Q4": {
+      "n": 30,
+      "pass_pct": 0.0
+    },
+    "psi_Q3": {
+      "n": 22,
+      "pass_pct": 100.0
+    },
+    "omega_Q4": {
+      "n": 31,
+      "pass_pct": 100.0
+    },
+    "._Q4": {
+      "n": 1133,
+      "pass_pct": 84.38
+    },
+    "._Q3": {
+      "n": 1237,
+      "pass_pct": 87.71
+    },
+    "._Q2": {
+      "n": 1217,
+      "pass_pct": 89.98
+    },
+    "._Q1": {
+      "n": 1063,
+      "pass_pct": 92.57
+    }
+  }
+}

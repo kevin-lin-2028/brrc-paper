@@ -1,0 +1,27 @@
+{
+  "tool": "msa_expand_rscape",
+  "subfamilies": {
+    "alpha": {
+      "original_n": 57,
+      "expanded_n": 500,
+      "L_used": 300,
+      "n_pairs": 44850,
+      "n_pairs_top5pct_apc_mi": 2243,
+      "apc_mi_mean": 0.00033,
+      "apc_mi_p95_threshold": 0.06945,
+      "apc_mi_max": 0.52149,
+      "wall_min": 0.2
+    },
+    "omega": {
+      "original_n": 36,
+      "expanded_n": 111,
+      "L_used": 300,
+      "n_pairs": 44850,
+      "n_pairs_top5pct_apc_mi": 2243,
+      "apc_mi_mean": 0.0012,
+      "apc_mi_p95_threshold": 0.13995,
+      "apc_mi_max": 0.53821,
+      "wall_min": 0.1
+    }
+  }
+}

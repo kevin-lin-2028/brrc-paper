@@ -1,0 +1,268 @@
+{
+  "tool": "topology_classifier",
+  "seed": 42,
+  "have_vienna": true,
+  "n_obelisks": 200,
+  "n_hdv": 47,
+  "n_viroids": 2,
+  "n_bacterial": 12,
+  "n_total_brrc_pass": 261,
+  "n_per_family": {
+    "RF00177": 12,
+    "HDV": 47,
+    "viroid": 2,
+    "obelisk": 200
+  },
+  "feature_sets": {
+    "original": {
+      "feature_names": [
+        "length",
+        "mfe_per_nt",
+        "frac_paired",
+        "small_loop_density",
+        "max_loop",
+        "small_loop_frac",
+        "gc",
+        "cpg_ratio",
+        "longest_orf_nt"
+      ],
+      "univariate_auc": {
+        "length": 0.9672,
+        "mfe_per_nt": 0.9315,
+        "frac_paired": 0.6652,
+        "small_loop_density": 0.8264,
+        "max_loop": 0.5385,
+        "small_loop_frac": 0.5595,
+        "gc": 0.9944,
+        "cpg_ratio": 0.5012,
+        "longest_orf_nt": 0.6154
+      },
+      "logreg_5fold": {
+        "in_sample_auc": 1.0,
+        "cv5_test_auc_mean": 1.0,
+        "cv5_test_auc_std": 0.0,
+        "n_pos": 200,
+        "n_neg": 61,
+        "intercept": 4.0527,
+        "feat_coefs_std": [
+          -1.6508,
+          1.108,
+          0.1544,
+          0.6162,
+          0.355,
+          0.4662,
+          -2.1796,
+          0.0698,
+          1.0971
+        ],
+        "feature_means": [
+          1143.7739,
+          -0.379,
+          0.7228,
+          13.8503,
+          8.1724,
+          0.973,
+          0.459,
+          0.7885,
+          596.7586
+        ],
+        "feature_scales": [
+          321.4358,
+          0.0744,
+          0.0325,
+          1.3464,
+          2.5486,
+          0.0262,
+          0.084,
+          0.1543,
+          151.0487
+        ]
+      },
+      "logreg_lfo": {
+        "per_family": {
+          "HDV": {
+            "n_test_neg": 47,
+            "n_test_pos": 47,
+            "auc": 0.9534
+          },
+          "RF00177": {
+            "n_test_neg": 12,
+            "n_test_pos": 12,
+            "auc": 1.0
+          },
+          "viroids": {
+            "n_test_neg": 2,
+            "skipped": true
+          }
+        },
+        "lfo_auc_mean": 0.9767,
+        "lfo_auc_std": 0.0233,
+        "n_families_used": 2
+      }
+    },
+    "strict_topology_only": {
+      "feature_names": [
+        "frac_paired",
+        "small_loop_density",
+        "max_loop",
+        "small_loop_frac",
+        "n_loops_per100nt",
+        "n_helices_per100nt",
+        "cpg_over_gc",
+        "longest_orf_nt"
+      ],
+      "univariate_auc": {
+        "frac_paired": 0.6652,
+        "small_loop_density": 0.8264,
+        "max_loop": 0.5385,
+        "small_loop_frac": 0.5595,
+        "n_loops_per100nt": 0.8536,
+        "n_helices_per100nt": 0.9089,
+        "cpg_over_gc": 0.8755,
+        "longest_orf_nt": 0.6154
+      },
+      "logreg_5fold": {
+        "in_sample_auc": 0.9738,
+        "cv5_test_auc_mean": 0.969,
+        "cv5_test_auc_std": 0.0171,
+        "n_pos": 200,
+        "n_neg": 61,
+        "intercept": 3.6027,
+        "feat_coefs_std": [
+          -0.0887,
+          0.0821,
+          0.478,
+          0.7393,
+          0.007,
+          1.9927,
+          2.4761,
+          0.6489
+        ],
+        "feature_means": [
+          0.7228,
+          13.8503,
+          8.1724,
+          0.973,
+          14.2219,
+          7.2382,
+          1.7668,
+          596.7586
+        ],
+        "feature_scales": [
+          0.0325,
+          1.3464,
+          2.5486,
+          0.0262,
+          1.1995,
+          0.7233,
+          0.4576,
+          151.0487
+        ]
+      },
+      "logreg_lfo": {
+        "per_family": {
+          "HDV": {
+            "n_test_neg": 47,
+            "n_test_pos": 47,
+            "auc": 0.5
+          },
+          "RF00177": {
+            "n_test_neg": 12,
+            "n_test_pos": 12,
+            "auc": 0.5139
+          },
+          "viroids": {
+            "n_test_neg": 2,
+            "skipped": true
+          }
+        },
+        "lfo_auc_mean": 0.5069,
+        "lfo_auc_std": 0.0069,
+        "n_families_used": 2
+      }
+    },
+    "strict_no_orf": {
+      "feature_names": [
+        "frac_paired",
+        "small_loop_density",
+        "max_loop",
+        "small_loop_frac",
+        "n_loops_per100nt",
+        "n_helices_per100nt",
+        "cpg_over_gc"
+      ],
+      "univariate_auc": {
+        "frac_paired": 0.6652,
+        "small_loop_density": 0.8264,
+        "max_loop": 0.5385,
+        "small_loop_frac": 0.5595,
+        "n_loops_per100nt": 0.8536,
+        "n_helices_per100nt": 0.9089,
+        "cpg_over_gc": 0.8755
+      },
+      "logreg_5fold": {
+        "in_sample_auc": 0.9699,
+        "cv5_test_auc_mean": 0.966,
+        "cv5_test_auc_std": 0.0182,
+        "n_pos": 200,
+        "n_neg": 61,
+        "intercept": 3.4098,
+        "feat_coefs_std": [
+          0.1269,
+          0.1361,
+          0.6111,
+          0.8987,
+          0.0598,
+          1.9033,
+          2.4322
+        ],
+        "feature_means": [
+          0.7228,
+          13.8503,
+          8.1724,
+          0.973,
+          14.2219,
+          7.2382,
+          1.7668
+        ],
+        "feature_scales": [
+          0.0325,
+          1.3464,
+          2.5486,
+          0.0262,
+          1.1995,
+          0.7233,
+          0.4576
+        ]
+      },
+      "logreg_lfo": {
+        "per_family": {
+          "HDV": {
+            "n_test_neg": 47,
+            "n_test_pos": 47,
+            "auc": 0.5
+          },
+          "RF00177": {
+            "n_test_neg": 12,
+            "n_test_pos": 12,
+            "auc": 0.5833
+          },
+          "viroids": {
+            "n_test_neg": 2,
+            "skipped": true
+          }
+        },
+        "lfo_auc_mean": 0.5417,
+        "lfo_auc_std": 0.0417,
+        "n_families_used": 2
+      }
+    }
+  },
+  "summary": {
+    "cv5_auc": 1.0,
+    "strict_topo_cv5_auc": 0.969,
+    "strict_no_orf_cv5_auc": 0.966,
+    "strict_topo_lfo_auc": 0.5069,
+    "strict_no_orf_lfo_auc": 0.5417
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "lp_mea_widened_parser",
+  "n_attempted": 5169,
+  "n_completed": 4640,
+  "lp_mea_brrc_pass_pct": 91.59,
+  "vrna_mfe_pct_ref": 87.7,
+  "wall_min": 9.6
+}
